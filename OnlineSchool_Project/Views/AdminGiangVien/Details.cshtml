@@ -1,0 +1,24 @@
+﻿@model OnlineSchool_Project.Models.GiangVien
+@{
+    ViewData["Title"] = "Quản lý Giảng viên";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<h1>GiangVien Details</h1>
+
+<div>
+    <h4>Id: @Model.Id</h4>
+    <h4>HoTen: @Model.HoTen</h4>
+    <h4>Email: @Model.Email</h4>
+    <h4>Sdt: @Model.Sdt</h4>
+    <h4>BangCap: @Model.BangCap</h4>
+    <h4>DiaChi: @Model.DiaChi</h4>
+    <h4>GioiTinh: @Model.GioiTinh</h4>
+    <h4>NgaySinh: @Model.NgaySinh.ToString("yyyy-MM-dd")</h4>
+</div>
+
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</p>

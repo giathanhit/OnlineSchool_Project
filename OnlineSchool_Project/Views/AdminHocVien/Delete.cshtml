@@ -1,0 +1,21 @@
+﻿@model OnlineSchool_Project.Models.HocVien
+
+<h1>Delete HocVien</h1>
+
+<h3>Are you sure you want to delete this HocVien?</h3>
+<div>
+    <h4>Id: @Model.Id</h4>
+    <h4>HoTen: @Model.HoTen</h4>
+    <h4>Email: @Model.Email</h4>
+    <h4>Sdt: @Model.Sdt</h4>
+    <h4>BangCap: @Model.BangCap</h4>
+    <h4>DiaChi: @Model.DiaChi</h4>
+    <h4>GioiTinh: @Model.GioiTinh</h4>
+    <h4>NgaySinh: @Model.NgaySinh.ToString("yyyy-MM-dd")</h4>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index">Back to List</a>
+</form>

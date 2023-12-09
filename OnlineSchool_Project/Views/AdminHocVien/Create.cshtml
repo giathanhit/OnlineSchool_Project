@@ -1,0 +1,44 @@
+﻿@model OnlineSchool_Project.Models.HocVien
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Create HocVien</h1>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="HoTen">HoTen</label>
+        <input asp-for="HoTen" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Email">Email</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Sdt">Sdt</label>
+        <input asp-for="Sdt" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="BangCap">BangCap</label>
+        <input asp-for="BangCap" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="DiaChi">DiaChi</label>
+        <input asp-for="DiaChi" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="GioiTinh">Giới tính</label>
+        <select asp-for="GioiTinh" class="form-control">
+            <option value="Nam">Nam</option>
+            <option value="Nữ">Nữ</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label asp-for="NgaySinh">NgaySinh</label>
+        <input asp-for="NgaySinh" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+    <a asp-action="Index">Back to List</a>
+</form>

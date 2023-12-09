@@ -1,0 +1,67 @@
+﻿@model IEnumerable<OnlineSchool_Project.Models.HocVien>
+@{
+    ViewData["Title"] = "Quản lý Học viên";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Học viên/</span> Danh sách</h4>
+
+<!-- Basic Bootstrap Table -->
+<div class="card">
+    <h5 class="card-header">DANH SÁCH HỌC VIÊN</h5>
+    <div class="table-responsive text-nowrap" style="min-height: 30rem;">
+        <a class="dropdown-item" href="/AdminHocVien/Create"><i class="bx bx-edit-alt me-1"></i> Thêm mới</a>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Họ và tên</th>
+                    <th>Giới tính</th>
+                    <th>Email</th>
+                    <th>Ngày sinh</th>
+                    <th>SĐT</th>
+                    <th>Bằng cấp</th>
+                    <th>Địa chỉ</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0">
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.HoTen</td>
+                        <td>@item.GioiTinh</td>
+                        <td>@item.Email</td>
+                        <td>@item.NgaySinh.ToString("dd/MM/yyyy")</td>
+                        <td>@item.Sdt</td>
+                        <td>@item.BangCap</td>
+                        <td>@item.DiaChi</td>
+                        <td>
+                            <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
+                                <li data-bs-toggle="tooltip"
+                                    data-popup="tooltip-custom"
+                                    data-bs-placement="top"
+                                    class="avatar avatar-xs pull-up"
+                                    title="Lilian Fuller">
+                                    <img src="../assets/img/avatars/5.png" alt="Avatar" class="rounded-circle" />
+                                </li>
+                            </ul>
+                        </td>
+                        <td>
+                            <div class="dropdown">
+                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                    <i class="bx bx-dots-vertical-rounded"></i>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="/AdminHocVien/Details/@item.Id"><i class="bx bx-info-circle"></i> Chi tiết</a>
+                                    <a class="dropdown-item" href="/AdminHocVien/Edit/@item.Id"><i class="bx bx-edit-alt me-1"></i> Chỉnh sửa</a>
+                                    <a class="dropdown-item" href="/AdminHocVien/Delete/@item.Id"><i class="bx bx-trash me-1"></i> Xóa</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
