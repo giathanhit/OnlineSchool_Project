@@ -225,6 +225,78 @@
       "PackagePath": "staticwebassets\\assets\\js\\ui-toasts.js"
     },
     {
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\login\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\login\\css\\style.css"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\login\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\assets\\login\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\login\\css\\style.scss",
+      "PackagePath": "staticwebassets\\assets\\login\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\login\\fonts\\linearicons\\Read Me.txt",
+      "PackagePath": "staticwebassets\\assets\\login\\fonts\\linearicons\\Read Me.txt"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\login\\fonts\\linearicons\\fonts\\Linearicons-Free.eot",
+      "PackagePath": "staticwebassets\\assets\\login\\fonts\\linearicons\\fonts\\Linearicons-Free.eot"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\login\\fonts\\linearicons\\fonts\\Linearicons-Free.svg",
+      "PackagePath": "staticwebassets\\assets\\login\\fonts\\linearicons\\fonts\\Linearicons-Free.svg"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\login\\fonts\\linearicons\\fonts\\Linearicons-Free.ttf",
+      "PackagePath": "staticwebassets\\assets\\login\\fonts\\linearicons\\fonts\\Linearicons-Free.ttf"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\login\\fonts\\linearicons\\fonts\\Linearicons-Free.woff",
+      "PackagePath": "staticwebassets\\assets\\login\\fonts\\linearicons\\fonts\\Linearicons-Free.woff"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\login\\fonts\\linearicons\\fonts\\Linearicons-Free.woff2",
+      "PackagePath": "staticwebassets\\assets\\login\\fonts\\linearicons\\fonts\\Linearicons-Free.woff2"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\login\\fonts\\linearicons\\selection.json",
+      "PackagePath": "staticwebassets\\assets\\login\\fonts\\linearicons\\selection.json"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\login\\fonts\\linearicons\\style.css",
+      "PackagePath": "staticwebassets\\assets\\login\\fonts\\linearicons\\style.css"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\login\\fonts\\muli\\Muli-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\login\\fonts\\muli\\Muli-Bold.ttf"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\login\\fonts\\muli\\Muli-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\login\\fonts\\muli\\Muli-Regular.ttf"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\login\\fonts\\muli\\Muli-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\assets\\login\\fonts\\muli\\Muli-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\login\\images\\image-1.png",
+      "PackagePath": "staticwebassets\\assets\\login\\images\\image-1.png"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\login\\images\\image-2.png",
+      "PackagePath": "staticwebassets\\assets\\login\\images\\image-2.png"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\login\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\login\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\login\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\login\\js\\main.js"
+    },
+    {
       "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\css\\core.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\css\\core.css"
     },
