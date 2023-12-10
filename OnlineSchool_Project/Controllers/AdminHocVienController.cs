@@ -20,7 +20,7 @@ namespace OnlineSchool_Project.Controllers
             return View(hocViens);
         }
 
-        // GET: /HocVien/Details/5
+        // GET: /HocVien/Details/id
         public IActionResult Details(int id)
         {
             var hocVien = _context.HocViens.FirstOrDefault(g => g.Id == id);
@@ -51,7 +51,7 @@ namespace OnlineSchool_Project.Controllers
             return View(hocVien);
         }
 
-        // GET: /HocVien/Edit/5
+        // GET: /HocVien/Edit/id
         public IActionResult Edit(int id)
         {
             var hocVien = _context.HocViens.FirstOrDefault(g => g.Id == id);
@@ -62,7 +62,7 @@ namespace OnlineSchool_Project.Controllers
             return View(hocVien);
         }
 
-        // POST: /HocVien/Edit/5
+        // POST: /HocVien/Edit/id
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(int id, HocVien hocVien)
@@ -81,7 +81,7 @@ namespace OnlineSchool_Project.Controllers
             return View(hocVien);
         }
 
-        // GET: /HocVien/Delete/5
+        // GET: /HocVien/Delete/id
         public IActionResult Delete(int id)
         {
             var hocVien = _context.HocViens.FirstOrDefault(g => g.Id == id);
@@ -92,7 +92,7 @@ namespace OnlineSchool_Project.Controllers
             return View(hocVien);
         }
 
-        // POST: /HocVien/Delete/5
+        // POST: /HocVien/Delete/id
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(int id)

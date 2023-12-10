@@ -20,7 +20,7 @@ namespace OnlineSchool_Project.Controllers
             return View(giangViens);
         }
 
-        // GET: /GiangVien/Details/5
+        // GET: /GiangVien/Details/id
         public IActionResult Details(int id)
         {
             var giangVien = _context.GiangViens.FirstOrDefault(g => g.Id == id);
@@ -51,7 +51,7 @@ namespace OnlineSchool_Project.Controllers
             return View(giangVien);
         }
 
-        // GET: /GiangVien/Edit/5
+        // GET: /GiangVien/Edit/id
         public IActionResult Edit(int id)
         {
             var giangVien = _context.GiangViens.FirstOrDefault(g => g.Id == id);
@@ -62,7 +62,7 @@ namespace OnlineSchool_Project.Controllers
             return View(giangVien);
         }
 
-        // POST: /GiangVien/Edit/5
+        // POST: /GiangVien/Edit/id
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(int id, GiangVien giangVien)
@@ -81,7 +81,7 @@ namespace OnlineSchool_Project.Controllers
             return View(giangVien);
         }
 
-        // GET: /GiangVien/Delete/5
+        // GET: /GiangVien/Delete/id
         public IActionResult Delete(int id)
         {
             var giangVien = _context.GiangViens.FirstOrDefault(g => g.Id == id);
@@ -92,7 +92,7 @@ namespace OnlineSchool_Project.Controllers
             return View(giangVien);
         }
 
-        // POST: /GiangVien/Delete/5
+        // POST: /GiangVien/Delete/id
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(int id)

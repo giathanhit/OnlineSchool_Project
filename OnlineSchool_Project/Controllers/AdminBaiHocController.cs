@@ -12,21 +12,18 @@ namespace OnlineSchool_Project.Controllers
         {
             _context = context;
         }
-
-        // Phương thức hiển thị danh sách bài học
+         
         public IActionResult Index()
         {
             var baiHocList = _context.BaiHocs.ToList();
             return View(baiHocList);
         }
-
-        // Phương thức hiển thị form tạo mới bài học
+         
         public IActionResult Create()
         {
             return View();
         }
-
-        // Phương thức lưu bài học tạo mới vào cơ sở dữ liệu
+         
         [HttpPost]
         public IActionResult Create(BaiHoc baiHoc)
         {
@@ -38,8 +35,7 @@ namespace OnlineSchool_Project.Controllers
             }
             return View(baiHoc);
         }
-
-        // Phương thức hiển thị thông tin chi tiết của một bài học
+         
         public IActionResult Details(int id)
         {
             var baiHoc = _context.BaiHocs.FirstOrDefault(b => b.Id == id);
@@ -49,8 +45,7 @@ namespace OnlineSchool_Project.Controllers
             }
             return View(baiHoc);
         }
-
-        // Phương thức hiển thị form chỉnh sửa thông tin bài học
+         
         public IActionResult Edit(int id)
         {
             var baiHoc = _context.BaiHocs.FirstOrDefault(b => b.Id == id);
@@ -60,8 +55,7 @@ namespace OnlineSchool_Project.Controllers
             }
             return View(baiHoc);
         }
-
-        // Phương thức lưu thông tin bài học sau khi chỉnh sửa vào cơ sở dữ liệu
+         
         [HttpPost]
         public IActionResult Edit(int id, BaiHoc baiHoc)
         {
@@ -78,8 +72,7 @@ namespace OnlineSchool_Project.Controllers
             }
             return View(baiHoc);
         }
-
-        // Phương thức hiển thị form xác nhận xóa bài học
+         
         public IActionResult Delete(int id)
         {
             var baiHoc = _context.BaiHocs.FirstOrDefault(b => b.Id == id);
@@ -89,8 +82,7 @@ namespace OnlineSchool_Project.Controllers
             }
             return View(baiHoc);
         }
-
-        // Phương thức xóa bài học khỏi cơ sở dữ liệu
+         
         [HttpPost]
         public IActionResult DeleteConfirmed(int id)
         {

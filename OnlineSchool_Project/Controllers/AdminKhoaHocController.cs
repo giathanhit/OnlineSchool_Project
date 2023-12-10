@@ -20,7 +20,7 @@ namespace OnlineSchool_Project.Controllers
             return View(giangViens);
         }
 
-        // GET: /KhoaHoc/Details/5
+        // GET: /KhoaHoc/Details/id
         public IActionResult Details(int id)
         {
             var giangVien = _context.KhoaHocs.FirstOrDefault(g => g.Id == id);
@@ -51,7 +51,7 @@ namespace OnlineSchool_Project.Controllers
             return View(giangVien);
         }
 
-        // GET: /KhoaHoc/Edit/5
+        // GET: /KhoaHoc/Edit/id
         public IActionResult Edit(int id)
         {
             var giangVien = _context.KhoaHocs.FirstOrDefault(g => g.Id == id);
@@ -62,7 +62,7 @@ namespace OnlineSchool_Project.Controllers
             return View(giangVien);
         }
 
-        // POST: /KhoaHoc/Edit/5
+        // POST: /KhoaHoc/Edit/id
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(int id, KhoaHoc giangVien)
@@ -81,7 +81,7 @@ namespace OnlineSchool_Project.Controllers
             return View(giangVien);
         }
 
-        // GET: /KhoaHoc/Delete/5
+        // GET: /KhoaHoc/Delete/id
         public IActionResult Delete(int id)
         {
             var giangVien = _context.KhoaHocs.FirstOrDefault(g => g.Id == id);
@@ -92,7 +92,7 @@ namespace OnlineSchool_Project.Controllers
             return View(giangVien);
         }
 
-        // POST: /KhoaHoc/Delete/5
+        // POST: /KhoaHoc/Delete/id
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(int id)
