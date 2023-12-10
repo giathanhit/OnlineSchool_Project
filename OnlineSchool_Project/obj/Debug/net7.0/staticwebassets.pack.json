@@ -1,1463 +1,1463 @@
 {
   "Files": [
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\OnlineSchool_Project.bundle.scp.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\OnlineSchool_Project.bundle.scp.css",
       "PackagePath": "staticwebassets\\OnlineSchool_Project.bundle.scp.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\css\\demo.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\css\\demo.css",
       "PackagePath": "staticwebassets\\assets\\css\\demo.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\avatars\\1.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\avatars\\1.png",
       "PackagePath": "staticwebassets\\assets\\img\\avatars\\1.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\avatars\\5.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\avatars\\5.png",
       "PackagePath": "staticwebassets\\assets\\img\\avatars\\5.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\avatars\\6.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\avatars\\6.png",
       "PackagePath": "staticwebassets\\assets\\img\\avatars\\6.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\avatars\\7.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\avatars\\7.png",
       "PackagePath": "staticwebassets\\assets\\img\\avatars\\7.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\backgrounds\\18.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\backgrounds\\18.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\backgrounds\\18.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\1.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\1.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\11.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\11.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\11.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\12.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\12.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\12.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\13.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\13.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\13.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\17.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\17.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\17.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\18.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\18.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\18.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\19.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\19.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\19.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\2.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\2.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\20.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\20.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\20.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\3.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\3.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\4.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\4.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\5.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\5.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\5.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\7.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\elements\\7.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\7.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\favicon\\favicon.ico",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\favicon\\favicon.ico",
       "PackagePath": "staticwebassets\\assets\\img\\favicon\\favicon.ico"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\brands\\asana.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\brands\\asana.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\asana.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\brands\\behance.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\brands\\behance.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\behance.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\brands\\dribbble.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\brands\\dribbble.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\dribbble.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\brands\\facebook.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\brands\\facebook.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\facebook.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\brands\\github.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\brands\\github.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\github.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\brands\\google.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\brands\\google.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\google.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\brands\\instagram.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\brands\\instagram.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\instagram.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\brands\\mailchimp.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\brands\\mailchimp.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\mailchimp.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\brands\\slack.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\brands\\slack.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\slack.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\brands\\twitter.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\brands\\twitter.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\twitter.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\unicons\\cc-primary.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\unicons\\cc-primary.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\cc-primary.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\unicons\\cc-success.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\unicons\\cc-success.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\cc-success.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\unicons\\cc-warning.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\unicons\\cc-warning.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\cc-warning.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\unicons\\chart-success.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\unicons\\chart-success.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\chart-success.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\unicons\\chart.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\unicons\\chart.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\chart.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\unicons\\paypal.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\unicons\\paypal.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\paypal.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\unicons\\wallet-info.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\unicons\\wallet-info.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\wallet-info.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\unicons\\wallet.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\icons\\unicons\\wallet.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\wallet.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
       "PackagePath": "staticwebassets\\assets\\img\\illustrations\\girl-doing-yoga-light.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\illustrations\\man-with-laptop-light.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\illustrations\\man-with-laptop-light.png",
       "PackagePath": "staticwebassets\\assets\\img\\illustrations\\man-with-laptop-light.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\illustrations\\page-misc-error-light.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\illustrations\\page-misc-error-light.png",
       "PackagePath": "staticwebassets\\assets\\img\\illustrations\\page-misc-error-light.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\layouts\\layout-container-light.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\layouts\\layout-container-light.png",
       "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-container-light.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\layouts\\layout-fluid-light.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\layouts\\layout-fluid-light.png",
       "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-fluid-light.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\layouts\\layout-without-menu-light.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\layouts\\layout-without-menu-light.png",
       "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-without-menu-light.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\layouts\\layout-without-navbar-light.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\layouts\\layout-without-navbar-light.png",
       "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-without-navbar-light.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\logo.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\img\\logo.png",
       "PackagePath": "staticwebassets\\assets\\img\\logo.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\js\\config.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\js\\config.js",
       "PackagePath": "staticwebassets\\assets\\js\\config.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\js\\dashboards-analytics.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\js\\dashboards-analytics.js",
       "PackagePath": "staticwebassets\\assets\\js\\dashboards-analytics.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\js\\extended-ui-perfect-scrollbar.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\js\\extended-ui-perfect-scrollbar.js",
       "PackagePath": "staticwebassets\\assets\\js\\extended-ui-perfect-scrollbar.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\js\\form-basic-inputs.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\js\\form-basic-inputs.js",
       "PackagePath": "staticwebassets\\assets\\js\\form-basic-inputs.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\js\\main.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\js\\main.js",
       "PackagePath": "staticwebassets\\assets\\js\\main.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\js\\pages-account-settings-account.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\js\\pages-account-settings-account.js",
       "PackagePath": "staticwebassets\\assets\\js\\pages-account-settings-account.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\js\\ui-modals.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\js\\ui-modals.js",
       "PackagePath": "staticwebassets\\assets\\js\\ui-modals.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\js\\ui-popover.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\js\\ui-popover.js",
       "PackagePath": "staticwebassets\\assets\\js\\ui-popover.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\js\\ui-toasts.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\js\\ui-toasts.js",
       "PackagePath": "staticwebassets\\assets\\js\\ui-toasts.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\css\\core.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\css\\core.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\css\\core.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\css\\pages\\page-account-settings.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\css\\pages\\page-account-settings.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-account-settings.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\css\\pages\\page-auth.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\css\\pages\\page-auth.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-auth.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\css\\pages\\page-icons.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\css\\pages\\page-icons.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-icons.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\css\\pages\\page-misc.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\css\\pages\\page-misc.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-misc.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\css\\theme-default.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\css\\theme-default.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\css\\theme-default.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\fonts\\boxicons.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\fonts\\boxicons.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.eot",
       "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.eot"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.svg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
       "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.woff",
       "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.woff"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
       "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\js\\bootstrap.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\js\\helpers.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\js\\helpers.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\js\\helpers.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\js\\menu.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\js\\menu.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\js\\menu.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\libs\\apex-charts\\apex-charts.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\libs\\apex-charts\\apexcharts.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight-github.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight-github.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\libs\\highlight\\highlight-github.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\libs\\highlight\\highlight.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\libs\\highlight\\highlight.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\libs\\jquery\\jquery.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\libs\\jquery\\jquery.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\libs\\jquery\\jquery.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\libs\\masonry\\masonry.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\libs\\masonry\\masonry.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\libs\\masonry\\masonry.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\libs\\popper\\popper.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\assets\\vendor\\libs\\popper\\popper.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\libs\\popper\\popper.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\css\\site.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\favicon.ico",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\fonts\\boxicons.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\fonts\\boxicons.scss",
       "PackagePath": "staticwebassets\\fonts\\boxicons.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\blog.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\blog.css",
       "PackagePath": "staticwebassets\\home\\css\\blog.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\blog_responsive.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\blog_responsive.css",
       "PackagePath": "staticwebassets\\home\\css\\blog_responsive.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\blog_single.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\blog_single.css",
       "PackagePath": "staticwebassets\\home\\css\\blog_single.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\blog_single_responsive.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\blog_single_responsive.css",
       "PackagePath": "staticwebassets\\home\\css\\blog_single_responsive.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\bootstrap4\\bootstrap.min.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\bootstrap4\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\home\\css\\bootstrap4\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\bootstrap4\\bootstrap.min.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\bootstrap4\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\home\\css\\bootstrap4\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\bootstrap4\\popper.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\bootstrap4\\popper.js",
       "PackagePath": "staticwebassets\\home\\css\\bootstrap4\\popper.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\contact.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\contact.css",
       "PackagePath": "staticwebassets\\home\\css\\contact.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\contact_responsive.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\contact_responsive.css",
       "PackagePath": "staticwebassets\\home\\css\\contact_responsive.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\course.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\course.css",
       "PackagePath": "staticwebassets\\home\\css\\course.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\course_responsive.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\course_responsive.css",
       "PackagePath": "staticwebassets\\home\\css\\course_responsive.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\courses.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\courses.css",
       "PackagePath": "staticwebassets\\home\\css\\courses.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\courses_responsive.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\courses_responsive.css",
       "PackagePath": "staticwebassets\\home\\css\\courses_responsive.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\instructors.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\instructors.css",
       "PackagePath": "staticwebassets\\home\\css\\instructors.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\instructors_responsive.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\instructors_responsive.css",
       "PackagePath": "staticwebassets\\home\\css\\instructors_responsive.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\main_styles.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\main_styles.css",
       "PackagePath": "staticwebassets\\home\\css\\main_styles.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\regular.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\regular.css",
       "PackagePath": "staticwebassets\\home\\css\\regular.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\regular_responsive.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\regular_responsive.css",
       "PackagePath": "staticwebassets\\home\\css\\regular_responsive.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\responsive.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\css\\responsive.css",
       "PackagePath": "staticwebassets\\home\\css\\responsive.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\js\\blog.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\js\\blog.js",
       "PackagePath": "staticwebassets\\home\\js\\blog.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\js\\blog_single.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\js\\blog_single.js",
       "PackagePath": "staticwebassets\\home\\js\\blog_single.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\js\\contact.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\js\\contact.js",
       "PackagePath": "staticwebassets\\home\\js\\contact.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\js\\course.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\js\\course.js",
       "PackagePath": "staticwebassets\\home\\js\\course.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\js\\courses.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\js\\courses.js",
       "PackagePath": "staticwebassets\\home\\js\\courses.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\js\\custom.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\js\\custom.js",
       "PackagePath": "staticwebassets\\home\\js\\custom.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\js\\instructors.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\js\\instructors.js",
       "PackagePath": "staticwebassets\\home\\js\\instructors.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\js\\jquery-3.2.1.min.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\js\\jquery-3.2.1.min.js",
       "PackagePath": "staticwebassets\\home\\js\\jquery-3.2.1.min.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\js\\regular.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\js\\regular.js",
       "PackagePath": "staticwebassets\\home\\js\\regular.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\logo.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\logo.png",
       "PackagePath": "staticwebassets\\home\\logo.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\OwlCarousel2-2.2.1\\ajax-loader.gif",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\OwlCarousel2-2.2.1\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\home\\plugins\\OwlCarousel2-2.2.1\\ajax-loader.gif"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\OwlCarousel2-2.2.1\\animate.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\OwlCarousel2-2.2.1\\animate.css",
       "PackagePath": "staticwebassets\\home\\plugins\\OwlCarousel2-2.2.1\\animate.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\OwlCarousel2-2.2.1\\owl.carousel.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\OwlCarousel2-2.2.1\\owl.carousel.css",
       "PackagePath": "staticwebassets\\home\\plugins\\OwlCarousel2-2.2.1\\owl.carousel.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\OwlCarousel2-2.2.1\\owl.carousel.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\OwlCarousel2-2.2.1\\owl.carousel.js",
       "PackagePath": "staticwebassets\\home\\plugins\\OwlCarousel2-2.2.1\\owl.carousel.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\OwlCarousel2-2.2.1\\owl.theme.default.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\OwlCarousel2-2.2.1\\owl.theme.default.css",
       "PackagePath": "staticwebassets\\home\\plugins\\OwlCarousel2-2.2.1\\owl.theme.default.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\OwlCarousel2-2.2.1\\owl.video.play.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\OwlCarousel2-2.2.1\\owl.video.play.png",
       "PackagePath": "staticwebassets\\home\\plugins\\OwlCarousel2-2.2.1\\owl.video.play.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\easing\\easing.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\easing\\easing.js",
       "PackagePath": "staticwebassets\\home\\plugins\\easing\\easing.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\HELP-US-OUT.txt",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\HELP-US-OUT.txt"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\css\\font-awesome.css",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\css\\font-awesome.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\css\\font-awesome.min.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\animated.less",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\animated.less",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\less\\animated.less"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\bordered-pulled.less",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\bordered-pulled.less",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\less\\bordered-pulled.less"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\core.less",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\core.less",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\less\\core.less"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\fixed-width.less",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\fixed-width.less",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\less\\fixed-width.less"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\font-awesome.less",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\font-awesome.less",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\less\\font-awesome.less"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\icons.less",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\icons.less",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\less\\icons.less"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\larger.less",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\larger.less",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\less\\larger.less"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\list.less",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\list.less",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\less\\list.less"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\mixins.less",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\mixins.less",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\less\\mixins.less"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\path.less",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\path.less",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\less\\path.less"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\rotated-flipped.less",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\rotated-flipped.less",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\less\\rotated-flipped.less"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\screen-reader.less",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\screen-reader.less",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\less\\screen-reader.less"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\stacked.less",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\stacked.less",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\less\\stacked.less"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\variables.less",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\less\\variables.less",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\less\\variables.less"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_animated.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_animated.scss",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\scss\\_animated.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_core.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_core.scss",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\scss\\_core.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\scss\\_fixed-width.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_icons.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_icons.scss",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\scss\\_icons.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_larger.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_larger.scss",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\scss\\_larger.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_list.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_list.scss",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\scss\\_list.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_mixins.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_mixins.scss",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\scss\\_mixins.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_path.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_path.scss",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\scss\\_path.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\scss\\_screen-reader.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_stacked.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_stacked.scss",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\scss\\_stacked.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_variables.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\scss\\_variables.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\font-awesome.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\font-awesome-4.7.0\\scss\\font-awesome.scss",
       "PackagePath": "staticwebassets\\home\\plugins\\font-awesome-4.7.0\\scss\\font-awesome.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\parallax-js-master\\parallax.min.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\parallax-js-master\\parallax.min.js",
       "PackagePath": "staticwebassets\\home\\plugins\\parallax-js-master\\parallax.min.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\progressbar\\progressbar.min.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\progressbar\\progressbar.min.js",
       "PackagePath": "staticwebassets\\home\\plugins\\progressbar\\progressbar.min.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\video-js\\Youtube.min.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\video-js\\Youtube.min.js",
       "PackagePath": "staticwebassets\\home\\plugins\\video-js\\Youtube.min.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\video-js\\video-js.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\video-js\\video-js.css",
       "PackagePath": "staticwebassets\\home\\plugins\\video-js\\video-js.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\video-js\\video.min.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\home\\plugins\\video-js\\video.min.js",
       "PackagePath": "staticwebassets\\home\\plugins\\video-js\\video.min.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\Chinese.svg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\Chinese.svg",
       "PackagePath": "staticwebassets\\images\\Chinese.svg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\English.svg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\English.svg",
       "PackagePath": "staticwebassets\\images\\English.svg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\French.svg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\French.svg",
       "PackagePath": "staticwebassets\\images\\French.svg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\German.svg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\German.svg",
       "PackagePath": "staticwebassets\\images\\German.svg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\Italian.svg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\Italian.svg",
       "PackagePath": "staticwebassets\\images\\Italian.svg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\Japanese.svg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\Japanese.svg",
       "PackagePath": "staticwebassets\\images\\Japanese.svg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\Lithuanian.svg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\Lithuanian.svg",
       "PackagePath": "staticwebassets\\images\\Lithuanian.svg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\Swedish.svg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\Swedish.svg",
       "PackagePath": "staticwebassets\\images\\Swedish.svg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\Ukrainian.svg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\Ukrainian.svg",
       "PackagePath": "staticwebassets\\images\\Ukrainian.svg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\blog_10.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\blog_10.jpg",
       "PackagePath": "staticwebassets\\images\\blog_10.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\blog_11.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\blog_11.jpg",
       "PackagePath": "staticwebassets\\images\\blog_11.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\blog_12.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\blog_12.jpg",
       "PackagePath": "staticwebassets\\images\\blog_12.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\blog_6.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\blog_6.jpg",
       "PackagePath": "staticwebassets\\images\\blog_6.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\blog_7.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\blog_7.jpg",
       "PackagePath": "staticwebassets\\images\\blog_7.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\blog_8.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\blog_8.jpg",
       "PackagePath": "staticwebassets\\images\\blog_8.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\blog_9.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\blog_9.jpg",
       "PackagePath": "staticwebassets\\images\\blog_9.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\blog_background.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\blog_background.jpg",
       "PackagePath": "staticwebassets\\images\\blog_background.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\blog_post_image.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\blog_post_image.jpg",
       "PackagePath": "staticwebassets\\images\\blog_post_image.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\cert.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\cert.jpg",
       "PackagePath": "staticwebassets\\images\\cert.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_1.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_1.jpg",
       "PackagePath": "staticwebassets\\images\\course_1.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_10.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_10.jpg",
       "PackagePath": "staticwebassets\\images\\course_10.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_11.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_11.jpg",
       "PackagePath": "staticwebassets\\images\\course_11.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_12.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_12.jpg",
       "PackagePath": "staticwebassets\\images\\course_12.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_2.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_2.jpg",
       "PackagePath": "staticwebassets\\images\\course_2.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_3.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_3.jpg",
       "PackagePath": "staticwebassets\\images\\course_3.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_4.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_4.jpg",
       "PackagePath": "staticwebassets\\images\\course_4.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_5.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_5.jpg",
       "PackagePath": "staticwebassets\\images\\course_5.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_6.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_6.jpg",
       "PackagePath": "staticwebassets\\images\\course_6.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_7.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_7.jpg",
       "PackagePath": "staticwebassets\\images\\course_7.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_8.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_8.jpg",
       "PackagePath": "staticwebassets\\images\\course_8.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_9.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\course_9.jpg",
       "PackagePath": "staticwebassets\\images\\course_9.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\event_2.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\event_2.jpg",
       "PackagePath": "staticwebassets\\images\\event_2.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\event_3.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\event_3.jpg",
       "PackagePath": "staticwebassets\\images\\event_3.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\index_background.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\index_background.jpg",
       "PackagePath": "staticwebassets\\images\\index_background.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\instructors_background.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\instructors_background.png",
       "PackagePath": "staticwebassets\\images\\instructors_background.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\intro.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\intro.jpg",
       "PackagePath": "staticwebassets\\images\\intro.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\local_phone.svg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\local_phone.svg",
       "PackagePath": "staticwebassets\\images\\local_phone.svg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\local_post_office.svg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\local_post_office.svg",
       "PackagePath": "staticwebassets\\images\\local_post_office.svg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\marker.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\marker.png",
       "PackagePath": "staticwebassets\\images\\marker.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\member_0.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\member_0.jpg",
       "PackagePath": "staticwebassets\\images\\member_0.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\place.svg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\place.svg",
       "PackagePath": "staticwebassets\\images\\place.svg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\play_big.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\play_big.png",
       "PackagePath": "staticwebassets\\images\\play_big.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\right.png",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\right.png",
       "PackagePath": "staticwebassets\\images\\right.png"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\schedule.svg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\schedule.svg",
       "PackagePath": "staticwebassets\\images\\schedule.svg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\video.jpg",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\video.jpg",
       "PackagePath": "staticwebassets\\images\\video.jpg"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\js\\bootstrap.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\js\\helpers.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\js\\helpers.js",
       "PackagePath": "staticwebassets\\js\\helpers.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\js\\menu.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\js\\menu.js",
       "PackagePath": "staticwebassets\\js\\menu.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\js\\site.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\apex-charts\\apex-charts.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\apex-charts\\apex-charts.scss",
       "PackagePath": "staticwebassets\\lib\\apex-charts\\apex-charts.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\apex-charts\\apexcharts.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\apex-charts\\apexcharts.js",
       "PackagePath": "staticwebassets\\lib\\apex-charts\\apexcharts.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\highlight\\highlight-github.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\highlight\\highlight-github.scss",
       "PackagePath": "staticwebassets\\lib\\highlight\\highlight-github.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\highlight\\highlight.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\highlight\\highlight.js",
       "PackagePath": "staticwebassets\\lib\\highlight\\highlight.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\highlight\\highlight.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\highlight\\highlight.scss",
       "PackagePath": "staticwebassets\\lib\\highlight\\highlight.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery\\jquery.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\jquery\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\jquery.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\masonry\\masonry.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\masonry\\masonry.js",
       "PackagePath": "staticwebassets\\lib\\masonry\\masonry.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\perfect-scrollbar\\perfect-scrollbar.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\perfect-scrollbar\\perfect-scrollbar.js",
       "PackagePath": "staticwebassets\\lib\\perfect-scrollbar\\perfect-scrollbar.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\perfect-scrollbar\\perfect-scrollbar.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\perfect-scrollbar\\perfect-scrollbar.scss",
       "PackagePath": "staticwebassets\\lib\\perfect-scrollbar\\perfect-scrollbar.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\popper\\popper.js",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\lib\\popper\\popper.js",
       "PackagePath": "staticwebassets\\lib\\popper\\popper.js"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_accordion.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_accordion.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_accordion.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_alert.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_alert.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_alert.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_badge.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_badge.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_badge.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_breadcrumb.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_breadcrumb.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_button-group.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_button-group.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_button-group.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_buttons.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_buttons.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_buttons.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_card.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_card.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_card.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_carousel.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_carousel.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_carousel.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_close.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_close.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_close.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_dropdown.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_dropdown.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_dropdown.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_forms.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_forms.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_forms.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_functions.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_functions.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_functions.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_include.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_include.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_include.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_list-group.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_list-group.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_list-group.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_mixins.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_mixins.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_mixins.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_modal.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_modal.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_modal.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_nav.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_nav.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_nav.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_navbar.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_navbar.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_navbar.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_offcanvas.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_offcanvas.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_offcanvas.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_pagination.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_pagination.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_pagination.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_popover.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_popover.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_popover.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_progress.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_progress.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_progress.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_reboot.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_reboot.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_reboot.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_root.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_root.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_root.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_spinners.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_spinners.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_spinners.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_tables.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_tables.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_tables.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_toasts.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_toasts.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_toasts.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_tooltip.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_tooltip.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_tooltip.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_type.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_type.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_type.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_utilities-ltr.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_utilities-ltr.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_utilities-ltr.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_utilities.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_utilities.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_utilities.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_variables.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\_variables.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_variables.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\forms\\_form-control.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\forms\\_form-control.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\forms\\_form-control.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\forms\\_form-range.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\forms\\_form-range.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\forms\\_form-range.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\forms\\_form-select.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\forms\\_form-select.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\forms\\_form-select.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\forms\\_input-group.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\forms\\_input-group.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\forms\\_input-group.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\forms\\_labels.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\forms\\_labels.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\forms\\_labels.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\forms\\_validation.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\forms\\_validation.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\forms\\_validation.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_alert.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_alert.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_alert.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_badge.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_badge.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_badge.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_buttons.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_buttons.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_caret.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_caret.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_caret.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_forms.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_forms.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_forms.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_list-group.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_list-group.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_list-group.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_misc.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_misc.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_misc.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_navs.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_navs.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_navs.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_pagination.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_pagination.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_pagination.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_progress.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_progress.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_progress.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_toasts.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_toasts.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_toasts.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_bootstrap.scss",
       "PackagePath": "staticwebassets\\scss\\_bootstrap.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_colors.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_colors.scss",
       "PackagePath": "staticwebassets\\scss\\_colors.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components.scss",
       "PackagePath": "staticwebassets\\scss\\_components.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\_app-brand.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\_app-brand.scss",
       "PackagePath": "staticwebassets\\scss\\_components\\_app-brand.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\_avatar.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\_avatar.scss",
       "PackagePath": "staticwebassets\\scss\\_components\\_avatar.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\_base.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\_base.scss",
       "PackagePath": "staticwebassets\\scss\\_components\\_base.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\_common.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\_common.scss",
       "PackagePath": "staticwebassets\\scss\\_components\\_common.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\_footer.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\_footer.scss",
       "PackagePath": "staticwebassets\\scss\\_components\\_footer.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\_include.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\_include.scss",
       "PackagePath": "staticwebassets\\scss\\_components\\_include.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\_layout.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\_layout.scss",
       "PackagePath": "staticwebassets\\scss\\_components\\_layout.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\_menu.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\_menu.scss",
       "PackagePath": "staticwebassets\\scss\\_components\\_menu.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\_mixins.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\_mixins.scss",
       "PackagePath": "staticwebassets\\scss\\_components\\_mixins.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\_text-divider.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\_text-divider.scss",
       "PackagePath": "staticwebassets\\scss\\_components\\_text-divider.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\_variables.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\_variables.scss",
       "PackagePath": "staticwebassets\\scss\\_components\\_variables.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\mixins\\_app-brand.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\mixins\\_app-brand.scss",
       "PackagePath": "staticwebassets\\scss\\_components\\mixins\\_app-brand.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\mixins\\_avatar.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\mixins\\_avatar.scss",
       "PackagePath": "staticwebassets\\scss\\_components\\mixins\\_avatar.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\mixins\\_footer.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\mixins\\_footer.scss",
       "PackagePath": "staticwebassets\\scss\\_components\\mixins\\_footer.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\mixins\\_menu.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\mixins\\_menu.scss",
       "PackagePath": "staticwebassets\\scss\\_components\\mixins\\_menu.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\mixins\\_misc.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\mixins\\_misc.scss",
       "PackagePath": "staticwebassets\\scss\\_components\\mixins\\_misc.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\mixins\\_navbar.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\mixins\\_navbar.scss",
       "PackagePath": "staticwebassets\\scss\\_components\\mixins\\_navbar.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\mixins\\_text-divider.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_components\\mixins\\_text-divider.scss",
       "PackagePath": "staticwebassets\\scss\\_components\\mixins\\_text-divider.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_custom-variables\\_bootstrap-extended.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_custom-variables\\_bootstrap-extended.scss",
       "PackagePath": "staticwebassets\\scss\\_custom-variables\\_bootstrap-extended.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_custom-variables\\_components.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_custom-variables\\_components.scss",
       "PackagePath": "staticwebassets\\scss\\_custom-variables\\_components.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_custom-variables\\_libs.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_custom-variables\\_libs.scss",
       "PackagePath": "staticwebassets\\scss\\_custom-variables\\_libs.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_custom-variables\\_pages.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_custom-variables\\_pages.scss",
       "PackagePath": "staticwebassets\\scss\\_custom-variables\\_pages.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_custom-variables\\_support.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_custom-variables\\_support.scss",
       "PackagePath": "staticwebassets\\scss\\_custom-variables\\_support.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_theme\\_common.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_theme\\_common.scss",
       "PackagePath": "staticwebassets\\scss\\_theme\\_common.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_theme\\_theme.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\_theme\\_theme.scss",
       "PackagePath": "staticwebassets\\scss\\_theme\\_theme.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\core.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\core.scss",
       "PackagePath": "staticwebassets\\scss\\core.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\pages\\page-account-settings.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\pages\\page-account-settings.scss",
       "PackagePath": "staticwebassets\\scss\\pages\\page-account-settings.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\pages\\page-auth.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\pages\\page-auth.scss",
       "PackagePath": "staticwebassets\\scss\\pages\\page-auth.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\pages\\page-icons.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\pages\\page-icons.scss",
       "PackagePath": "staticwebassets\\scss\\pages\\page-icons.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\pages\\page-misc.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\pages\\page-misc.scss",
       "PackagePath": "staticwebassets\\scss\\pages\\page-misc.scss"
     },
     {
-      "Id": "D:\\BAITAP\\ASPNET\\COREMVC\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\theme-default.scss",
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\scss\\theme-default.scss",
       "PackagePath": "staticwebassets\\scss\\theme-default.scss"
     },
     {

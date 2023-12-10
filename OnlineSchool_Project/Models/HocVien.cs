@@ -1,7 +1,9 @@
-﻿namespace OnlineSchool_Project.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace OnlineSchool_Project.Models
 {
     public class HocVien
-    {
+    { 
         public int Id { get; set; }
         public string? HoTen { get; set; }
         public string? Email { get; set; }

@@ -5,9 +5,9 @@
 }
 
 
-<h1>Delete GiangVien</h1>
+<h1>Xóa GiangVien</h1>
 
-<h3>Are you sure you want to delete this GiangVien?</h3>
+<h3>Có chắc muốn xóa?</h3>
 <div>
     <h4>Id: @Model.Id</h4>
     <h4>HoTen: @Model.HoTen</h4>
@@ -21,6 +21,6 @@
 
 <form asp-action="Delete">
     <input type="hidden" asp-for="Id" />
-    <button type="submit" class="btn btn-danger">Delete</button>
-    <a asp-action="Index">Back to List</a>
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-action="Index">Trở lại trang trước</a>
 </form>

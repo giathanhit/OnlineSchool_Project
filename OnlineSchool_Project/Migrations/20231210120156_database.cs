@@ -75,16 +75,15 @@ namespace OnlineSchool_Project.Migrations
                 name: "TaiKhoans",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     TenDangNhap = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     MatKhau = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    LoaiTaiKhoan = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_TaiKhoans", x => x.Id);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
              
@@ -235,7 +234,8 @@ namespace OnlineSchool_Project.Migrations
                         onDelete: ReferentialAction.Cascade);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
-             
+
+
             migrationBuilder.CreateIndex(
                 name: "IX_BaiHocs_ChuongHocsId",
                 table: "BaiHocs",

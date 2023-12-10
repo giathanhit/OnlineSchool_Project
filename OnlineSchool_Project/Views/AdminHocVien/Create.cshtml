@@ -5,40 +5,132 @@
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h1>Create HocVien</h1>
+<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Học viên/</span> Thêm mới</h4>
 
-<form asp-action="Create">
-    <div class="form-group">
-        <label asp-for="HoTen">HoTen</label>
-        <input asp-for="HoTen" class="form-control" />
+<!-- Basic Layout & Basic with Icons -->
+<div class="row">
+    <!-- Basic Layout -->
+    <div class="col-xxl">
+        <div class="card mb-4">
+            <div class="card-header d-flex align-items-center justify-content-between">
+                <h5 class="mb-0">Học viên</h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="Create">
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label">Họ và tên</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span id="basic-icon-default-fullname2" class="input-group-text">
+                                    <i class="bx bx-user"></i>
+                                </span>
+                                <input type="text"
+                                       class="form-control"
+                                       id="basic-default-user"
+                                       placeholder="Nhập vào họ và tên.." asp-for="@Model.HoTen" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label" for="basic-default-company">Địa chỉ</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span id="basic-icon-default-fullname2" class="input-group-text">
+                                    <i class="bx bx-buildings"></i>
+                                </span>
+                                <input type="text"
+                                       class="form-control"
+                                       id="basic-default-company"
+                                       placeholder="Nhập vào địa chỉ.." asp-for="@Model.DiaChi" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label" for="basic-default-company">Bằng cấp</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span id="basic-icon-default-fullname2" class="input-group-text">
+                                    <i class='bx bx-briefcase-alt'></i>
+                                </span>
+                                <input type="text"
+                                       class="form-control"
+                                       id="basic-default-company"
+                                       placeholder="Nhập vào bằng cấp.." asp-for="@Model.BangCap" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label" for="basic-default-company">Giới tính</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span id="basic-icon-default-fullname2" class="input-group-text">
+                                    <i class="bx bx-user"></i>
+                                </span>
+                                <select asp-for="GioiTinh" class="form-control">
+                                    <option value="Nam">Nam</option>
+                                    <option value="Nữ">Nữ</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label" for="basic-default-email">Email</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span class="input-group-text"><i class="bx bx-envelope"></i></span>
+                                <input type="email"
+                                       id="basic-default-email"
+                                       class="form-control"
+                                       placeholder="Nhập vào email.." asp-for="@Model.Email"
+                                       aria-describedby="basic-default-email2" />
+                            </div>
+                            <div class="form-text">Ví dụ: example@email.com</div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label" for="basic-default-phone">SĐT</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span id="basic-icon-default-phone2" class="input-group-text">
+                                    <i class="bx bx-phone"></i>
+                                </span>
+                                <input type="tel"
+                                       id="basic-default-phone"
+                                       class="form-control phone-mask"
+                                       placeholder="Nhập vào số điện thoại.."
+                                       asp-for="@Model.Sdt"
+                                       pattern="[0-9]{10,}"
+                                       maxlength="10"
+                                       title="Vui lòng nhập số điện thoại hợp lệ" required
+                                       aria-label="086 532 9523"
+                                       aria-describedby="basic-default-phone" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label" for="basic-default-date">Ngày sinh</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span id="basic-icon-default-date" class="input-group-text">
+                                    <i class='bx bx-calendar'></i>
+                                </span>
+                                <input type="date"
+                                       id="basic-default-date"
+                                       class="form-control date-mask"
+                                       placeholder="Chọn ngày sinh" asp-for="@Model.NgaySinh"
+                                       aria-describedby="basic-default-date" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-end">
+                        <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary">Lưu</button>
+                            <a asp-action="Index">Trở về trang trước</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
-    <div class="form-group">
-        <label asp-for="Email">Email</label>
-        <input asp-for="Email" class="form-control" />
-    </div>
-    <div class="form-group">
-        <label asp-for="Sdt">Sdt</label>
-        <input asp-for="Sdt" class="form-control" />
-    </div>
-    <div class="form-group">
-        <label asp-for="BangCap">BangCap</label>
-        <input asp-for="BangCap" class="form-control" />
-    </div>
-    <div class="form-group">
-        <label asp-for="DiaChi">DiaChi</label>
-        <input asp-for="DiaChi" class="form-control" />
-    </div>
-    <div class="form-group">
-        <label asp-for="GioiTinh">Giới tính</label>
-        <select asp-for="GioiTinh" class="form-control">
-            <option value="Nam">Nam</option>
-            <option value="Nữ">Nữ</option>
-        </select>
-    </div>
-    <div class="form-group">
-        <label asp-for="NgaySinh">NgaySinh</label>
-        <input asp-for="NgaySinh" class="form-control" />
-    </div>
-    <button type="submit" class="btn btn-primary">Create</button>
-    <a asp-action="Index">Back to List</a>
-</form>
+</div>
+<!-- / Content -->

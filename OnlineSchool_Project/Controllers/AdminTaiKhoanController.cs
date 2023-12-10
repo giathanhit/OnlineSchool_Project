@@ -20,10 +20,10 @@ namespace OnlineSchool_Project.Controllers
             return View(giangViens);
         }
 
-        // GET: /TaiKhoan/Details/5
-        public IActionResult Details(int id)
+        // GET: /TaiKhoan/Details
+        public IActionResult Details(string id)
         {
-            var giangVien = _context.TaiKhoans.FirstOrDefault(g => g.Id == id);
+            var giangVien = _context.TaiKhoans.FirstOrDefault(g => g.TenDangNhap == id);
             if (giangVien == null)
             {
                 return NotFound();
@@ -51,10 +51,10 @@ namespace OnlineSchool_Project.Controllers
             return View(giangVien);
         }
 
-        // GET: /TaiKhoan/Edit/5
-        public IActionResult Edit(int id)
+		// GET: /TaiKhoan/Edit/id
+		public IActionResult Edit(string id)
         {
-            var giangVien = _context.TaiKhoans.FirstOrDefault(g => g.Id == id);
+            var giangVien = _context.TaiKhoans.FirstOrDefault(g => g.TenDangNhap == id);
             if (giangVien == null)
             {
                 return NotFound();
@@ -62,12 +62,12 @@ namespace OnlineSchool_Project.Controllers
             return View(giangVien);
         }
 
-        // POST: /TaiKhoan/Edit/5
-        [HttpPost]
+		// POST: /TaiKhoan/Edit/id
+		[HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(int id, TaiKhoan giangVien)
+        public IActionResult Edit(string id, TaiKhoan giangVien)
         {
-            if (id != giangVien.Id)
+            if (id != giangVien.TenDangNhap)
             {
                 return NotFound();
             }
@@ -81,10 +81,10 @@ namespace OnlineSchool_Project.Controllers
             return View(giangVien);
         }
 
-        // GET: /TaiKhoan/Delete/5
-        public IActionResult Delete(int id)
+		// GET: /TaiKhoan/Delete/id
+		public IActionResult Delete(string id)
         {
-            var giangVien = _context.TaiKhoans.FirstOrDefault(g => g.Id == id);
+            var giangVien = _context.TaiKhoans.FirstOrDefault(g => g.TenDangNhap == id);
             if (giangVien == null)
             {
                 return NotFound();
@@ -92,12 +92,12 @@ namespace OnlineSchool_Project.Controllers
             return View(giangVien);
         }
 
-        // POST: /TaiKhoan/Delete/5
-        [HttpPost, ActionName("Delete")]
+		// POST: /TaiKhoan/Delete/id
+		[HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public IActionResult DeleteConfirmed(int id)
+        public IActionResult DeleteConfirmed(string id)
         {
-            var giangVien = _context.TaiKhoans.FirstOrDefault(g => g.Id == id);
+            var giangVien = _context.TaiKhoans.FirstOrDefault(g => g.TenDangNhap == id);
             if (giangVien == null)
             {
                 return NotFound();
