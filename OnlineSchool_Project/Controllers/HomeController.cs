@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OnlineSchool_Project.Models;
+using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 
 namespace OnlineSchool_Project.Controllers
@@ -14,6 +15,16 @@ namespace OnlineSchool_Project.Controllers
         }
 
         public IActionResult Index()
+        {
+            return View();
+        }  
+        
+        public IActionResult Dangnhap()
+        {
+            return View();
+        }
+        
+        public IActionResult Dangky()
         {
             return View();
         }

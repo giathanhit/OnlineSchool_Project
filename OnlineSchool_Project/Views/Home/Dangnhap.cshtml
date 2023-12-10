@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/home/css/style.css" rel="stylesheet" />
+<link href="~/home/fonts/material-icon/css/material-design-iconic-font.css" rel="stylesheet" />
+<link href="~/home/fonts/material-icon/css/material-design-iconic-font.min.css" rel="stylesheet" />
+
+
+ 
+<div class="main">
+     
+    <!-- Sing in  Form -->
+    <section class="sign-in">
+        <div class="container">
+            <div class="signin-content">
+                <div class="signin-image">
+                    <figure><img src="images/signin-image.jpg" alt="sing up image"></figure>
+                    <a href="/Home/Dangky" class="signup-image-link">Chưa có tài khoản, <b>TẠO TÀI KHOẢN MỚI</b></a>
+                </div>
+
+                <div class="signin-form">
+                    <h2 class="form-title">ĐĂNG NHẬP</h2>
+                    <form method="POST" class="register-form" id="login-form">
+                        <div class="form-group">
+                            <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                            <input type="text" name="your_name" id="your_name" placeholder="Tên đăng nhập.." />
+                        </div>
+                        <div class="form-group">
+                            <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
+                            <input type="password" name="your_pass" id="your_pass" placeholder="Mật khẩu.." />
+                        </div> 
+                        <div class="form-group form-button">
+                            <input type="submit" name="signin" id="signin" class="form-submit" value="Đăng nhập" />
+                        </div>
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+
+
+<script src="~/home/vendor/jquery/jquery-ui.min.js"></script>
+<script src="~/home/vendor/jquery/jquery.min.js"></script>
+<script src="~/home/js/main.js"></script>
