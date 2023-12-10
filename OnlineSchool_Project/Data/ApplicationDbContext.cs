@@ -24,7 +24,8 @@ namespace OnlineSchool_Project.Data
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<ThamGiaKhoaHoc>().HasNoKey();
-            modelBuilder.Entity<TaiKhoan>().HasNoKey();
+            modelBuilder.Entity<TaiKhoan>()
+                .HasKey(t => t.TenDangNhap);
 
             // Cấu hình các quan hệ, chỉnh sửa tên bảng, khóa chính, khóa ngoại, v.v. tại đây
         }

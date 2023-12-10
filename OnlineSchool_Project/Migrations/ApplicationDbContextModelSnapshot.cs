@@ -408,6 +408,9 @@ namespace OnlineSchool_Project.Migrations
 
             modelBuilder.Entity("OnlineSchool_Project.Models.TaiKhoan", b =>
                 {
+                    b.Property<string>("TenDangNhap")
+                        .HasColumnType("varchar(255)");
+
                     b.Property<string>("LoaiTaiKhoan")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -416,9 +419,7 @@ namespace OnlineSchool_Project.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<string>("TenDangNhap")
-                        .IsRequired()
-                        .HasColumnType("longtext");
+                    b.HasKey("TenDangNhap");
 
                     b.ToTable("TaiKhoans");
                 });

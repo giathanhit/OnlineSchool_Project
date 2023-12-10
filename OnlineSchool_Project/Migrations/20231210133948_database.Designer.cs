@@ -11,7 +11,7 @@ using OnlineSchool_Project.Data;
 namespace OnlineSchool_Project.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231210120156_database")]
+    [Migration("20231210133948_database")]
     partial class database
     {
         /// <inheritdoc />
@@ -411,6 +411,9 @@ namespace OnlineSchool_Project.Migrations
 
             modelBuilder.Entity("OnlineSchool_Project.Models.TaiKhoan", b =>
                 {
+                    b.Property<string>("TenDangNhap")
+                        .HasColumnType("varchar(255)");
+
                     b.Property<string>("LoaiTaiKhoan")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -419,9 +422,7 @@ namespace OnlineSchool_Project.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<string>("TenDangNhap")
-                        .IsRequired()
-                        .HasColumnType("longtext");
+                    b.HasKey("TenDangNhap");
 
                     b.ToTable("TaiKhoans");
                 });

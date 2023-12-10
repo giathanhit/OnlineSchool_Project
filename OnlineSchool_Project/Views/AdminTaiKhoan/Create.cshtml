@@ -1,59 +1,74 @@
 ﻿@model OnlineSchool_Project.Models.TaiKhoan
 
 @{
-    ViewData["Title"] = "Create";
-    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+	ViewData["Title"] = "Create";
+	Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 
 <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Tài khoản/</span> Thêm mới</h4>
 
 <!-- Basic Layout & Basic with Icons -->
 <div class="row">
-    <!-- Basic Layout -->
-    <div class="col-xxl">
-        <div class="card mb-4">
-            <div class="card-header d-flex align-items-center justify-content-between">
-                <h5 class="mb-0">Tài khoản</h5>
-            </div>
-            <div class="card-body">
-                <form asp-action="Create">
-                    <div class="row mb-3">
-                        <label class="col-sm-2 col-form-label">Tên đăng nhập </label>
-                        <div class="col-sm-10">
-                            <div class="input-group input-group-merge">
-                                <span id="basic-icon-default-fullname2" class="input-group-text">
-                                    <i class="bx bx-user"></i>
-                                </span>
-                                <input type="text"
-                                       class="form-control"
-                                       id="basic-default-user"
-                                       placeholder="Nhập vào tên đăng nhập.." asp-for="@Model.TenDangNhap" />
-                            </div>
-                        </div>
-                    </div> 
-                    <div class="row mb-3">
-                        <label class="col-sm-2 col-form-label">Họ và tên</label>
-                        <div class="col-sm-10">
-                            <div class="input-group input-group-merge">
-                                <span id="basic-icon-default-fullname2" class="input-group-text">
-                                    <i class='bx bx-key'></i>
-                                </span>
-                                <input type="password"
-                                       class="form-control"
-                                       id="basic-default-user"
-                                       placeholder="Nhập vào mật khẩu.." asp-for="@Model.MatKhau" />
-                            </div>
-                        </div>
-                    </div> 
-                    <div class="row justify-content-end">
-                        <div class="col-sm-10">
-                            <button type="submit" class="btn btn-primary">Lưu</button>
-                            <a asp-action="Index">Trở về trang trước</a>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
+	<!-- Basic Layout -->
+	<div class="col-xxl">
+		<div class="card mb-4">
+			<div class="card-header d-flex align-items-center justify-content-between">
+				<h5 class="mb-0">Tài khoản</h5>
+			</div>
+			<div class="card-body">
+				<form asp-action="Create">
+					<div class="row mb-3">
+						<label class="col-sm-2 col-form-label">Tên đăng nhập </label>
+						<div class="col-sm-10">
+							<div class="input-group input-group-merge">
+								<span id="basic-icon-default-username" class="input-group-text">
+									<i class="bx bx-user"></i>
+								</span>
+								<input type="text"
+									   class="form-control"
+									   id="basic-default-username"
+									   placeholder="Nhập vào tên đăng nhập.." asp-for="@Model.TenDangNhap" />
+							</div>
+						</div>
+					</div>
+					<div class="row mb-3">
+						<label class="col-sm-2 col-form-label">Mật khẩu</label>
+						<div class="col-sm-10">
+							<div class="input-group input-group-merge">
+								<span id="basic-icon-default-password" class="input-group-text">
+									<i class='bx bx-key'></i>
+								</span>
+								<input type="password"
+									   class="form-control"
+									   id="basic-default-password"
+									   placeholder="Nhập vào mật khẩu.." asp-for="@Model.MatKhau" />
+							</div>
+						</div>
+					</div>
+					<div class="row mb-3">
+						<label class="col-sm-2 col-form-label">Loại tài khoản</label>
+						<div class="col-sm-10">
+							<div class="input-group input-group-merge">
+								<span id="basic-icon-default-fullname2" class="input-group-text">
+									<i class='bx bx-category'></i>
+								</span>
+								<select asp-for="@Model.LoaiTaiKhoan" class="form-control">
+									<option value="Quản trị viên">Quản trị viên</option>
+									<option value="Giảng viên">Giảng viên</option>
+									<option value="Học viên">Học viên</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="row justify-content-end">
+						<div class="col-sm-10">
+							<button type="submit" class="btn btn-primary">Lưu</button>
+							<a asp-action="Index">Trở về trang trước</a>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
 </div>
 <!-- / Content -->

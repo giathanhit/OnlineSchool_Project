@@ -1,21 +1,21 @@
-﻿@model OnlineSchool_Project.Models.HocVien
+﻿@model OnlineSchool_Project.Models.TaiKhoan
 
-<h1>Xóa HocVien</h1>
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Xóa</h1>
 
 <h3>Có chắc muốn xóa?</h3>
 <div>
-    <h4>Id: @Model.Id</h4>
-    <h4>HoTen: @Model.HoTen</h4>
-    <h4>Email: @Model.Email</h4>
-    <h4>Sdt: @Model.Sdt</h4>
-    <h4>BangCap: @Model.BangCap</h4>
-    <h4>DiaChi: @Model.DiaChi</h4>
-    <h4>GioiTinh: @Model.GioiTinh</h4>
-    <h4>NgaySinh: @Model.NgaySinh.ToString("yyyy-MM-dd")</h4>
+    <h4>Tên đăng nhập: @Model.TenDangNhap</h4>
+    <h4>Mật khẩu: @Model.MatKhau</h4>
+    <h4>Loại tài khoản: @Model.LoaiTaiKhoan</h4> 
 </div>
 
 <form asp-action="Delete">
-    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="TenDangNhap" />
     <button type="submit" class="btn btn-danger">Xóa</button>
     <a asp-action="Index">Trở lại trang trước</a>
 </form>
