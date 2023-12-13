@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using OnlineSchool_Project.Data;
 using OnlineSchool_Project.Models;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace OnlineSchool_Project.Controllers
 { 
@@ -23,73 +25,75 @@ namespace OnlineSchool_Project.Controllers
         // GET: /KhoaHoc/Details/id
         public IActionResult Details(int id)
         {
-            var giangVien = _context.KhoaHocs.FirstOrDefault(g => g.Id == id);
-            if (giangVien == null)
+            var khoaHoc = _context.KhoaHocs.FirstOrDefault(g => g.Id == id);
+            if (khoaHoc == null)
             {
                 return NotFound();
             }
-            return View(giangVien);
+            return View(khoaHoc);
         }
 
-        // GET: /KhoaHoc/Create
+		// GET: /KhoaHoc/Create
         public IActionResult Create()
-        {
-            return View();
+		{
+			ViewBag.GiangVienList = _context.GiangViens.ToList();
+			return View();
         }
 
         // POST: /KhoaHoc/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(KhoaHoc giangVien)
-        {
+        public IActionResult Create(KhoaHoc khoaHoc)
+        { 
             if (ModelState.IsValid)
             {
-                _context.KhoaHocs.Add(giangVien);
-                _context.SaveChanges();
+                _context.KhoaHocs.Add(khoaHoc);
+                _context.SaveChanges(); 
                 return RedirectToAction(nameof(Index));
             }
-            return View(giangVien);
+            ViewBag.GiangVienList = _context.GiangViens.ToList();
+			return View(khoaHoc);
         }
 
         // GET: /KhoaHoc/Edit/id
         public IActionResult Edit(int id)
         {
-            var giangVien = _context.KhoaHocs.FirstOrDefault(g => g.Id == id);
-            if (giangVien == null)
+            var khoaHoc = _context.KhoaHocs.FirstOrDefault(g => g.Id == id);
+            if (khoaHoc == null)
             {
                 return NotFound();
             }
-            return View(giangVien);
+            return View(khoaHoc);
         }
 
         // POST: /KhoaHoc/Edit/id
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(int id, KhoaHoc giangVien)
+        public IActionResult Edit(int id, KhoaHoc khoaHoc)
         {
-            if (id != giangVien.Id)
+            if (id != khoaHoc.Id)
             {
                 return NotFound();
             }
 
             if (ModelState.IsValid)
             {
-                _context.Update(giangVien);
+                _context.Update(khoaHoc);
                 _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
-            return View(giangVien);
+            return View(khoaHoc);
         }
 
         // GET: /KhoaHoc/Delete/id
         public IActionResult Delete(int id)
         {
-            var giangVien = _context.KhoaHocs.FirstOrDefault(g => g.Id == id);
-            if (giangVien == null)
+            var khoaHoc = _context.KhoaHocs.FirstOrDefault(g => g.Id == id);
+            if (khoaHoc == null)
             {
                 return NotFound();
             }
-            return View(giangVien);
+            return View(khoaHoc);
         }
 
         // POST: /KhoaHoc/Delete/id
@@ -97,13 +101,13 @@ namespace OnlineSchool_Project.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(int id)
         {
-            var giangVien = _context.KhoaHocs.FirstOrDefault(g => g.Id == id);
-            if (giangVien == null)
+            var khoaHoc = _context.KhoaHocs.FirstOrDefault(g => g.Id == id);
+            if (khoaHoc == null)
             {
                 return NotFound();
             }
 
-            _context.KhoaHocs.Remove(giangVien);
+            _context.KhoaHocs.Remove(khoaHoc);
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }

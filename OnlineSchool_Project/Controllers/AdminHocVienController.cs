@@ -34,6 +34,7 @@ namespace OnlineSchool_Project.Controllers
         // GET: /HocVien/Create
         public IActionResult Create()
         {
+
             return View();
         }
 
