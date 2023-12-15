@@ -18,7 +18,7 @@ namespace OnlineSchool_Project.Data
         public DbSet<ChuongHoc> ChuongHocs { get; set; }
         public DbSet<KhoaHoc> KhoaHocs { get; set; }
         public DbSet<ThamGiaKhoaHoc> ThamGiaKhoaHocs { get; set; }
-        public DbSet<DanhGiaMonHoc> DanhGiaMonHocs { get; set; }
+        public DbSet<DanhGiaKhoaHoc> DanhGiaMonHocs { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
