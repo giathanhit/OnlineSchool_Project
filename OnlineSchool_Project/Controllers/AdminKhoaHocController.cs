@@ -36,7 +36,7 @@ namespace OnlineSchool_Project.Controllers
 		// GET: /KhoaHoc/Create
         public IActionResult Create()
 		{
-			ViewBag.GiangVienList = _context.GiangViens.ToList();
+			ViewBag.NganhHocList = _context.NganhHocs.ToList();
 			return View();
         }
 
@@ -51,7 +51,7 @@ namespace OnlineSchool_Project.Controllers
                 _context.SaveChanges(); 
                 return RedirectToAction(nameof(Index));
             }
-            ViewBag.GiangVienList = _context.GiangViens.ToList();
+            ViewBag.NganhHocList = _context.NganhHocs.ToList();
 			return View(khoaHoc);
         }
 

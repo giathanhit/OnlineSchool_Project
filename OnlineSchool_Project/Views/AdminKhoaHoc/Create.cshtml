@@ -27,7 +27,7 @@
 								<input type="text"
 									   class="form-control"
 									   id="basic-default-book"
-									   placeholder="Nhập vào tên khóa học.." asp-for="@Model.Ten" />
+									   placeholder="Nhập vào tên khóa học.." asp-for="@Model.TenKhoaHoc" />
 							</div>
 						</div>
 					</div>
@@ -44,21 +44,7 @@
 									   placeholder="Nhập vào mô tả.." asp-for="@Model.MoTa" />
 							</div>
 						</div>
-					</div>
-					<div class="row mb-3">
-						<label class="col-sm-2 col-form-label" for="basic-default-company">Giá tiền khóa học:</label>
-						<div class="col-sm-10">
-							<div class="input-group input-group-merge">
-								<span id="basic-icon-default-fullname2" class="input-group-text">
-									<i class='bx bx-money'></i>
-								</span>
-								<input type="number"
-									   class="form-control"
-									   id="basic-default-user"
-									   placeholder="Nhập vào giá tiền.." asp-for="@Model.Gia" />
-							</div>
-						</div>
-					</div>
+					</div> 
 					<div class="row mb-3">
 						<label class="col-sm-2 col-form-label" for="basic-default-company">Hình thức:</label>
 						<div class="col-sm-10">
@@ -72,77 +58,18 @@
 								</select>
 							</div>
 						</div>
-					</div>
+					</div>   
 					<div class="row mb-3">
-						<label class="col-sm-2 col-form-label" for="basic-default-email">Ngày bắt đầu học:</label>
-						<div class="col-sm-10">
-							<div class="input-group input-group-merge">
-								<span id="basic-icon-default-date" class="input-group-text">
-									<i class='bx bx-calendar'></i>
-								</span>
-								<input type="date"
-									   class="form-control"
-									   id="basic-default-user"
-									   asp-for="@Model.NgayHoc"
-									   value="@DateTime.Now.ToString("yyyy-MM-dd")" />
-							</div>
-						</div>
-					</div>
-					<div class="row mb-3">
-						<label class="col-sm-2 col-form-label" for="basic-default-email">Ngày kết thúc:</label>
-						<div class="col-sm-10">
-							<div class="input-group input-group-merge">
-								<span id="basic-icon-default-date" class="input-group-text">
-									<i class='bx bx-calendar'></i>
-								</span>
-								<input type="date"
-									   class="form-control"
-									   id="basic-default-user"
-									   asp-for="@Model.NgayKetThuc"
-									   value="@DateTime.Now.ToString("yyyy-MM-dd")" />
-							</div>
-						</div>
-					</div>
-					<div class="row mb-3">
-						<label class="col-sm-2 col-form-label" for="basic-default-phone">Số lượng:</label>
-						<div class="col-sm-10">
-							<div class="input-group input-group-merge">
-								<span id="basic-icon-default-phone2" class="input-group-text">
-									<i class="bx bx-phone"></i>
-								</span>
-								<input type="number"
-									   class="form-control"
-									   id="basic-default-user"
-									   placeholder="Nhập vào số lượng học viên.." asp-for="@Model.SoLuong" />
-							</div>
-						</div>
-					</div>
-					<div class="row mb-3">
-						<label class="col-sm-2 col-form-label" for="basic-default-date">Trạng thái:</label>
-						<div class="col-sm-10">
-							<div class="input-group input-group-merge">
-								<span id="basic-icon-default-date" class="input-group-text">
-									<i class='bx bx-category'></i>
-								</span>
-								<select asp-for="@Model.TrangThai" class="form-control"> 
-									<option value="Sắp mở">Sắp mở</option>
-									<option value="Đang mở">Đang mở</option>
-									<option value="Đã kết thúc">Đã kết thúc</option>
-								</select>
-							</div>
-						</div>
-					</div>
-					<div class="row mb-3">
-						<label class="col-sm-2 col-form-label" for="basic-default-date">Giảng viên:</label>
+						<label class="col-sm-2 col-form-label" for="basic-default-date">Ngành học:</label>
 						<div class="col-sm-10">
 							<div class="input-group input-group-merge">
 								<span id="basic-icon-default-date" class="input-group-text">
 									<i class='bx bx-user'></i>
 								</span>
-								<select class="form-control" id="GiangVienId" name="GiangVienId" required>
-									@foreach (var giangVien in ViewBag.GiangVienList)
+								<select class="form-control" id="NganhHocId" name="NganhHocId" required>
+									@foreach (var nganhHoc in ViewBag.NganhHocList)
 									{
-										<option value="@giangVien.Id">@giangVien.HoTen</option>
+										<option value="@nganhHoc.Id">@nganhHoc.TenNganh</option>
 									}
 								</select>
 							</div>

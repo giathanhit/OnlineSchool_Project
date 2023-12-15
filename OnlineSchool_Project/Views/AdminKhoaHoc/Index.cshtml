@@ -15,20 +15,18 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th>Tên</th>
-                    <th>Giảng viên</th>
-                    <th>Ngày học</th>
-                    <th>Trạng thái</th>
+                    <th>Tên</th> 
+                    <th>Mô tả</th>
+                    <th>Hình thức</th>
                 </tr>
             </thead>
             <tbody>
                 @foreach (var khoaHoc in Model)
                 {
                     <tr>
-                        <td>@khoaHoc.Ten</td>
-                        <td>@khoaHoc.GiangViens.HoTen</td>
-                        <td>@khoaHoc.NgayHoc.ToShortDateString()</td>
-                        <td>@khoaHoc.TrangThai</td>
+                        <td>@khoaHoc.TenKhoaHoc</td> 
+                        <td>@khoaHoc.MoTa</td> 
+                        <td>@khoaHoc.HinhThuc</td> 
                     </tr>
                 }
             </tbody>
