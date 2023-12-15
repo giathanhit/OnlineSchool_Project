@@ -987,11 +987,13 @@ section
 6. Intro
 *********************************/
 
-.intro
-{
+
+.intro {
 	width: 100%;
-	height: 600px;
+	height: 550px;
+	top: -210px;
 }
+
 .intro_background
 {
 	position: absolute;

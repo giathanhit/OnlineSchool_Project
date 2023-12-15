@@ -1173,6 +1173,10 @@
       "PackagePath": "staticwebassets\\images\\Ukrainian.svg"
     },
     {
+      "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\avatar.png",
+      "PackagePath": "staticwebassets\\images\\avatar.png"
+    },
+    {
       "Id": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\blog_10.jpg",
       "PackagePath": "staticwebassets\\images\\blog_10.jpg"
     },

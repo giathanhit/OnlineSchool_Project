@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9Cx9jJuhrLsgJysbkynDBfmUN2aZzw4AKAlXMSp162I=",
+  "Hash": "HfSmgyQnHM78TK3v8nwWbU9Me03N11El30dOGwQa9y8=",
   "Source": "OnlineSchool_Project",
   "BasePath": "_content/OnlineSchool_Project",
   "Mode": "Default",
@@ -4860,6 +4860,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\home\\vendor\\jquery\\jquery-ui.min.js"
+    },
+    {
+      "Identity": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\avatar.png",
+      "SourceId": "OnlineSchool_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\",
+      "BasePath": "_content/OnlineSchool_Project",
+      "RelativePath": "images/avatar.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\avatar.png"
     },
     {
       "Identity": "C:\\SOURCECODE\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\blog_10.jpg",

@@ -5,16 +5,26 @@ using System.Diagnostics;
 
 namespace OnlineSchool_Project.Controllers
 {
-    public class HomeController : Controller
+    public class UserController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<UserController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public UserController(ILogger<UserController> logger)
         {
             _logger = logger;
         }
 
         public IActionResult Index()
+        {
+            return View();
+        }  
+        
+        public IActionResult Khoahoc()
+        {
+            return View();
+        }  
+         
+        public IActionResult Chitietkhoahoc()
         {
             return View();
         }  
