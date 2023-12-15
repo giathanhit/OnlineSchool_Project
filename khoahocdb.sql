@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Dec 15, 2023 at 01:24 PM
+-- Generation Time: Dec 15, 2023 at 01:27 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -98,6 +98,13 @@ CREATE TABLE `giangviens` (
   `idNganhHoc` int NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
+--
+-- Dumping data for table `giangviens`
+--
+
+INSERT INTO `giangviens` (`Id`, `HoTen`, `Email`, `Sdt`, `BangCap`, `DiaChi`, `GioiTinh`, `UrlImage`, `NgaySinh`, `idNganhHoc`) VALUES
+(1, 'Jiaqing', 'gthanh@abp.io', '0123657894', 'Kỹ sư CNTT', 'TP. Long Xuyên, An Giang', 'Nam', NULL, '2000-12-25 00:00:00.000000', 1);
+
 -- --------------------------------------------------------
 
 --
@@ -116,6 +123,13 @@ CREATE TABLE `hocviens` (
   `UrlImage` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
+--
+-- Dumping data for table `hocviens`
+--
+
+INSERT INTO `hocviens` (`Id`, `HoTen`, `Email`, `Sdt`, `BangCap`, `DiaChi`, `GioiTinh`, `NgaySinh`, `UrlImage`) VALUES
+(1, 'GT', 'giathanh@abp.io', '0213654798', 'Đại học', 'TP. Long Xuyên, An Giang', 'Nam', '2001-01-01 00:00:00.000000', NULL);
+
 -- --------------------------------------------------------
 
 --
@@ -131,6 +145,13 @@ CREATE TABLE `khoahocs` (
   `idNganhHoc` int NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
+--
+-- Dumping data for table `khoahocs`
+--
+
+INSERT INTO `khoahocs` (`Id`, `TenKhoaHoc`, `MoTa`, `HinhThuc`, `UrlImage`, `idNganhHoc`) VALUES
+(1, 'Lập trình C#', 'Lập trình C# cơ bản', 'Online', 'https://www.jimdo.com/blog/wp-content/uploads/2015/06/coffee-vs-tea-infographic.png', 1);
+
 -- --------------------------------------------------------
 
 --
@@ -141,6 +162,15 @@ CREATE TABLE `nganhhocs` (
   `Id` int NOT NULL,
   `TenNganh` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Dumping data for table `nganhhocs`
+--
+
+INSERT INTO `nganhhocs` (`Id`, `TenNganh`) VALUES
+(1, 'Công nghệ thông tin'),
+(2, 'Ngôn ngữ anh'),
+(3, 'Thiết kế đồ họa');
 
 -- --------------------------------------------------------
 
@@ -153,6 +183,13 @@ CREATE TABLE `taikhoans` (
   `MatKhau` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `LoaiTaiKhoan` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Dumping data for table `taikhoans`
+--
+
+INSERT INTO `taikhoans` (`TenDangNhap`, `MatKhau`, `LoaiTaiKhoan`) VALUES
+('admin', 'admin', 'Quản trị viên');
 
 -- --------------------------------------------------------
 
@@ -289,25 +326,25 @@ ALTER TABLE `danhgiamonhocs`
 -- AUTO_INCREMENT for table `giangviens`
 --
 ALTER TABLE `giangviens`
-  MODIFY `Id` int NOT NULL AUTO_INCREMENT;
+  MODIFY `Id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `hocviens`
 --
 ALTER TABLE `hocviens`
-  MODIFY `Id` int NOT NULL AUTO_INCREMENT;
+  MODIFY `Id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `khoahocs`
 --
 ALTER TABLE `khoahocs`
-  MODIFY `Id` int NOT NULL AUTO_INCREMENT;
+  MODIFY `Id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `nganhhocs`
 --
 ALTER TABLE `nganhhocs`
-  MODIFY `Id` int NOT NULL AUTO_INCREMENT;
+  MODIFY `Id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- Constraints for dumped tables
