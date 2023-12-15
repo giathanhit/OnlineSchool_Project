@@ -1,4 +1,6 @@
-﻿namespace OnlineSchool_Project.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace OnlineSchool_Project.Models
 {
     public class BaiHoc
     {
@@ -7,9 +9,13 @@
         public string? MoTa { get; set; }
         public string? UrlVideo { get; set; }
         public string? UrlBaiTap { get; set; }
-		public int idChuongHoc { get; set; }
-		public ChuongHoc ChuongHocs { get; set; }
-		public int idKhoaHoc { get; set; }
-		public KhoaHoc KhoaHocs { get; set; }
+
+        [ForeignKey("ChuongHocs")]
+        public int idChuongHoc { get; set; }
+		public ChuongHoc? ChuongHocs { get; set; }
+
+        [ForeignKey("KhoaHocs")]
+        public int idKhoaHoc { get; set; }
+		public KhoaHoc? KhoaHocs { get; set; }
     }
 }

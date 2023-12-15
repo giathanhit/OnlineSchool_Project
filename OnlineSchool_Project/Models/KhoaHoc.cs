@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OnlineSchool_Project.Models
 {
@@ -16,7 +17,8 @@ namespace OnlineSchool_Project.Models
 		public string? UrlImage { get; set; }
 
 		[Required(ErrorMessage = "Vui lòng chọn ngành học.")]
-		public int idNganhHoc { get; set; } 
+        [ForeignKey("NganhHocs")]
+        public int idNganhHoc { get; set; } 
 		public NganhHoc? NganhHocs { get; set; }
 	}
 }

@@ -47,7 +47,7 @@ namespace OnlineSchool_Project.Controllers
                 var nganhHoc = _context.NganhHocs.Find(giangVien.idNganhHoc);
 
                 // Gán giá trị cho thuộc tính NganhHocs
-                giangVien.NganhHocs = nganhHoc;
+                //giangVien.NganhHocs = nganhHoc;
                 _context.GiangViens.Add(giangVien);
                 _context.SaveChanges();
                 return RedirectToAction(nameof(Index));

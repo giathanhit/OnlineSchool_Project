@@ -1,11 +1,16 @@
-﻿namespace OnlineSchool_Project.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace OnlineSchool_Project.Models
 {
 	public class DangKyKhoaHoc
-	{
-		public int idGiangVien { get; set; }
-		public GiangVien GiangViens { get; set; }
-		public int idKhoaHoc { get; set; }
-		public KhoaHoc KhoaHocs { get; set; }
+    {
+        [ForeignKey("GiangViens")]
+        public int idGiangVien { get; set; }
+		public GiangVien? GiangViens { get; set; }
+
+        [ForeignKey("KhoaHocs")]
+        public int idKhoaHoc { get; set; }
+		public KhoaHoc? KhoaHocs { get; set; }
 		public DateTime NgayHoc { get; set; }
 		public DateTime NgayKetThuc { get; set; }
 		public float? GiaKhoaHoc { get; set; }

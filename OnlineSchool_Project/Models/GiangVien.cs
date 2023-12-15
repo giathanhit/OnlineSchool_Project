@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OnlineSchool_Project.Models
 {
@@ -15,6 +16,7 @@ namespace OnlineSchool_Project.Models
         public DateTime NgaySinh { get; set; }
 
         [Required(ErrorMessage = "Vui lòng chọn ngành học.")]
+        [ForeignKey("NganhHocs")]
         public int idNganhHoc { get; set; }
 		public NganhHoc? NganhHocs { get; set; }
 
