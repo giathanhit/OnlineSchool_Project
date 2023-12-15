@@ -96,6 +96,7 @@ namespace OnlineSchool_Project.Migrations
                     UrlImage = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     NgaySinh = table.Column<DateTime>(type: "datetime(6)", nullable: false),
+                    idNganhHoc = table.Column<int>(type: "int", nullable: false),
                     NganhHocsId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -124,6 +125,7 @@ namespace OnlineSchool_Project.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     UrlImage = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
+                    idNganhHoc = table.Column<int>(type: "int", nullable: false),
                     NganhHocsId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -148,6 +150,7 @@ namespace OnlineSchool_Project.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     MoTa = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
+                    idKhoaHoc = table.Column<int>(type: "int", nullable: false),
                     KhoaHocsId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -166,8 +169,10 @@ namespace OnlineSchool_Project.Migrations
                 name: "DangKyKhoaHocs",
                 columns: table => new
                 {
-                    GiangVienId = table.Column<int>(type: "int", nullable: false),
-                    KhoaHocId = table.Column<int>(type: "int", nullable: false),
+                    idGiangVien = table.Column<int>(type: "int", nullable: false),
+                    GiangViensId = table.Column<int>(type: "int", nullable: false),
+                    idKhoaHoc = table.Column<int>(type: "int", nullable: false),
+                    KhoaHocsId = table.Column<int>(type: "int", nullable: false),
                     NgayHoc = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     NgayKetThuc = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     GiaKhoaHoc = table.Column<float>(type: "float", nullable: true),
@@ -176,14 +181,14 @@ namespace OnlineSchool_Project.Migrations
                 constraints: table =>
                 {
                     table.ForeignKey(
-                        name: "FK_DangKyKhoaHocs_GiangViens_GiangVienId",
-                        column: x => x.GiangVienId,
+                        name: "FK_DangKyKhoaHocs_GiangViens_GiangViensId",
+                        column: x => x.GiangViensId,
                         principalTable: "GiangViens",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_DangKyKhoaHocs_KhoaHocs_KhoaHocId",
-                        column: x => x.KhoaHocId,
+                        name: "FK_DangKyKhoaHocs_KhoaHocs_KhoaHocsId",
+                        column: x => x.KhoaHocsId,
                         principalTable: "KhoaHocs",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -199,7 +204,9 @@ namespace OnlineSchool_Project.Migrations
                     ChiTietDanhGia = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     DiemDanhGia = table.Column<int>(type: "int", nullable: false),
+                    idHocVien = table.Column<int>(type: "int", nullable: false),
                     HocViensId = table.Column<int>(type: "int", nullable: false),
+                    idKhoaHoc = table.Column<int>(type: "int", nullable: false),
                     KhoaHocsId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -224,21 +231,23 @@ namespace OnlineSchool_Project.Migrations
                 name: "ThamGiaKhoaHocs",
                 columns: table => new
                 {
-                    KhoaHocId = table.Column<int>(type: "int", nullable: false),
-                    HocVienId = table.Column<int>(type: "int", nullable: false),
+                    idKhoaHoc = table.Column<int>(type: "int", nullable: false),
+                    KhoaHocsId = table.Column<int>(type: "int", nullable: false),
+                    idHocVien = table.Column<int>(type: "int", nullable: false),
+                    HocViensId = table.Column<int>(type: "int", nullable: false),
                     NgayDangKy = table.Column<DateTime>(type: "datetime(6)", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.ForeignKey(
-                        name: "FK_ThamGiaKhoaHocs_HocViens_HocVienId",
-                        column: x => x.HocVienId,
+                        name: "FK_ThamGiaKhoaHocs_HocViens_HocViensId",
+                        column: x => x.HocViensId,
                         principalTable: "HocViens",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_ThamGiaKhoaHocs_KhoaHocs_KhoaHocId",
-                        column: x => x.KhoaHocId,
+                        name: "FK_ThamGiaKhoaHocs_KhoaHocs_KhoaHocsId",
+                        column: x => x.KhoaHocsId,
                         principalTable: "KhoaHocs",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -259,7 +268,9 @@ namespace OnlineSchool_Project.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     UrlBaiTap = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
+                    idChuongHoc = table.Column<int>(type: "int", nullable: false),
                     ChuongHocsId = table.Column<int>(type: "int", nullable: false),
+                    idKhoaHoc = table.Column<int>(type: "int", nullable: false),
                     KhoaHocsId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -296,14 +307,14 @@ namespace OnlineSchool_Project.Migrations
                 column: "KhoaHocsId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_DangKyKhoaHocs_GiangVienId",
+                name: "IX_DangKyKhoaHocs_GiangViensId",
                 table: "DangKyKhoaHocs",
-                column: "GiangVienId");
+                column: "GiangViensId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_DangKyKhoaHocs_KhoaHocId",
+                name: "IX_DangKyKhoaHocs_KhoaHocsId",
                 table: "DangKyKhoaHocs",
-                column: "KhoaHocId");
+                column: "KhoaHocsId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_DanhGiaMonHocs_HocViensId",
@@ -326,14 +337,14 @@ namespace OnlineSchool_Project.Migrations
                 column: "NganhHocsId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ThamGiaKhoaHocs_HocVienId",
+                name: "IX_ThamGiaKhoaHocs_HocViensId",
                 table: "ThamGiaKhoaHocs",
-                column: "HocVienId");
+                column: "HocViensId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ThamGiaKhoaHocs_KhoaHocId",
+                name: "IX_ThamGiaKhoaHocs_KhoaHocsId",
                 table: "ThamGiaKhoaHocs",
-                column: "KhoaHocId");
+                column: "KhoaHocsId");
         }
 
         /// <inheritdoc />

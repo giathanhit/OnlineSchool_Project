@@ -24,10 +24,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5HaWFuZ1ZpZW5cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SOURCECODE/OnlineSchool_Project/OnlineSchool_Project/Views/AdminGiangVien/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5HaWFuZ1ZpZW5cRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/SOURCECODE/OnlineSchool_Project/OnlineSchool_Project/Views/AdminGiangVien/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5HaWFuZ1ZpZW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,10 +40,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ib2NWaWVuXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SOURCECODE/OnlineSchool_Project/OnlineSchool_Project/Views/AdminHocVien/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ib2NWaWVuXERldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/SOURCECODE/OnlineSchool_Project/OnlineSchool_Project/Views/AdminHocVien/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ib2NWaWVuXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,8 +52,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5LaG9hSG9jXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/SOURCECODE/OnlineSchool_Project/OnlineSchool_Project/Views/AdminKhoaHoc/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5LaG9hSG9jXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SOURCECODE/OnlineSchool_Project/OnlineSchool_Project/Views/AdminKhoaHoc/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5LaG9hSG9jXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/SOURCECODE/OnlineSchool_Project/OnlineSchool_Project/Views/AdminKhoaHoc/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5LaG9hSG9jXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SOURCECODE/OnlineSchool_Project/OnlineSchool_Project/Views/AdminNganhHoc/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5OZ2FuaEhvY1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SOURCECODE/OnlineSchool_Project/OnlineSchool_Project/Views/AdminNganhHoc/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5OZ2FuaEhvY1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SOURCECODE/OnlineSchool_Project/OnlineSchool_Project/Views/AdminNganhHoc/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5OZ2FuaEhvY1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SOURCECODE/OnlineSchool_Project/OnlineSchool_Project/Views/AdminNganhHoc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5OZ2FuaEhvY1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/SOURCECODE/OnlineSchool_Project/OnlineSchool_Project/Views/AdminTaiKhoan/Create.cshtml]
@@ -70,10 +86,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/SOURCECODE/OnlineSchool_Project/OnlineSchool_Project/Views/AdminTaiKhoan/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5UYWlLaG9hblxEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/SOURCECODE/OnlineSchool_Project/OnlineSchool_Project/Views/AdminTaiKhoan/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5UYWlLaG9hblxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/SOURCECODE/OnlineSchool_Project/OnlineSchool_Project/Views/AdminTaiKhoan/Edit.cshtml]

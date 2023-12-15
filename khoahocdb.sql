@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Dec 15, 2023 at 09:54 AM
+-- Generation Time: Dec 15, 2023 at 12:41 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -33,7 +33,9 @@ CREATE TABLE `baihocs` (
   `MoTa` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
   `UrlVideo` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
   `UrlBaiTap` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `idChuongHoc` int NOT NULL,
   `ChuongHocsId` int NOT NULL,
+  `idKhoaHoc` int NOT NULL,
   `KhoaHocsId` int NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
@@ -47,6 +49,7 @@ CREATE TABLE `chuonghocs` (
   `Id` int NOT NULL,
   `TenChuongHoc` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
   `MoTa` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `idKhoaHoc` int NOT NULL,
   `KhoaHocsId` int NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
@@ -57,8 +60,10 @@ CREATE TABLE `chuonghocs` (
 --
 
 CREATE TABLE `dangkykhoahocs` (
-  `GiangVienId` int NOT NULL,
-  `KhoaHocId` int NOT NULL,
+  `idGiangVien` int NOT NULL,
+  `GiangViensId` int NOT NULL,
+  `idKhoaHoc` int NOT NULL,
+  `KhoaHocsId` int NOT NULL,
   `NgayHoc` datetime(6) NOT NULL,
   `NgayKetThuc` datetime(6) NOT NULL,
   `GiaKhoaHoc` float DEFAULT NULL,
@@ -75,7 +80,9 @@ CREATE TABLE `danhgiamonhocs` (
   `Id` int NOT NULL,
   `ChiTietDanhGia` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
   `DiemDanhGia` int NOT NULL,
+  `idHocVien` int NOT NULL,
   `HocViensId` int NOT NULL,
+  `idKhoaHoc` int NOT NULL,
   `KhoaHocsId` int NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
@@ -95,8 +102,16 @@ CREATE TABLE `giangviens` (
   `GioiTinh` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
   `UrlImage` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
   `NgaySinh` datetime(6) NOT NULL,
+  `idNganhHoc` int NOT NULL,
   `NganhHocsId` int NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Dumping data for table `giangviens`
+--
+
+INSERT INTO `giangviens` (`Id`, `HoTen`, `Email`, `Sdt`, `BangCap`, `DiaChi`, `GioiTinh`, `UrlImage`, `NgaySinh`, `idNganhHoc`, `NganhHocsId`) VALUES
+(1, 'Jiaqing', 'giathanh@abp.io', '0213654798', 'Kỹ sư CNTT', 'TP. Long Xuyên, An Giang', 'Nam', NULL, '2000-12-25 00:00:00.000000', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -116,6 +131,13 @@ CREATE TABLE `hocviens` (
   `UrlImage` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
+--
+-- Dumping data for table `hocviens`
+--
+
+INSERT INTO `hocviens` (`Id`, `HoTen`, `Email`, `Sdt`, `BangCap`, `DiaChi`, `GioiTinh`, `NgaySinh`, `UrlImage`) VALUES
+(1, 'GT', 'gthanh@abp.io', '0123657894', 'Kỹ sư CNTT', 'TP. Long Xuyên, An Giang', 'Nam', '2000-12-25 00:00:00.000000', NULL);
+
 -- --------------------------------------------------------
 
 --
@@ -128,8 +150,18 @@ CREATE TABLE `khoahocs` (
   `MoTa` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `HinhThuc` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `UrlImage` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `idNganhHoc` int NOT NULL,
   `NganhHocsId` int NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Dumping data for table `khoahocs`
+--
+
+INSERT INTO `khoahocs` (`Id`, `TenKhoaHoc`, `MoTa`, `HinhThuc`, `UrlImage`, `idNganhHoc`, `NganhHocsId`) VALUES
+(1, 'Lập trình C#', 'Lập trình C# cơ bản', 'Online', 'https://www.jimdo.com/blog/wp-content/uploads/2015/06/coffee-vs-tea-infographic.png', 1, 1),
+(2, 'Tiếng anh 1', 'Tiếng anh cơ bản', 'Trực tuyến', NULL, 2, 2),
+(3, 'Lập trình Java', 'Khóa học dạy lập trình cơ bản với ngôn ngữ Java', 'Online', NULL, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -141,6 +173,15 @@ CREATE TABLE `nganhhocs` (
   `Id` int NOT NULL,
   `TenNganh` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Dumping data for table `nganhhocs`
+--
+
+INSERT INTO `nganhhocs` (`Id`, `TenNganh`) VALUES
+(1, 'Công nghệ thông tin'),
+(2, 'Ngôn ngữ anh'),
+(3, 'Thiết kế đồ họa');
 
 -- --------------------------------------------------------
 
@@ -161,8 +202,10 @@ CREATE TABLE `taikhoans` (
 --
 
 CREATE TABLE `thamgiakhoahocs` (
-  `KhoaHocId` int NOT NULL,
-  `HocVienId` int NOT NULL,
+  `idKhoaHoc` int NOT NULL,
+  `KhoaHocsId` int NOT NULL,
+  `idHocVien` int NOT NULL,
+  `HocViensId` int NOT NULL,
   `NgayDangKy` datetime(6) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
@@ -182,7 +225,7 @@ CREATE TABLE `__efmigrationshistory` (
 --
 
 INSERT INTO `__efmigrationshistory` (`MigrationId`, `ProductVersion`) VALUES
-('20231215094749_add-db', '7.0.9');
+('20231215111320_add-db', '7.0.9');
 
 --
 -- Indexes for dumped tables
@@ -207,8 +250,8 @@ ALTER TABLE `chuonghocs`
 -- Indexes for table `dangkykhoahocs`
 --
 ALTER TABLE `dangkykhoahocs`
-  ADD KEY `IX_DangKyKhoaHocs_GiangVienId` (`GiangVienId`),
-  ADD KEY `IX_DangKyKhoaHocs_KhoaHocId` (`KhoaHocId`);
+  ADD KEY `IX_DangKyKhoaHocs_GiangViensId` (`GiangViensId`),
+  ADD KEY `IX_DangKyKhoaHocs_KhoaHocsId` (`KhoaHocsId`);
 
 --
 -- Indexes for table `danhgiamonhocs`
@@ -254,8 +297,8 @@ ALTER TABLE `taikhoans`
 -- Indexes for table `thamgiakhoahocs`
 --
 ALTER TABLE `thamgiakhoahocs`
-  ADD KEY `IX_ThamGiaKhoaHocs_HocVienId` (`HocVienId`),
-  ADD KEY `IX_ThamGiaKhoaHocs_KhoaHocId` (`KhoaHocId`);
+  ADD KEY `IX_ThamGiaKhoaHocs_HocViensId` (`HocViensId`),
+  ADD KEY `IX_ThamGiaKhoaHocs_KhoaHocsId` (`KhoaHocsId`);
 
 --
 -- Indexes for table `__efmigrationshistory`
@@ -289,25 +332,25 @@ ALTER TABLE `danhgiamonhocs`
 -- AUTO_INCREMENT for table `giangviens`
 --
 ALTER TABLE `giangviens`
-  MODIFY `Id` int NOT NULL AUTO_INCREMENT;
+  MODIFY `Id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `hocviens`
 --
 ALTER TABLE `hocviens`
-  MODIFY `Id` int NOT NULL AUTO_INCREMENT;
+  MODIFY `Id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `khoahocs`
 --
 ALTER TABLE `khoahocs`
-  MODIFY `Id` int NOT NULL AUTO_INCREMENT;
+  MODIFY `Id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `nganhhocs`
 --
 ALTER TABLE `nganhhocs`
-  MODIFY `Id` int NOT NULL AUTO_INCREMENT;
+  MODIFY `Id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- Constraints for dumped tables
@@ -330,8 +373,8 @@ ALTER TABLE `chuonghocs`
 -- Constraints for table `dangkykhoahocs`
 --
 ALTER TABLE `dangkykhoahocs`
-  ADD CONSTRAINT `FK_DangKyKhoaHocs_GiangViens_GiangVienId` FOREIGN KEY (`GiangVienId`) REFERENCES `giangviens` (`Id`) ON DELETE CASCADE,
-  ADD CONSTRAINT `FK_DangKyKhoaHocs_KhoaHocs_KhoaHocId` FOREIGN KEY (`KhoaHocId`) REFERENCES `khoahocs` (`Id`) ON DELETE CASCADE;
+  ADD CONSTRAINT `FK_DangKyKhoaHocs_GiangViens_GiangViensId` FOREIGN KEY (`GiangViensId`) REFERENCES `giangviens` (`Id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `FK_DangKyKhoaHocs_KhoaHocs_KhoaHocsId` FOREIGN KEY (`KhoaHocsId`) REFERENCES `khoahocs` (`Id`) ON DELETE CASCADE;
 
 --
 -- Constraints for table `danhgiamonhocs`
@@ -356,8 +399,8 @@ ALTER TABLE `khoahocs`
 -- Constraints for table `thamgiakhoahocs`
 --
 ALTER TABLE `thamgiakhoahocs`
-  ADD CONSTRAINT `FK_ThamGiaKhoaHocs_HocViens_HocVienId` FOREIGN KEY (`HocVienId`) REFERENCES `hocviens` (`Id`) ON DELETE CASCADE,
-  ADD CONSTRAINT `FK_ThamGiaKhoaHocs_KhoaHocs_KhoaHocId` FOREIGN KEY (`KhoaHocId`) REFERENCES `khoahocs` (`Id`) ON DELETE CASCADE;
+  ADD CONSTRAINT `FK_ThamGiaKhoaHocs_HocViens_HocViensId` FOREIGN KEY (`HocViensId`) REFERENCES `hocviens` (`Id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `FK_ThamGiaKhoaHocs_KhoaHocs_KhoaHocsId` FOREIGN KEY (`KhoaHocsId`) REFERENCES `khoahocs` (`Id`) ON DELETE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

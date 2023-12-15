@@ -12,15 +12,13 @@ namespace OnlineSchool_Project.Controllers
         {
             _context = context;
         }
-
-        // GET: /TaiKhoan
+         
         public IActionResult Index()
         {
             var giangViens = _context.TaiKhoans.ToList();
             return View(giangViens);
         }
-
-        // GET: /TaiKhoan/Details
+         
         public IActionResult Details(string id)
         {
             var giangVien = _context.TaiKhoans.FirstOrDefault(g => g.TenDangNhap == id);
@@ -30,14 +28,12 @@ namespace OnlineSchool_Project.Controllers
             }
             return View(giangVien);
         }
-
-        // GET: /TaiKhoan/Create
+         
         public IActionResult Create()
         {
             return View();
         }
-
-        // POST: /TaiKhoan/Create
+         
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(TaiKhoan giangVien)
@@ -49,9 +45,8 @@ namespace OnlineSchool_Project.Controllers
                 return RedirectToAction(nameof(Index));
             }
             return View(giangVien);
-        }
+        } 
 
-		// GET: /TaiKhoan/Edit/id
 		public IActionResult Edit(string id)
         {
             var giangVien = _context.TaiKhoans.FirstOrDefault(g => g.TenDangNhap == id);
@@ -61,8 +56,7 @@ namespace OnlineSchool_Project.Controllers
             }
             return View(giangVien);
         }
-
-		// POST: /TaiKhoan/Edit/id
+         
 		[HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(string id, TaiKhoan giangVien)
@@ -80,8 +74,7 @@ namespace OnlineSchool_Project.Controllers
             }
             return View(giangVien);
         }
-
-		// GET: /TaiKhoan/Delete/id
+         
 		public IActionResult Delete(string id)
         {
             var giangVien = _context.TaiKhoans.FirstOrDefault(g => g.TenDangNhap == id);
@@ -91,8 +84,7 @@ namespace OnlineSchool_Project.Controllers
             }
             return View(giangVien);
         }
-
-		// POST: /TaiKhoan/Delete/id
+         
 		[HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(string id)

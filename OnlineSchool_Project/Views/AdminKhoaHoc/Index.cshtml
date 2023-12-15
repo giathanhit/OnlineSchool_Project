@@ -15,6 +15,7 @@
         <table class="table">
             <thead>
                 <tr>
+                    <th>ID</th> 
                     <th>Tên</th> 
                     <th>Mô tả</th>
                     <th>Hình thức</th>
@@ -24,9 +25,21 @@
                 @foreach (var khoaHoc in Model)
                 {
                     <tr>
+                        <td>@khoaHoc.Id</td> 
                         <td>@khoaHoc.TenKhoaHoc</td> 
-                        <td>@khoaHoc.MoTa</td> 
-                        <td>@khoaHoc.HinhThuc</td> 
+                        <td>@khoaHoc.MoTa</td>
+                        <td>@khoaHoc.HinhThuc</td>
+                        <td>
+                            <div class="dropdown">
+                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                    <i class="bx bx-dots-vertical-rounded"></i>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="/AdminKhoaHoc/Edit/@khoaHoc.Id"><i class="bx bx-edit-alt me-1"></i> Chỉnh sửa</a>
+                                    <a class="dropdown-item" href="/AdminKhoaHoc/Delete/@khoaHoc.Id"><i class="bx bx-trash me-1"></i> Xóa</a>
+                                </div>
+                            </div>
+                        </td>
                     </tr>
                 }
             </tbody>

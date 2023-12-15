@@ -1,0 +1,51 @@
+﻿@model OnlineSchool_Project.Models.NganhHoc
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Ngành học/</span> Chỉnh sửa</h4>
+
+<!-- Basic Layout & Basic with Icons -->
+<div class="row">
+    <!-- Basic Layout -->
+    <div class="col-xxl">
+        <div class="card mb-4">
+            <div class="card-header d-flex align-items-center justify-content-between">
+                <h5 class="mb-0">Ngành học</h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="Edit">
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label" for="basic-default-name">Mã ngành học:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="basic-default-name" readonly placeholder="@Model.Id" value="@Model.Id" />
+                        </div>
+                    </div> 
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label" for="@Model.Id">Tên ngành:</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span id="basic-icon-default-fullname2" class="input-group-text">
+                                    <i class="bx bx-building"></i>
+                                </span>
+                                <input type="text"
+                                       class="form-control"
+                                       id="@Model.Id"
+                                       placeholder="@Model.TenNganh" asp-for="@Model.TenNganh" />
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="row justify-content-end">
+                        <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary">Cập nhật</button>
+                            <a asp-action="Index">Trở về trang trước</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- / Content -->

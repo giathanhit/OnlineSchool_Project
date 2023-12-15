@@ -1,4 +1,6 @@
-﻿namespace OnlineSchool_Project.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace OnlineSchool_Project.Models
 {
     public class GiangVien
     {
@@ -10,8 +12,11 @@
 		public string? DiaChi { get; set; }
         public string? GioiTinh { get; set; }
         public string? UrlImage { get; set; }
-        public DateTime NgaySinh { get; set; }  
-        public NganhHoc NganhHocs { get; set; } = null!;
+        public DateTime NgaySinh { get; set; }
+
+        [Required(ErrorMessage = "Vui lòng chọn ngành học.")]
+        public int idNganhHoc { get; set; }
+		public NganhHoc? NganhHocs { get; set; }
 
     }
 }

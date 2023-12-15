@@ -1,11 +1,11 @@
 ﻿@model OnlineSchool_Project.Models.KhoaHoc
 
 @{
-	ViewData["Title"] = "Create";
+	ViewData["Title"] = "Edit";
 	Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Khóa học/</span> Thêm mới</h4>
+<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Khóa học/</span> Chỉnh sửa</h4>
 
 <!-- Basic Layout & Basic with Icons -->
 <div class="row">
@@ -16,7 +16,13 @@
 				<h5 class="mb-0">Khóa học</h5>
 			</div>
 			<div class="card-body">
-				<form asp-action="Create">
+				<form asp-action="Edit">
+					<div class="row mb-3">
+						<label class="col-sm-2 col-form-label" for="basic-default-name">Mã khóa học:</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="basic-default-name" readonly placeholder="@Model.Id" value="@Model.Id" />
+						</div>
+					</div>
 					<div class="row mb-3">
 						<label class="col-sm-2 col-form-label">Tên khóa học:</label>
 						<div class="col-sm-10">
@@ -27,7 +33,6 @@
 								<input type="text"
 									   class="form-control"
 									   id="basic-default-book"
-									   required
 									   placeholder="Nhập vào tên khóa học.." asp-for="@Model.TenKhoaHoc" />
 							</div>
 						</div>
@@ -45,7 +50,7 @@
 									   placeholder="Nhập vào mô tả.." asp-for="@Model.MoTa" />
 							</div>
 						</div>
-					</div>
+					</div> 
 					<div class="row mb-3">
 						<label class="col-sm-2 col-form-label" for="basic-default-company">Hình thức:</label>
 						<div class="col-sm-10">
@@ -59,21 +64,7 @@
 								</select>
 							</div>
 						</div>
-					</div>
-					<div class="row mb-3">
-						<label class="col-sm-2 col-form-label" for="basic-default-company">URL Hình ảnh:</label>
-						<div class="col-sm-10">
-							<div class="input-group input-group-merge">
-								<span id="basic-icon-default-fullname2" class="input-group-text">
-									<i class='bx bx-image'></i>
-								</span>
-								<input type="text"
-									   class="form-control"
-									   id="basic-default-chat"
-									   placeholder="Nhập vào url hình ảnh.." asp-for="@Model.UrlImage" />
-							</div>
-						</div>
-					</div>
+					</div>   
 					<div class="row mb-3">
 						<label class="col-sm-2 col-form-label" for="basic-default-date">Ngành học:</label>
 						<div class="col-sm-10">

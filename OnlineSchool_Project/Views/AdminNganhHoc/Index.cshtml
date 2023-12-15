@@ -1,37 +1,37 @@
-﻿@model IEnumerable<OnlineSchool_Project.Models.TaiKhoan>
+﻿@model IEnumerable<OnlineSchool_Project.Models.NganhHoc>
 @{
-    ViewData["Title"] = "Quản lý Tài khoản";
+    ViewData["Title"] = "Quản lý Ngành học";
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Tài khoản/</span> Danh sách</h4>
+<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Ngành học/</span> Danh sách</h4>
 
 <!-- Basic Bootstrap Table -->
 <div class="card">
-    <h5 class="card-header">DANH SÁCH TÀI KHOẢN</h5>
+    <h5 class="card-header">DANH SÁCH NGÀNH HỌC</h5>
     <div class="table-responsive text-nowrap" style="min-height: 30rem;">
-        <a class="dropdown-item" href="/AdminTaiKhoan/Create"><i class="bx bx-edit-alt me-1"></i> Thêm mới</a>
+        <a class="dropdown-item" href="/AdminNganhHoc/Create"><i class="bx bx-edit-alt me-1"></i> Thêm mới</a>
         <table class="table">
             <thead>
                 <tr>
-                    <th>Tên đăng nhập</th> 
-                    <th>Loại tài khoản</th> 
+                    <th>Id</th>
+                    <th>Tên ngành học</th> 
                 </tr>
             </thead>
             <tbody class="table-border-bottom-0">
                 @foreach (var item in Model)
                 {
                     <tr>
-                        <td>@item.TenDangNhap</td>  
-                        <td>@item.LoaiTaiKhoan</td> 
+                        <td>@item.Id</td>
+                        <td>@item.TenNganh</td>  
                         <td>
                             <div class="dropdown">
                                 <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                     <i class="bx bx-dots-vertical-rounded"></i>
                                 </button>
                                 <div class="dropdown-menu"> 
-                                    <a class="dropdown-item" href="/AdminTaiKhoan/Edit/@item.TenDangNhap"><i class="bx bx-edit-alt me-1"></i> Chỉnh sửa</a>
-                                    <a class="dropdown-item" href="/AdminTaiKhoan/Delete/@item.TenDangNhap"><i class="bx bx-trash me-1"></i> Xóa</a>
+                                    <a class="dropdown-item" href="/AdminNganhHoc/Edit/@item.Id"><i class="bx bx-edit-alt me-1"></i> Chỉnh sửa</a>
+                                    <a class="dropdown-item" href="/AdminNganhHoc/Delete/@item.Id"><i class="bx bx-trash me-1"></i> Xóa</a>
                                 </div>
                             </div>
                         </td>

@@ -1,0 +1,19 @@
+﻿@model OnlineSchool_Project.Models.KhoaHoc
+@{
+    ViewData["Title"] = "Quản lý Khóa học";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+  
+<h3>Có chắc muốn xóa?</h3>
+<div>
+    <h4>Id: @Model.Id</h4>
+    <h4>Tên khóa học: @Model.TenKhoaHoc</h4> 
+    <h4>Tên khóa học: @Model.MoTa</h4> 
+    <h4>Tên khóa học: @Model.HinhThuc</h4> 
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-action="Index">Trở lại trang trước</a>
+</form>

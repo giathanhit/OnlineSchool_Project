@@ -1,0 +1,45 @@
+﻿@model OnlineSchool_Project.Models.NganhHoc
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Ngành học/</span> Thêm mới</h4>
+
+<!-- Basic Layout & Basic with Icons -->
+<div class="row">
+    <!-- Basic Layout -->
+    <div class="col-xxl">
+        <div class="card mb-4">
+            <div class="card-header d-flex align-items-center justify-content-between">
+                <h5 class="mb-0">Ngành học</h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="Create">
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label">Tên ngành học:</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span id="basic-icon-default-fullname2" class="input-group-text">
+                                    <i class="bx bx-building"></i>
+                                </span>
+                                <input type="text"
+                                       class="form-control"
+                                       id="basic-default-building"
+                                       placeholder="Nhập vào tên ngành học.." asp-for="@Model.TenNganh" />
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="row justify-content-end">
+                        <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary">Lưu</button>
+                            <a asp-action="Index">Trở về trang trước</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- / Content -->

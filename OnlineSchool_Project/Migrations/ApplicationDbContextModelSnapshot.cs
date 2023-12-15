@@ -235,6 +235,12 @@ namespace OnlineSchool_Project.Migrations
                     b.Property<string>("UrlVideo")
                         .HasColumnType("longtext");
 
+                    b.Property<int>("idChuongHoc")
+                        .HasColumnType("int");
+
+                    b.Property<int>("idKhoaHoc")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("ChuongHocsId");
@@ -259,6 +265,9 @@ namespace OnlineSchool_Project.Migrations
                     b.Property<string>("TenChuongHoc")
                         .HasColumnType("longtext");
 
+                    b.Property<int>("idKhoaHoc")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("KhoaHocsId");
@@ -271,10 +280,10 @@ namespace OnlineSchool_Project.Migrations
                     b.Property<float?>("GiaKhoaHoc")
                         .HasColumnType("float");
 
-                    b.Property<int>("GiangVienId")
+                    b.Property<int>("GiangViensId")
                         .HasColumnType("int");
 
-                    b.Property<int>("KhoaHocId")
+                    b.Property<int>("KhoaHocsId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("NgayHoc")
@@ -286,9 +295,15 @@ namespace OnlineSchool_Project.Migrations
                     b.Property<int?>("SoLuongKhoaHoc")
                         .HasColumnType("int");
 
-                    b.HasIndex("GiangVienId");
+                    b.Property<int>("idGiangVien")
+                        .HasColumnType("int");
 
-                    b.HasIndex("KhoaHocId");
+                    b.Property<int>("idKhoaHoc")
+                        .HasColumnType("int");
+
+                    b.HasIndex("GiangViensId");
+
+                    b.HasIndex("KhoaHocsId");
 
                     b.ToTable("DangKyKhoaHocs");
                 });
@@ -309,6 +324,12 @@ namespace OnlineSchool_Project.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("KhoaHocsId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("idHocVien")
+                        .HasColumnType("int");
+
+                    b.Property<int>("idKhoaHoc")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -355,6 +376,9 @@ namespace OnlineSchool_Project.Migrations
 
                     b.Property<string>("UrlImage")
                         .HasColumnType("longtext");
+
+                    b.Property<int>("idNganhHoc")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -425,6 +449,9 @@ namespace OnlineSchool_Project.Migrations
                     b.Property<string>("UrlImage")
                         .HasColumnType("longtext");
 
+                    b.Property<int>("idNganhHoc")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("NganhHocsId");
@@ -466,18 +493,24 @@ namespace OnlineSchool_Project.Migrations
 
             modelBuilder.Entity("OnlineSchool_Project.Models.ThamGiaKhoaHoc", b =>
                 {
-                    b.Property<int>("HocVienId")
+                    b.Property<int>("HocViensId")
                         .HasColumnType("int");
 
-                    b.Property<int>("KhoaHocId")
+                    b.Property<int>("KhoaHocsId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("NgayDangKy")
                         .HasColumnType("datetime(6)");
 
-                    b.HasIndex("HocVienId");
+                    b.Property<int>("idHocVien")
+                        .HasColumnType("int");
 
-                    b.HasIndex("KhoaHocId");
+                    b.Property<int>("idKhoaHoc")
+                        .HasColumnType("int");
+
+                    b.HasIndex("HocViensId");
+
+                    b.HasIndex("KhoaHocsId");
 
                     b.ToTable("ThamGiaKhoaHocs");
                 });
@@ -567,13 +600,13 @@ namespace OnlineSchool_Project.Migrations
                 {
                     b.HasOne("OnlineSchool_Project.Models.GiangVien", "GiangViens")
                         .WithMany()
-                        .HasForeignKey("GiangVienId")
+                        .HasForeignKey("GiangViensId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("OnlineSchool_Project.Models.KhoaHoc", "KhoaHocs")
                         .WithMany()
-                        .HasForeignKey("KhoaHocId")
+                        .HasForeignKey("KhoaHocsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -627,13 +660,13 @@ namespace OnlineSchool_Project.Migrations
                 {
                     b.HasOne("OnlineSchool_Project.Models.HocVien", "HocViens")
                         .WithMany()
-                        .HasForeignKey("HocVienId")
+                        .HasForeignKey("HocViensId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("OnlineSchool_Project.Models.KhoaHoc", "KhoaHocs")
                         .WithMany()
-                        .HasForeignKey("KhoaHocId")
+                        .HasForeignKey("KhoaHocsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

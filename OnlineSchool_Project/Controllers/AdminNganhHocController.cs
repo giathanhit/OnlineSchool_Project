@@ -1,102 +1,106 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using OnlineSchool_Project.Data;
 using OnlineSchool_Project.Models;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace OnlineSchool_Project.Controllers
 { 
-    public class AdminHocVienController : Controller
+    public class AdminNganhHocController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public AdminHocVienController(ApplicationDbContext context)
+        public AdminNganhHocController(ApplicationDbContext context)
         {
             _context = context;
-        }
-         
+        } 
+
+
         public IActionResult Index()
         {
-            var hocViens = _context.HocViens.ToList();
-            return View(hocViens);
+            var giangViens = _context.NganhHocs.ToList();
+            return View(giangViens);
         }
          
         public IActionResult Details(int id)
         {
-            var hocVien = _context.HocViens.FirstOrDefault(g => g.Id == id);
-            if (hocVien == null)
+            var nganhHoc = _context.NganhHocs.FirstOrDefault(g => g.Id == id);
+            if (nganhHoc == null)
             {
                 return NotFound();
             }
-            return View(hocVien);
+            return View(nganhHoc);
         }
-          
+         
         public IActionResult Create()
-        {
-
-            return View();
+		{
+			ViewBag.NganhHocList = _context.NganhHocs.ToList();
+			return View();
         }
          
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(HocVien hocVien)
-        {
+        public IActionResult Create(NganhHoc nganhHoc)
+        { 
             if (ModelState.IsValid)
             {
-                _context.HocViens.Add(hocVien);
-                _context.SaveChanges();
+                _context.NganhHocs.Add(nganhHoc);
+                _context.SaveChanges(); 
                 return RedirectToAction(nameof(Index));
             }
-            return View(hocVien);
+            ViewBag.NganhHocList = _context.NganhHocs.ToList();
+			return View(nganhHoc);
         }
          
         public IActionResult Edit(int id)
         {
-            var hocVien = _context.HocViens.FirstOrDefault(g => g.Id == id);
-            if (hocVien == null)
+            var nganhHoc = _context.NganhHocs.FirstOrDefault(g => g.Id == id);
+            if (nganhHoc == null)
             {
                 return NotFound();
             }
-            return View(hocVien);
+            return View(nganhHoc);
         }
          
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(int id, HocVien hocVien)
+        public IActionResult Edit(int id, NganhHoc nganhHoc)
         {
-            if (id != hocVien.Id)
+            if (id != nganhHoc.Id)
             {
                 return NotFound();
             }
 
             if (ModelState.IsValid)
             {
-                _context.Update(hocVien);
+                _context.Update(nganhHoc);
                 _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
-            return View(hocVien);
+            return View(nganhHoc);
         }
          
         public IActionResult Delete(int id)
         {
-            var hocVien = _context.HocViens.FirstOrDefault(g => g.Id == id);
-            if (hocVien == null)
+            var nganhHoc = _context.NganhHocs.FirstOrDefault(g => g.Id == id);
+            if (nganhHoc == null)
             {
                 return NotFound();
             }
-            return View(hocVien);
+            return View(nganhHoc);
         }
          
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(int id)
         {
-            var hocVien = _context.HocViens.FirstOrDefault(g => g.Id == id);
-            if (hocVien == null)
+            var nganhHoc = _context.NganhHocs.FirstOrDefault(g => g.Id == id);
+            if (nganhHoc == null)
             {
                 return NotFound();
             }
 
-            _context.HocViens.Remove(hocVien);
+            _context.NganhHocs.Remove(nganhHoc);
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }

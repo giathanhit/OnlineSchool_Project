@@ -128,6 +128,23 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label" for="basic-default-date">Ngành học:</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span id="basic-icon-default-date" class="input-group-text">
+                                    <i class='bx bx-building'></i>
+                                </span>
+                                <select class="form-control" asp-for="@Model.idNganhHoc" required>
+                                    @foreach (var nganhHoc in ViewBag.NganhHocList)
+                                    {
+                                        <option value="@nganhHoc.Id">@nganhHoc.TenNganh</option>
+                                    }
+                                </select>
+                            </div>
+                            @Html.ValidationMessageFor(model => model.idNganhHoc)
+                        </div>
+                    </div>
                     <div class="row justify-content-end">
                         <div class="col-sm-10">
                             <button type="submit" class="btn btn-primary">Cập nhật</button>

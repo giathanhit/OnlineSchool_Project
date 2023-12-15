@@ -2,9 +2,9 @@
 {
 	public class DangKyKhoaHoc
 	{
-		public int GiangVienId { get; set; }
+		public int idGiangVien { get; set; }
 		public GiangVien GiangViens { get; set; }
-		public int KhoaHocId { get; set; }
+		public int idKhoaHoc { get; set; }
 		public KhoaHoc KhoaHocs { get; set; }
 		public DateTime NgayHoc { get; set; }
 		public DateTime NgayKetThuc { get; set; }

@@ -5,7 +5,7 @@ using OnlineSchool_Project.Models;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace OnlineSchool_Project.Controllers
-{ 
+{
     public class AdminKhoaHocController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -32,32 +32,37 @@ namespace OnlineSchool_Project.Controllers
             }
             return View(khoaHoc);
         }
-
-		// GET: /KhoaHoc/Create
         public IActionResult Create()
-		{
-			ViewBag.NganhHocList = _context.NganhHocs.ToList();
-			return View();
+        {
+            ViewBag.NganhHocList = _context.NganhHocs.ToList();
+            return View();
         }
 
-        // POST: /KhoaHoc/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(KhoaHoc khoaHoc)
-        { 
+        {
+            ViewBag.NganhHocList = _context.NganhHocs.ToList();
+
             if (ModelState.IsValid)
             {
+                // Tìm NganhHoc tương ứng với idNganhHoc
+                var nganhHoc = _context.NganhHocs.Find(khoaHoc.idNganhHoc);
+
+                // Gán giá trị cho thuộc tính NganhHocs
+                khoaHoc.NganhHocs = nganhHoc;
                 _context.KhoaHocs.Add(khoaHoc);
-                _context.SaveChanges(); 
+                _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
-            ViewBag.NganhHocList = _context.NganhHocs.ToList();
-			return View(khoaHoc);
+
+            return View(khoaHoc);
         }
 
-        // GET: /KhoaHoc/Edit/id
         public IActionResult Edit(int id)
         {
+            ViewBag.NganhHocList = _context.NganhHocs.ToList();
+
             var khoaHoc = _context.KhoaHocs.FirstOrDefault(g => g.Id == id);
             if (khoaHoc == null)
             {
@@ -66,11 +71,12 @@ namespace OnlineSchool_Project.Controllers
             return View(khoaHoc);
         }
 
-        // POST: /KhoaHoc/Edit/id
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(int id, KhoaHoc khoaHoc)
         {
+            ViewBag.NganhHocList = _context.NganhHocs.ToList();
+
             if (id != khoaHoc.Id)
             {
                 return NotFound();
@@ -85,7 +91,6 @@ namespace OnlineSchool_Project.Controllers
             return View(khoaHoc);
         }
 
-        // GET: /KhoaHoc/Delete/id
         public IActionResult Delete(int id)
         {
             var khoaHoc = _context.KhoaHocs.FirstOrDefault(g => g.Id == id);
@@ -96,7 +101,6 @@ namespace OnlineSchool_Project.Controllers
             return View(khoaHoc);
         }
 
-        // POST: /KhoaHoc/Delete/id
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(int id)
