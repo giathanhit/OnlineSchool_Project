@@ -16,9 +16,7 @@ namespace OnlineSchool_Project.Models
 
 		public string? UrlImage { get; set; }
 
-		[Required(ErrorMessage = "Vui lòng chọn ngành học.")]
-        [ForeignKey("NganhHocs")]
-        public int idNganhHoc { get; set; } 
-		public NganhHoc? NganhHocs { get; set; }
+		[Required(ErrorMessage = "Vui lòng chọn ngành học.")] 
+        public int idNganhHoc { get; set; }  
 	}
 }

@@ -3,7 +3,7 @@
 @{
     ViewData["Title"] = "Create";
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
-}
+} 
 
 <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Giảng viên/</span> Thêm mới</h4>
 
@@ -121,6 +121,14 @@
                                               asp-for="@Model.NgaySinh"
                                               aria-describedby="basic-default-date"
                                               value="1990-01-01" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label" for="basic-default-date">Avartar:</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge"> 
+                                <input type="file" value="Upload"/>
                             </div>
                         </div>
                     </div>
