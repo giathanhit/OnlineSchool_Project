@@ -482,5 +482,4 @@ C:\SOURCECODE\OnlineSchool_Project\OnlineSchool_Project\obj\Debug\net7.0\refint\
 C:\SOURCECODE\OnlineSchool_Project\OnlineSchool_Project\obj\Debug\net7.0\OnlineSchool_Project.pdb
 C:\SOURCECODE\OnlineSchool_Project\OnlineSchool_Project\obj\Debug\net7.0\OnlineSchool_Project.genruntimeconfig.cache
 C:\SOURCECODE\OnlineSchool_Project\OnlineSchool_Project\obj\Debug\net7.0\ref\OnlineSchool_Project.dll
-C:\SOURCECODE\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\Magick.NET.Core.dll
 C:\SOURCECODE\OnlineSchool_Project\OnlineSchool_Project\obj\Debug\net7.0\OnlineSchool_Project.sourcelink.json

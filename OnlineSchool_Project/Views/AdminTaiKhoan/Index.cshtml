@@ -14,16 +14,14 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th>Tên đăng nhập</th> 
-                    <th>Loại tài khoản</th> 
+                    <th>Tên đăng nhập</th>  
                 </tr>
             </thead>
             <tbody class="table-border-bottom-0">
                 @foreach (var item in Model)
                 {
                     <tr>
-                        <td>@item.TenDangNhap</td>  
-                        <td>@item.LoaiTaiKhoan</td> 
+                        <td>@item.TenDangNhap</td>   
                         <td>
                             <div class="dropdown">
                                 <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">

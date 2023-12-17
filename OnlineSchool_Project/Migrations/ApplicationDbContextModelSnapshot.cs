@@ -237,10 +237,6 @@ namespace OnlineSchool_Project.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("idChuongHoc");
-
-                    b.HasIndex("idKhoaHoc");
-
                     b.ToTable("BaiHocs");
                 });
 
@@ -261,8 +257,6 @@ namespace OnlineSchool_Project.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("idKhoaHoc");
-
                     b.ToTable("ChuongHocs");
                 });
 
@@ -270,6 +264,9 @@ namespace OnlineSchool_Project.Migrations
                 {
                     b.Property<float?>("GiaKhoaHoc")
                         .HasColumnType("float");
+
+                    b.Property<int?>("KhoaHocsId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("NgayHoc")
                         .HasColumnType("datetime(6)");
@@ -286,9 +283,7 @@ namespace OnlineSchool_Project.Migrations
                     b.Property<int>("idKhoaHoc")
                         .HasColumnType("int");
 
-                    b.HasIndex("idGiangVien");
-
-                    b.HasIndex("idKhoaHoc");
+                    b.HasIndex("KhoaHocsId");
 
                     b.ToTable("DangKyKhoaHocs");
                 });
@@ -313,10 +308,6 @@ namespace OnlineSchool_Project.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("idHocVien");
-
-                    b.HasIndex("idKhoaHoc");
-
                     b.ToTable("DanhGiaMonHocs");
                 });
 
@@ -327,6 +318,10 @@ namespace OnlineSchool_Project.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("BangCap")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("CCCD")
                         .IsRequired()
                         .HasColumnType("longtext");
 
@@ -344,6 +339,10 @@ namespace OnlineSchool_Project.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<string>("MatKhau")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<DateTime>("NgaySinh")
                         .HasColumnType("datetime(6)");
 
@@ -357,8 +356,6 @@ namespace OnlineSchool_Project.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("idNganhHoc");
 
                     b.ToTable("GiangViens");
                 });
@@ -384,6 +381,10 @@ namespace OnlineSchool_Project.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<string>("HoTen")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("MatKhau")
                         .IsRequired()
                         .HasColumnType("longtext");
 
@@ -427,8 +428,6 @@ namespace OnlineSchool_Project.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("idNganhHoc");
-
                     b.ToTable("KhoaHocs");
                 });
 
@@ -451,10 +450,6 @@ namespace OnlineSchool_Project.Migrations
                     b.Property<string>("TenDangNhap")
                         .HasColumnType("varchar(255)");
 
-                    b.Property<string>("LoaiTaiKhoan")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
                     b.Property<string>("MatKhau")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -474,10 +469,6 @@ namespace OnlineSchool_Project.Migrations
 
                     b.Property<int>("idKhoaHoc")
                         .HasColumnType("int");
-
-                    b.HasIndex("idHocVien");
-
-                    b.HasIndex("idKhoaHoc");
 
                     b.ToTable("ThamGiaKhoaHocs");
                 });
@@ -533,111 +524,11 @@ namespace OnlineSchool_Project.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("OnlineSchool_Project.Models.BaiHoc", b =>
-                {
-                    b.HasOne("OnlineSchool_Project.Models.ChuongHoc", "ChuongHocs")
-                        .WithMany()
-                        .HasForeignKey("idChuongHoc")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("OnlineSchool_Project.Models.KhoaHoc", "KhoaHocs")
-                        .WithMany()
-                        .HasForeignKey("idKhoaHoc")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("ChuongHocs");
-
-                    b.Navigation("KhoaHocs");
-                });
-
-            modelBuilder.Entity("OnlineSchool_Project.Models.ChuongHoc", b =>
-                {
-                    b.HasOne("OnlineSchool_Project.Models.KhoaHoc", "KhoaHocs")
-                        .WithMany()
-                        .HasForeignKey("idKhoaHoc")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("KhoaHocs");
-                });
-
             modelBuilder.Entity("OnlineSchool_Project.Models.DangKyKhoaHoc", b =>
                 {
-                    b.HasOne("OnlineSchool_Project.Models.GiangVien", "GiangViens")
-                        .WithMany()
-                        .HasForeignKey("idGiangVien")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("OnlineSchool_Project.Models.KhoaHoc", "KhoaHocs")
                         .WithMany()
-                        .HasForeignKey("idKhoaHoc")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("GiangViens");
-
-                    b.Navigation("KhoaHocs");
-                });
-
-            modelBuilder.Entity("OnlineSchool_Project.Models.DanhGiaKhoaHoc", b =>
-                {
-                    b.HasOne("OnlineSchool_Project.Models.HocVien", "HocViens")
-                        .WithMany()
-                        .HasForeignKey("idHocVien")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("OnlineSchool_Project.Models.KhoaHoc", "KhoaHocs")
-                        .WithMany()
-                        .HasForeignKey("idKhoaHoc")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("HocViens");
-
-                    b.Navigation("KhoaHocs");
-                });
-
-            modelBuilder.Entity("OnlineSchool_Project.Models.GiangVien", b =>
-                {
-                    b.HasOne("OnlineSchool_Project.Models.NganhHoc", "NganhHocs")
-                        .WithMany()
-                        .HasForeignKey("idNganhHoc")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("NganhHocs");
-                });
-
-            modelBuilder.Entity("OnlineSchool_Project.Models.KhoaHoc", b =>
-                {
-                    b.HasOne("OnlineSchool_Project.Models.NganhHoc", "NganhHocs")
-                        .WithMany()
-                        .HasForeignKey("idNganhHoc")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("NganhHocs");
-                });
-
-            modelBuilder.Entity("OnlineSchool_Project.Models.ThamGiaKhoaHoc", b =>
-                {
-                    b.HasOne("OnlineSchool_Project.Models.HocVien", "HocViens")
-                        .WithMany()
-                        .HasForeignKey("idHocVien")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("OnlineSchool_Project.Models.KhoaHoc", "KhoaHocs")
-                        .WithMany()
-                        .HasForeignKey("idKhoaHoc")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("HocViens");
+                        .HasForeignKey("KhoaHocsId");
 
                     b.Navigation("KhoaHocs");
                 });

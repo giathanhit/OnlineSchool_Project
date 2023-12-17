@@ -45,12 +45,7 @@ namespace OnlineSchool_Project.Controllers
             ViewBag.NganhHocList = _context.NganhHocs.ToList();
 
             if (ModelState.IsValid)
-            {
-                // Tìm NganhHoc tương ứng với idNganhHoc
-                var nganhHoc = _context.NganhHocs.Find(khoaHoc.idNganhHoc);
-
-                // Gán giá trị cho thuộc tính NganhHocs
-                khoaHoc.NganhHocs = nganhHoc;
+            { 
                 _context.KhoaHocs.Add(khoaHoc);
                 _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
