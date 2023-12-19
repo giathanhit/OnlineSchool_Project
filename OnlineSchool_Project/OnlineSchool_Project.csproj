@@ -7,6 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\ckfinder\**" />
+    <Compile Remove="wwwroot\files\**" />
+    <Compile Remove="wwwroot\Hinhanh\**" />
+    <Content Remove="wwwroot\ckfinder\**" />
+    <Content Remove="wwwroot\files\**" />
+    <Content Remove="wwwroot\Hinhanh\**" />
+    <EmbeddedResource Remove="wwwroot\ckfinder\**" />
+    <EmbeddedResource Remove="wwwroot\files\**" />
+    <EmbeddedResource Remove="wwwroot\Hinhanh\**" />
+    <None Remove="wwwroot\ckfinder\**" />
+    <None Remove="wwwroot\files\**" />
+    <None Remove="wwwroot\Hinhanh\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\js\ckfinder\bin\Debug\CKFinder.dll" />
     <None Include="wwwroot\js\ckfinder\bin\Debug\CKFinder.pdb" />
     <None Include="wwwroot\js\ckfinder\bin\Release\CKFinder.dll" />
@@ -102,17 +117,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="wwwroot\ckfinder\userfiles\files\" />
-	  <Folder Include="wwwroot\ckfinder\userfiles\flash\" />
-	  <Folder Include="wwwroot\files\" />
-	  <Folder Include="wwwroot\Hinhanh\banner\" />
-	  <Folder Include="wwwroot\Hinhanh\blog-image\" />
-	  <Folder Include="wwwroot\Hinhanh\categories\" />
-	  <Folder Include="wwwroot\Hinhanh\files\" />
-	  <Folder Include="wwwroot\Hinhanh\flash\" />
-	  <Folder Include="wwwroot\Hinhanh\hinhanh\" />
-	  <Folder Include="wwwroot\Hinhanh\KHACHHANG\" />
-	  <Folder Include="wwwroot\Hinhanh\_thumbs\Files\" />
+	  <Folder Include="wwwroot\uploads\" />
 	</ItemGroup>
  
 </Project>

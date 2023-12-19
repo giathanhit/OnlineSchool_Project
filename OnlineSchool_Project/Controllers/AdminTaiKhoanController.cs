@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OnlineSchool_Project.Data;
 using OnlineSchool_Project.Models;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace OnlineSchool_Project.Controllers
 {
@@ -15,87 +17,105 @@ namespace OnlineSchool_Project.Controllers
          
         public IActionResult Index()
         {
-            var giangViens = _context.TaiKhoans.ToList();
-            return View(giangViens);
+            var taiKhoans = _context.TaiKhoans.ToList();
+            return View(taiKhoans);
         }
          
         public IActionResult Details(string id)
         {
-            var giangVien = _context.TaiKhoans.FirstOrDefault(g => g.TenDangNhap == id);
-            if (giangVien == null)
+            var taiKhoans = _context.TaiKhoans.FirstOrDefault(g => g.TenDangNhap == id);
+            if (taiKhoans == null)
             {
                 return NotFound();
             }
-            return View(giangVien);
+            return View(taiKhoans);
         }
-         
-        public IActionResult Create()
+
+		public static string GetMD5(string str)
+		{
+			MD5 md5 = new MD5CryptoServiceProvider();
+			byte[] fromData = Encoding.UTF8.GetBytes(str);
+			byte[] targetData = md5.ComputeHash(fromData);
+			string byte2String = null;
+
+			for (int i = 0; i < targetData.Length; i++)
+			{
+				byte2String += targetData[i].ToString("x2");
+
+			}
+			return byte2String;
+		}
+
+		public IActionResult Create()
         {
             return View();
         }
          
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(TaiKhoan giangVien)
+        public IActionResult Create(TaiKhoan taiKhoans)
         {
             if (ModelState.IsValid)
             {
-                _context.TaiKhoans.Add(giangVien);
+                taiKhoans.ID = Guid.NewGuid(); 
+				taiKhoans.MatKhau = GetMD5(taiKhoans.MatKhau);
+				_context.TaiKhoans.Add(taiKhoans);
                 _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
-            return View(giangVien);
+            return View(taiKhoans);
         } 
 
 		public IActionResult Edit(string id)
         {
-            var giangVien = _context.TaiKhoans.FirstOrDefault(g => g.TenDangNhap == id);
-            if (giangVien == null)
+            var taiKhoans = _context.TaiKhoans.FirstOrDefault(g => g.TenDangNhap == id);
+            if (taiKhoans == null)
             {
                 return NotFound();
             }
-            return View(giangVien);
+            return View(taiKhoans);
         }
          
 		[HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(string id, TaiKhoan giangVien)
+        public IActionResult Edit(string id, TaiKhoan taiKhoans)
         {
-            if (id != giangVien.TenDangNhap)
+            if (id != taiKhoans.TenDangNhap)
             {
                 return NotFound();
             }
 
             if (ModelState.IsValid)
-            {
-                _context.Update(giangVien);
+			{
+				taiKhoans.MatKhau = GetMD5(taiKhoans.MatKhau);
+				_context.Update(taiKhoans);
                 _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
-            return View(giangVien);
+            return View(taiKhoans);
         }
          
 		public IActionResult Delete(string id)
         {
-            var giangVien = _context.TaiKhoans.FirstOrDefault(g => g.TenDangNhap == id);
-            if (giangVien == null)
+            var taiKhoans = _context.TaiKhoans.FirstOrDefault(g => g.TenDangNhap == id);
+            if (taiKhoans == null)
             {
                 return NotFound();
             }
-            return View(giangVien);
+            return View(taiKhoans);
         }
          
 		[HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(string id)
         {
-            var giangVien = _context.TaiKhoans.FirstOrDefault(g => g.TenDangNhap == id);
-            if (giangVien == null)
+            var taiKhoans = _context.TaiKhoans.FirstOrDefault(g => g.TenDangNhap == id);
+            if (taiKhoans == null)
             {
                 return NotFound();
             }
 
-            _context.TaiKhoans.Remove(giangVien);
+            _context.TaiKhoans.Remove(taiKhoans);
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }

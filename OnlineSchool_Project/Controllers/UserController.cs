@@ -36,8 +36,19 @@ namespace OnlineSchool_Project.Controllers
         }  
         
         public IActionResult Khoahoc()
-        {
-            return View();
+		{
+			var tenDangNhap = HttpContext.Session.GetString("TenDangNhap");
+
+			if (tenDangNhap != null)
+			{
+				ViewBag.TenDangNhap = tenDangNhap;
+				var khoaHocs = _context.KhoaHocs.ToList();
+				return View(khoaHocs);
+			}
+			else
+			{
+				return RedirectToAction("Dangnhap");
+			}
         }  
          
         public IActionResult Chitietkhoahoc()

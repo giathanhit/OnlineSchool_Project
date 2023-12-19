@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc; 
 using OnlineSchool_Project.Data;
-using OnlineSchool_Project.Models;
+using OnlineSchool_Project.Models; 
+
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace OnlineSchool_Project.Controllers
@@ -9,10 +9,12 @@ namespace OnlineSchool_Project.Controllers
     public class AdminKhoaHocController : Controller
     {
         private readonly ApplicationDbContext _context;
+        IWebHostEnvironment _environment;
 
-        public AdminKhoaHocController(ApplicationDbContext context)
+        public AdminKhoaHocController(ApplicationDbContext context, IWebHostEnvironment environment)
         {
             _context = context;
+            _environment = environment;
         }
 
         // GET: /KhoaHoc
@@ -32,6 +34,7 @@ namespace OnlineSchool_Project.Controllers
             }
             return View(khoaHoc);
         }
+
         public IActionResult Create()
         {
             ViewBag.NganhHocList = _context.NganhHocs.ToList();
@@ -40,13 +43,31 @@ namespace OnlineSchool_Project.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(KhoaHoc khoaHoc)
+        public IActionResult Create(KhoaHocViewModel khoaHoc)
         {
             ViewBag.NganhHocList = _context.NganhHocs.ToList();
 
             if (ModelState.IsValid)
-            { 
-                _context.KhoaHocs.Add(khoaHoc);
+            {
+                string fileName = "";
+                if(khoaHoc.UrlPicture != null)
+                {
+                    string uploadFolder = Path.Combine(_environment.WebRootPath, "uploads");
+                    fileName = Guid.NewGuid().ToString();
+                    string filePath = Path.Combine(uploadFolder, fileName);
+                    khoaHoc.UrlPicture.CopyTo(new FileStream(filePath,FileMode.Create));
+                }
+                KhoaHoc khoaHocs = new KhoaHoc
+                {
+                    Id = khoaHoc.Id,
+                    MoTa = khoaHoc.MoTa,
+                    HinhThuc = khoaHoc.HinhThuc,
+                    TenKhoaHoc = khoaHoc.TenKhoaHoc,
+                    idNganhHoc = khoaHoc.idNganhHoc,
+                    UrlImage = fileName
+                };
+
+                _context.KhoaHocs.Add(khoaHocs);
                 _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }

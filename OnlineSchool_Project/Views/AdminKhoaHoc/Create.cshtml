@@ -1,4 +1,4 @@
-﻿@model OnlineSchool_Project.Models.KhoaHoc
+﻿@model OnlineSchool_Project.Models.KhoaHocViewModel
 
 @{
 	ViewData["Title"] = "Create";
@@ -63,14 +63,10 @@
 					<div class="row mb-3">
 						<label class="col-sm-2 col-form-label" for="basic-default-company">URL Hình ảnh:</label>
 						<div class="col-sm-10">
-							<div class="input-group input-group-merge">
-								<span id="basic-icon-default-fullname2" class="input-group-text">
-									<i class='bx bx-image'></i>
-								</span>
-								<input type="text"
-									   class="form-control"
-									   id="basic-default-chat"
-									   placeholder="Nhập vào url hình ảnh.." asp-for="@Model.UrlImage" />
+							<div class="input-group input-group-merge"> 
+								<label asp-for="@Model.UrlPicture" class="control-label"></label>
+								<input type="file" asp-for="@Model.UrlPicture" class="form-control" />
+								<span asp-validation-for="@Model.UrlPicture" class="text-danger"/>
 							</div>
 						</div>
 					</div>

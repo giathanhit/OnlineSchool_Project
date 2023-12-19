@@ -10894,19 +10894,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+    "C:\\Users\\thanhlg\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IT\\sharecode\\OnlineSchool_Project\\OnlineSchool_Project\\OnlineSchool_Project.csproj",
+      "projectUniqueName": "C:\\SOURCECODE\\git\\OnlineSchool_Project\\OnlineSchool_Project\\OnlineSchool_Project.csproj",
       "projectName": "OnlineSchool_Project",
-      "projectPath": "D:\\IT\\sharecode\\OnlineSchool_Project\\OnlineSchool_Project\\OnlineSchool_Project.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\IT\\sharecode\\OnlineSchool_Project\\OnlineSchool_Project\\obj\\",
+      "projectPath": "C:\\SOURCECODE\\git\\OnlineSchool_Project\\OnlineSchool_Project\\OnlineSchool_Project.csproj",
+      "packagesPath": "C:\\Users\\thanhlg\\.nuget\\packages\\",
+      "outputPath": "C:\\SOURCECODE\\git\\OnlineSchool_Project\\OnlineSchool_Project\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\thanhlg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10914,8 +10919,10 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Working\\Packages": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.abp.io/9951d56f-e49e-45aa-a4ad-32f2ecff18ed/v3/index.json": {},
+        "https://nuget.devexpress.com/qcZViPwxW1uERUuU5E9KdbzfMXcx91B1RzUFTv65IzBGwGbUOB/api": {}
       },
       "frameworks": {
         "net7.0": {
@@ -10981,7 +10988,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

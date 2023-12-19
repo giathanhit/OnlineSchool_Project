@@ -9,149 +9,151 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OnlineSchool_Project
 build_property.RootNamespace = OnlineSchool_Project
-build_property.ProjectDir = D:\IT\sharecode\OnlineSchool_Project\OnlineSchool_Project\
+build_property.ProjectDir = C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\IT\sharecode\OnlineSchool_Project\OnlineSchool_Project
+build_property.MSBuildProjectDirectory = C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/AdminGiangVien/Create.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/AdminGiangVien/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5HaWFuZ1ZpZW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/AdminGiangVien/Delete.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/AdminGiangVien/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5HaWFuZ1ZpZW5cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/AdminGiangVien/Edit.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/AdminGiangVien/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5HaWFuZ1ZpZW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/AdminGiangVien/Index.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/AdminGiangVien/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5HaWFuZ1ZpZW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/AdminHocVien/Create.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/AdminHocVien/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ib2NWaWVuXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/AdminHocVien/Delete.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/AdminHocVien/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ib2NWaWVuXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/AdminHocVien/Edit.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/AdminHocVien/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ib2NWaWVuXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/AdminHocVien/Index.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/AdminHocVien/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ib2NWaWVuXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/AdminKhoaHoc/Create.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/AdminKhoaHoc/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5LaG9hSG9jXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/AdminKhoaHoc/Delete.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/AdminKhoaHoc/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5LaG9hSG9jXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/AdminKhoaHoc/Edit.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/AdminKhoaHoc/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5LaG9hSG9jXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/AdminKhoaHoc/Index.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/AdminKhoaHoc/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5LaG9hSG9jXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/AdminNganhHoc/Create.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/AdminNganhHoc/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5OZ2FuaEhvY1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/AdminNganhHoc/Delete.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/AdminNganhHoc/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5OZ2FuaEhvY1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/AdminNganhHoc/Edit.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/AdminNganhHoc/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5OZ2FuaEhvY1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/AdminNganhHoc/Index.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/AdminNganhHoc/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5OZ2FuaEhvY1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/AdminTaiKhoan/Create.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/AdminTaiKhoan/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5UYWlLaG9hblxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/AdminTaiKhoan/Delete.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/AdminTaiKhoan/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5UYWlLaG9hblxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/AdminTaiKhoan/Edit.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/AdminTaiKhoan/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5UYWlLaG9hblxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/AdminTaiKhoan/Index.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/AdminTaiKhoan/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5UYWlLaG9hblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/Admin/Dangnhap.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/Admin/Dangnhap.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFuZ25oYXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/Admin/Index.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/Shared/Error.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/Shared/_LayoutAdmin.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/Shared/_LoginAdmin.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/Shared/_LoginAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbkFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/User/Chitietkhoahoc.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/User/Chitietkhoahoc.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDaGl0aWV0a2hvYWhvYy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/User/Dangky.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/User/Dangky.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEYW5na3kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/User/Dangnhap.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/User/Dangnhap.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEYW5nbmhhcC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/User/Index.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/User/Khoahoc.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/User/Khoahoc.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxLaG9haG9jLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/User/Privacy.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/User/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/_ViewImports.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/_ViewStart.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/IT/sharecode/OnlineSchool_Project/OnlineSchool_Project/Views/Shared/_Layout.cshtml]
+[C:/SOURCECODE/git/OnlineSchool_Project/OnlineSchool_Project/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-lh3ait0mki
