@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc; 
+﻿using Microsoft.AspNetCore.Mvc;
 using OnlineSchool_Project.Data;
 using OnlineSchool_Project.Models; 
-
+using OnlineSchool_Project.Models.Admin;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace OnlineSchool_Project.Controllers
@@ -17,14 +17,14 @@ namespace OnlineSchool_Project.Controllers
             _environment = environment;
         }
 
-        // GET: /KhoaHoc
+
         public IActionResult Index()
         {
             var giangViens = _context.KhoaHocs.ToList();
             return View(giangViens);
         }
 
-        // GET: /KhoaHoc/Details/id
+
         public IActionResult Details(int id)
         {
             var khoaHoc = _context.KhoaHocs.FirstOrDefault(g => g.Id == id);

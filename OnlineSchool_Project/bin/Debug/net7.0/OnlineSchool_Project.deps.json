@@ -8,16 +8,33 @@
     ".NETCoreApp,Version=v7.0": {
       "OnlineSchool_Project/1.0.0": {
         "dependencies": {
+          "AspNetCoreHero.ToastNotification": "1.1.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "7.0.9",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.9",
           "Microsoft.AspNetCore.Identity.UI": "7.0.9",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.9",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.11",
+          "PagedList.Core.Mvc": "3.0.0",
           "Pomelo.EntityFrameworkCore.MySql": "7.0.0",
           "jQuery": "3.7.1"
         },
         "runtime": {
           "OnlineSchool_Project.dll": {}
+        }
+      },
+      "AspNetCoreHero.ToastNotification/1.1.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/AspNetCoreHero.ToastNotification.Views.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          },
+          "lib/net5.0/AspNetCoreHero.ToastNotification.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
         }
       },
       "Humanizer/2.14.1": {
@@ -1568,6 +1585,25 @@
           }
         }
       },
+      "PagedList.Core/1.17.4": {
+        "runtime": {
+          "lib/netcoreapp1.0/PagedList.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PagedList.Core.Mvc/3.0.0": {
+        "dependencies": {
+          "PagedList.Core": "1.17.4"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/PagedList.Core.Mvc.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
       "Pomelo.EntityFrameworkCore.MySql/7.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "7.0.9",
@@ -2379,6 +2415,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AspNetCoreHero.ToastNotification/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bCAYeD+b2pRelcOrHMNtYGVtRq+J2u+SAaND33v3u6qZCatHf4XSZOEPhBfCKJAjMGvsggtPKaNFnrv4VhwOfA==",
+      "path": "aspnetcorehero.toastnotification/1.1.0",
+      "hashPath": "aspnetcorehero.toastnotification.1.1.0.nupkg.sha512"
     },
     "Humanizer/2.14.1": {
       "type": "package",
@@ -3205,6 +3248,20 @@
       "sha512": "sha512-Wm/AOFICTIrCgbVxv9dNWusraTzcggbo5W4ao7hD8NNVq911an9TGwW+uNuYc8I5PkpTeMuSXneV2u6hbi1P4w==",
       "path": "nuget.versioning/6.6.1",
       "hashPath": "nuget.versioning.6.6.1.nupkg.sha512"
+    },
+    "PagedList.Core/1.17.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Me111vdmlPp4GGeHqvNlnv4Raq1f1F77fDsJebuKsHCZXG4v4kMDzd5h1YVDv/Q7q9DuVgueR9mxp7eO7Yj4LA==",
+      "path": "pagedlist.core/1.17.4",
+      "hashPath": "pagedlist.core.1.17.4.nupkg.sha512"
+    },
+    "PagedList.Core.Mvc/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cfMopTUyfyDcZ/HL58w9DWmlb6M9yYYaJ0i3c1j8bGeZCHRyfX3Y5rDnPa1olFdqJmh8sRIx2aKMczGe++E9sA==",
+      "path": "pagedlist.core.mvc/3.0.0",
+      "hashPath": "pagedlist.core.mvc.3.0.0.nupkg.sha512"
     },
     "Pomelo.EntityFrameworkCore.MySql/7.0.0": {
       "type": "package",

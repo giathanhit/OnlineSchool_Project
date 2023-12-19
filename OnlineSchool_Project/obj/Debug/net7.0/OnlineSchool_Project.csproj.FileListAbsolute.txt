@@ -968,3 +968,7 @@ C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\obj\Debug\net7.0\ref
 C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\obj\Debug\net7.0\OnlineSchool_Project.pdb
 C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\obj\Debug\net7.0\OnlineSchool_Project.genruntimeconfig.cache
 C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\obj\Debug\net7.0\ref\OnlineSchool_Project.dll
+C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\AspNetCoreHero.ToastNotification.Views.dll
+C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\AspNetCoreHero.ToastNotification.dll
+C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\PagedList.Core.dll
+C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\PagedList.Core.Mvc.dll

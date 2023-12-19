@@ -1,0 +1,71 @@
+﻿@using PagedList.Core.Mvc;
+@model PagedList.Core.IPagedList<OnlineSchool_Project.Models.DanhGiaKhoaHoc>
+@{
+    int CurrentPage = ViewBag.CurrentPage;
+    ViewData["Title"] = "Đánh giá khóa học";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+ 
+<partial name="_Notifycation" />
+
+<h1>Đánh giá khóa học</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                STT
+            </th>
+            <th>
+                Mã khóa học
+            </th>
+            <th>
+                Mã học viên
+            </th>
+            <th>
+                Điểm khóa học số
+            </th>
+            <th>
+                Nội dung
+            </th>
+            <th>Chức năng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var (index, item) in Model.Select((value, i) => (i + 1, value)))
+        {
+            <tr>
+                <td>
+                    @index
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.idKhoaHoc)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.idHocVien)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DiemDanhGia)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ChiTietDanhGia)
+                </td>
+                <td>
+                    <button type="button" class="btn btn-primary">
+                        <a style="color: white" asp-action="Details" asp-route-id="@item.Id">Chi tiết</a>
+                    </button>
+                    <button type="button" class="btn btn-danger">
+                        <a style="color: white" asp-action="Delete"  asp-route-id="@item.Id ">Xóa</a>
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div aria-label="Page navigation example">
+    <ul class="pagination">
+        <pager class="pager-container" list="@Model" asp-controller="AdminDanhGiaKhoaHocs" asp-action="Index" />
+    </ul>
+</div>
+

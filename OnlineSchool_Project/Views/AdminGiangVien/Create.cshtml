@@ -3,7 +3,7 @@
 @{
     ViewData["Title"] = "Create";
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
-} 
+}
 
 <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Giảng viên/</span> Thêm mới</h4>
 
@@ -16,7 +16,7 @@
                 <h5 class="mb-0">Giảng viên</h5>
             </div>
             <div class="card-body">
-                <form asp-action="Create">
+                <form asp-controller="AdminGiangVien" asp-action="Create" method="post" enctype="multipart/form-data">
                     <div class="row mb-3">
                         <label class="col-sm-2 col-form-label">Họ và tên</label>
                         <div class="col-sm-10">
@@ -111,7 +111,7 @@
                                        class="form-control"
                                        placeholder="Nhập vào mật khẩu.." asp-for="@Model.MatKhau"
                                        aria-describedby="basic-default-email2" />
-                            </div> 
+                            </div>
                         </div>
                     </div>
                     <div class="row mb-3">
@@ -142,20 +142,20 @@
                                     <i class='bx bx-calendar'></i>
                                 </span>
                                 <input type="date"
-                                              id="basic-default-date"
-                                              class="form-control date-mask"
-                                              placeholder="Chọn ngày sinh"
-                                              asp-for="@Model.NgaySinh"
-                                              aria-describedby="basic-default-date"
-                                              value="1990-01-01" />
+                                       id="basic-default-date"
+                                       class="form-control date-mask"
+                                       placeholder="Chọn ngày sinh"
+                                       asp-for="@Model.NgaySinh"
+                                       aria-describedby="basic-default-date"
+                                       value="1990-01-01" />
                             </div>
                         </div>
                     </div>
                     <div class="row mb-3">
                         <label class="col-sm-2 col-form-label" for="basic-default-date">Avartar:</label>
                         <div class="col-sm-10">
-                            <div class="input-group input-group-merge"> 
-                                <input type="file" value="Upload"/>
+                            <div class="input-group input-group-merge">
+                                <input name="fThumb" type="file" class="form-control-file" asp-for="UrlImage" />
                             </div>
                         </div>
                     </div>

@@ -22,6 +22,26 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Views\AdminDanhGiaKhoaHocs\Delete.cshtml" />
+    <None Include="Views\AdminDanhGiaKhoaHocs\Details.cshtml" />
+    <None Include="Views\AdminDanhGiaKhoaHocs\Index.cshtml" />
+    <None Include="Views\AdminHocVien\Create.cshtml" />
+    <None Include="Views\AdminHocVien\Delete.cshtml" />
+    <None Include="Views\AdminHocVien\Edit.cshtml" />
+    <None Include="Views\AdminHocVien\Index.cshtml" />
+    <None Include="Views\AdminKhoaHoc\Create.cshtml" />
+    <None Include="Views\AdminKhoaHoc\Delete.cshtml" />
+    <None Include="Views\AdminKhoaHoc\Edit.cshtml" />
+    <None Include="Views\AdminKhoaHoc\Index.cshtml" />
+    <None Include="Views\AdminNganhHoc\Create.cshtml" />
+    <None Include="Views\AdminNganhHoc\Delete.cshtml" />
+    <None Include="Views\AdminNganhHoc\Edit.cshtml" />
+    <None Include="Views\AdminNganhHoc\Index.cshtml" />
+    <None Include="Views\DanhGiaKhoaHocs\Create.cshtml" />
+    <None Include="Views\DanhGiaKhoaHocs\Delete.cshtml" />
+    <None Include="Views\DanhGiaKhoaHocs\Details.cshtml" />
+    <None Include="Views\DanhGiaKhoaHocs\Edit.cshtml" />
+    <None Include="Views\DanhGiaKhoaHocs\Index.cshtml" />
     <None Include="wwwroot\js\ckfinder\bin\Debug\CKFinder.dll" />
     <None Include="wwwroot\js\ckfinder\bin\Debug\CKFinder.pdb" />
     <None Include="wwwroot\js\ckfinder\bin\Release\CKFinder.dll" />
@@ -108,11 +128,13 @@
 
 	<ItemGroup>
 		<PackageReference Include="jQuery" Version="3.7.1" />
+		<PackageReference Include="AspNetCoreHero.ToastNotification" Version="1.1.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.9" />
 		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.9" />
 		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.9" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.9" />
 		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.11" />
+		<PackageReference Include="PagedList.Core.Mvc" Version="3.0.0" />
 		<PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
 	</ItemGroup>
 

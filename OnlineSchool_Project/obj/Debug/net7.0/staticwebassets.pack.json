@@ -1273,6 +1273,10 @@
       "PackagePath": "staticwebassets\\images\\event_3.jpg"
     },
     {
+      "Id": "C:\\SOURCECODE\\git\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\giangvien\\jiaqing.png",
+      "PackagePath": "staticwebassets\\images\\giangvien\\jiaqing.png"
+    },
+    {
       "Id": "C:\\SOURCECODE\\git\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\index_background.jpg",
       "PackagePath": "staticwebassets\\images\\index_background.jpg"
     },
