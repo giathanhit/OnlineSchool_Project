@@ -450,6 +450,14 @@ namespace OnlineSchool_Project.Migrations
                     b.Property<string>("TenDangNhap")
                         .HasColumnType("varchar(255)");
 
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<Guid>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)");
+
                     b.Property<string>("MatKhau")
                         .IsRequired()
                         .HasColumnType("longtext");

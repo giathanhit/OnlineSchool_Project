@@ -4,7 +4,7 @@ using OnlineSchool_Project.Models;
 
 namespace OnlineSchool_Project.Data
 {
-	public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext
 	{
 		public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
 			: base(options)

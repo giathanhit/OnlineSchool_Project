@@ -1,4 +1,4 @@
-﻿
+﻿@model TaiKhoan
 @{
     ViewData["Title"] = "Login";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -15,27 +15,33 @@
             <div class="signup-content">
                 <div class="signup-form">
                     <h2 class="form-title">ĐĂNG KÝ</h2>
-                    <form method="POST" class="register-form" id="register-form">
-                        <div class="form-group">
-                            <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                            <input type="text" name="name" id="name" placeholder="Nhập tên đăng nhập.." />
-                        </div>
-                        <div class="form-group">
-                            <label for="email"><i class="zmdi zmdi-email"></i></label>
-                            <input type="email" name="email" id="email" placeholder="Nhập email.." />
-                        </div>
-                        <div class="form-group">
-                            <label for="pass"><i class="zmdi zmdi-lock"></i></label>
-                            <input type="password" name="pass" id="pass" placeholder="Nhập mật khẩu.." />
-                        </div>
-                        <div class="form-group">
-                            <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
-                            <input type="password" name="re_pass" id="re_pass" placeholder="Nhập lại mật khẩu.." />
-                        </div> 
-                        <div class="form-group form-button">
-                            <input type="submit" name="signup" id="signup" class="form-submit" value="Đăng ký" />
-                        </div>
-                    </form>
+                    @using (Html.BeginForm("Dangky", "User", FormMethod.Post))
+                        {
+                            //@Html.ValidationSummary()
+                            @Html.AntiForgeryToken()
+                        <form method="POST" class="register-form" id="register-form">
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="TenDangNhap" id="name" placeholder="Nhập tên đăng nhập.." />
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input type="email" name="Email" id="Email" placeholder="Nhập email.." />
+                            </div>
+                            <div class="form-group">
+                                <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="MatKhau" id="MatKhau" placeholder="Nhập mật khẩu.." />
+                            </div>
+                            <div class="form-group">
+                                <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+                                <input type="password" name="re_MatKhau" id="re_MatKhau" placeholder="Nhập lại mật khẩu.." />
+                            </div>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signup" id="signup" class="form-submit" value="Đăng ký" />
+                            </div>
+                        </form>
+                        }
+                    
                 </div>
                 <div class="signup-image">
                     <figure><img src="~/home/images/signup-image.jpg" alt="sing up image"></figure>
@@ -44,10 +50,20 @@
             </div>
         </div>
     </section>
-     
+    <div id="errorDialog" title="Lỗi" style="display:none;"></div>
 </div>
 
 
 <script src="~/home/vendor/jquery/jquery-ui.min.js"></script>
 <script src="~/home/vendor/jquery/jquery.min.js"></script>
 <script src="~/home/js/main.js"></script>
+<script>
+    $(document).ready(function () {
+    @if (ViewBag.showErrorDialog != null && ViewBag.showErrorDialog)
+    {
+        <text>
+                alert('@Html.Raw(ViewBag.error)');
+        </text>
+    }
+            });
+</script>
