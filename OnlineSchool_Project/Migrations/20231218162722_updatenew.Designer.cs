@@ -11,8 +11,8 @@ using OnlineSchool_Project.Data;
 namespace OnlineSchool_Project.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231217130107_add-db")]
-    partial class adddb
+    [Migration("20231218162722_updatenew")]
+    partial class updatenew
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -452,6 +452,14 @@ namespace OnlineSchool_Project.Migrations
                 {
                     b.Property<string>("TenDangNhap")
                         .HasColumnType("varchar(255)");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<Guid>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)");
 
                     b.Property<string>("MatKhau")
                         .IsRequired()

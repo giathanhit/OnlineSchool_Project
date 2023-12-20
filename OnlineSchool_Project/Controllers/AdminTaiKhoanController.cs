@@ -3,7 +3,7 @@ using OnlineSchool_Project.Data;
 using OnlineSchool_Project.Models;
 
 namespace OnlineSchool_Project.Controllers
-{ 
+{
     public class AdminTaiKhoanController : Controller
     {
         private readonly ApplicationDbContext _context;

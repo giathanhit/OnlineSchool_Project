@@ -1,16 +1,19 @@
-﻿<!DOCTYPE html>
+﻿@{
+    var tenDangNhap = ViewBag.TenDangNhap as string;
+}
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>ONLINE SCHOOL</title>
+    <title>ONLINE SCHOOL</title>
 
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="description" content="ONLINESCHOOL project">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	 
-	<link rel="icon" type="image/x-icon" href="~/home/logo.png" />
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
-	<link href="~/home/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="ONLINESCHOOL project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/x-icon" href="~/home/logo.png" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/home/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="~/home/css/bootstrap4/bootstrap.min.css" rel="stylesheet" />
     <link href="~/home/css/blog.css" rel="stylesheet" />
     <link href="~/home/css/blog_responsive.css" rel="stylesheet" />
@@ -26,234 +29,266 @@
     <link href="~/home/css/instructors_responsive.css" rel="stylesheet" />
     <link href="~/home/css/main_styles.css" rel="stylesheet" />
     <link href="~/home/css/regular.css" rel="stylesheet" />
-	<link href="~/home/css/regular_responsive.css" rel="stylesheet" />
-	<link href="~/home/css/responsive.css" rel="stylesheet" />
+    <link href="~/home/css/regular_responsive.css" rel="stylesheet" />
+    <link href="~/home/css/responsive.css" rel="stylesheet" />
 
-	<link rel="stylesheet" type="text/css" href="~/home/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-	<link rel="stylesheet" type="text/css" href="~/home/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-	<link rel="stylesheet" type="text/css" href="~/home/plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" type="text/css" href="~/home/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="~/home/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="~/home/plugins/OwlCarousel2-2.2.1/animate.css">
 </head>
 <body>
-	 
-	<div class="super_container">
 
-		<!-- Header -->
+    <div class="super_container">
 
-		<header class="header">
+        <!-- Header -->
 
-			<!-- Top Bar -->
-			<div class="top_bar">
-				<div class="top_bar_container">
-					<div class="container">
-						<div class="row">
-							<div class="col">
-								<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
-									<div class="top_bar_phone"><span class="top_bar_title">SĐT:</span>+84 123 568 215</div>
-									<div class="top_bar_right ml-auto">
-										 
-										<!-- Social -->
-										<div class="top_bar_social">
-											<span class="top_bar_title social_title">Theo dõi chúng tôi</span>
-											<ul>
-												<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-												<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-												<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+        <header class="header">
 
-			<!-- Header Content -->
-			<div class="header_container">
-				<div class="container">
-					<div class="row">
-						<div class="col">
-							<div class="header_content d-flex flex-row align-items-center justify-content-start">
-								<div class="logo_container mr-auto">
-									<a href="/">
-										<div class="logo_text">ONLINESCHOOL</div>
-									</a>
-								</div>
-								<nav class="main_nav_contaner">
-									<ul class="main_nav">
-										<li><a href="/">Trang chủ</a></li>
-										<li><a href="/User/Khoahoc">Khóa học</a></li>  
-										<li><a href="/User/Blog">Blog</a></li>
-										<li><a href="/User/Lienhe">Liên hệ</a></li>
-									</ul>
-								</nav>
-								<div class="header_content_right ml-auto text-right">
-									<div class="header_search">
-										<div class="search_form_container">
-											<form action="#" id="search_form" class="search_form trans_400">
-												<input type="search" class="header_search_input trans_400" placeholder="Tìm kiếm..." required="required">
-												<div class="search_button">
-													<i class="fa fa-search" aria-hidden="true"></i>
-												</div>
-											</form>
-										</div>
-									</div>
+            <!-- Top Bar -->
+            <div class="top_bar">
+                <div class="top_bar_container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+                                    <div class="top_bar_phone"><span class="top_bar_title">SĐT:</span>+84 123 568 215</div>
+                                    <div class="top_bar_right ml-auto">
 
-									<!-- Hamburger -->
+                                        <!-- Social -->
+                                        <div class="top_bar_social">
+                                            <span class="top_bar_title social_title">Theo dõi chúng tôi</span>
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-									<div class="user"><a href="/User/Dangnhap"><i class="fa fa-user" aria-hidden="true"></i></a></div>
-									<div class="hamburger menu_mm">
-										<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
-									</div>
-								</div>
+            <!-- Header Content -->
+            <div class="header_container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="header_content d-flex flex-row align-items-center justify-content-start">
+                                <div class="logo_container mr-auto">
+                                    <a href="/">
+                                        <div class="logo_text">ONLINESCHOOL</div>
+                                    </a>
+                                </div>
+                                <nav class="main_nav_contaner">
+                                    <ul class="main_nav">
+                                        <li><a href="/">Trang chủ</a></li>
+                                        <li><a href="/User/Khoahoc">Khóa học</a></li>
+                                        <li><a href="/User/Blog">Blog</a></li>
+                                        <li><a href="/User/Lienhe">Liên hệ</a></li>
+                                    </ul>
+                                </nav>
+                                <div class="header_content_right ml-auto text-right">
+                                    <div class="header_search">
+                                        <div class="search_form_container">
+                                            <form action="#" id="search_form" class="search_form trans_400">
+                                                <input type="search" class="header_search_input trans_400" placeholder="Tìm kiếm..." required="required">
+                                                <div class="search_button">
+                                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
 
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+                                    <!-- Hamburger -->
+                                    @if (!string.IsNullOrEmpty(tenDangNhap))
+                                    {
+                                        <span class="nav-link ten-dang-nhap">
+                                            <span>Xin chào: @tenDangNhap</span>
+                                            <a href="/User/DangXuat" class="btn btn-outline-danger btn-sm float-right" style="background-color: red;color: white;">Đăng xuất</a>
+                                        </span>
+                                    }
+                                    else
+                                    {
+                                        <div class="user"><a href="/User/Dangnhap"><i class="fa fa-user" aria-hidden="true"></i></a></div>
 
-		</header>
+                                        <div class="hamburger menu_mm">
+                                            <i class="fa fa-bars menu_mm" aria-hidden="true"></i>
+                                        </div>
+                                    }
 
-		<!-- Menu -->
+                                    
 
-		<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
-			<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
-			<div class="search">
-				<form action="#" class="header_search_form menu_mm">
-					<input type="search" class="search_input menu_mm" placeholder="Search" required="required">
-					<button class="header_search_button d-flex flex-column align-items-center justify-content-center menu_mm">
-						<i class="fa fa-search menu_mm" aria-hidden="true"></i>
-					</button>
-				</form>
-			</div>
-			<nav class="menu_nav">
-				<ul class="menu_mm">
-					<li class="menu_mm"><a href="/">Trang chủ</a></li>
-					<li class="menu_mm"><a href="/User/Khoahoc">Khóa học</a></li> 
-					<li class="menu_mm"><a href="/User/Blog">Blog</a></li>
-					<li class="menu_mm"><a href="/User/Lienhe">Liên hệ</a></li> 
-				</ul>
-			</nav>
-			<div class="menu_extra">
-				<div class="menu_phone"><span class="top_bar_title">SĐT:</span>+84 123 568 215</div>
-				<div class="menu_social">
-					<span class="menu_title">Theo dõi chúng tôi</span>
-					<ul>
-						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div> 
+                                </div>
 
-		@RenderBody()
-		<!-- Footer -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-		<footer class="footer">
-			<div class="footer_body">
-				<div class="container">
-					<div class="row">
+        </header>
 
-						<!-- Newsletter -->
-						<div class="col-lg-3 footer_col">
-							<div class="newsletter_container d-flex flex-column align-items-start justify-content-end">
-								<div class="footer_logo mb-auto"><a href="#">ONLINESCHOOL</a></div>
-								<div class="footer_title">Subscribe</div>
-								<form action="#" id="newsletter_form" class="newsletter_form">
-									<input type="email" class="newsletter_input" placeholder="Email" required="required">
-									<button class="newsletter_button"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
-								</form>
-							</div>
-						</div>
+        <!-- Menu -->
 
-						<!-- About -->
-						<div class="col-lg-2 offset-lg-3 footer_col">
-							<div>
-								<div class="footer_title">Về chúng tôi</div>
-								<ul class="footer_list">
-									<li><a href="/User/Khoahoc">Khóa học</a></li>
-									<li><a href="#">Team</a></li> 
-									<li><a href="#">Tuyển dụng</a></li> 
-									<li><a href="#">Liên hệ chúng tôi</a></li>
-								</ul>
-							</div>
-						</div>
+        <div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+            <div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+            <div class="search">
+                <form action="#" class="header_search_form menu_mm">
+                    <input type="search" class="search_input menu_mm" placeholder="Search" required="required">
+                    <button class="header_search_button d-flex flex-column align-items-center justify-content-center menu_mm">
+                        <i class="fa fa-search menu_mm" aria-hidden="true"></i>
+                    </button>
+                </form>
+            </div>
+            <nav class="menu_nav">
+                <ul class="menu_mm">
+                    <li class="menu_mm"><a href="/">Trang chủ</a></li>
+                    <li class="menu_mm"><a href="/User/Khoahoc">Khóa học</a></li>
+                    <li class="menu_mm"><a href="/User/Blog">Blog</a></li>
+                    <li class="menu_mm"><a href="/User/Lienhe">Liên hệ</a></li>
+                </ul>
+            </nav>
+            <div class="menu_extra">
+                <div class="menu_phone"><span class="top_bar_title">SĐT:</span>+84 123 568 215</div>
+                <div class="menu_social">
+                    <span class="menu_title">Theo dõi chúng tôi</span>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-						<!-- Help & Support -->
-						<div class="col-lg-2 footer_col">
-							<div class="footer_title">Hỗ trợ</div>
-							<ul class="footer_list">
-								<li><a href="#">Bảo hành</a></li> 
-							</ul>
-						</div>
+        @RenderBody()
+        <!-- Footer -->
 
-						<!-- Privacy -->
-						<div class="col-lg-2 footer_col clearfix">
-							<div>
-								<div class="footer_title">Chính sách & quyền riêng tư</div>
-								<ul class="footer_list"> 
-									<li><a href="#">Bảo mật</a></li>
-								</ul>
-							</div>
-						</div>
+        <footer class="footer">
+            <div class="footer_body">
+                <div class="container">
+                    <div class="row">
 
-					</div>
-				</div>
-			</div>
-			<div class="copyright">
-				<div class="container">
-					<div class="row">
-						<div class="col">
-							<div class="copyright_content d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-start">
-								<div class="cr">
-									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-									Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="/" target="_blank">SCHOOL ONLINE</a>
-									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-								</div>
-								<div class="cr_right ml-md-auto">
-									<div class="footer_phone"><span class="cr_title">phone:</span>+84 123 568 215</div>
-									<div class="footer_social">
-										<span class="cr_social_title">Theo dõi chúng tôi</span>
-										<ul>
-											<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-	</div>
+                        <!-- Newsletter -->
+                        <div class="col-lg-3 footer_col">
+                            <div class="newsletter_container d-flex flex-column align-items-start justify-content-end">
+                                <div class="footer_logo mb-auto"><a href="#">ONLINESCHOOL</a></div>
+                                <div class="footer_title">Subscribe</div>
+                                <form action="#" id="newsletter_form" class="newsletter_form">
+                                    <input type="email" class="newsletter_input" placeholder="Email" required="required">
+                                    <button class="newsletter_button"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                                </form>
+                            </div>
+                        </div>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+                        <!-- About -->
+                        <div class="col-lg-2 offset-lg-3 footer_col">
+                            <div>
+                                <div class="footer_title">Về chúng tôi</div>
+                                <ul class="footer_list">
+                                    <li><a href="/User/Khoahoc">Khóa học</a></li>
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="#">Tuyển dụng</a></li>
+                                    <li><a href="#">Liên hệ chúng tôi</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Help & Support -->
+                        <div class="col-lg-2 footer_col">
+                            <div class="footer_title">Hỗ trợ</div>
+                            <ul class="footer_list">
+                                <li><a href="#">Bảo hành</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Privacy -->
+                        <div class="col-lg-2 footer_col clearfix">
+                            <div>
+                                <div class="footer_title">Chính sách & quyền riêng tư</div>
+                                <ul class="footer_list">
+                                    <li><a href="#">Bảo mật</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="copyright_content d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-start">
+                                <div class="cr">
+                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="/" target="_blank">SCHOOL ONLINE</a>
+                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                </div>
+                                <div class="cr_right ml-md-auto">
+                                    <div class="footer_phone"><span class="cr_title">phone:</span>+84 123 568 215</div>
+                                    <div class="footer_social">
+                                        <span class="cr_social_title">Theo dõi chúng tôi</span>
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
 
     <script src="~/home/css/bootstrap4/bootstrap.min.js"></script>
-	<script src="~/home/css/bootstrap4/popper.js"></script>
-	<script src="~/home/plugins/progressbar/progressbar.min.js"></script>
+    <script src="~/home/css/bootstrap4/popper.js"></script>
+    <script src="~/home/plugins/progressbar/progressbar.min.js"></script>
 
-	<script src="~/home/js/main.js"></script>
+    <script src="~/home/js/main.js"></script>
     <script src="~/home/js/blog.js"></script>
     <script src="~/home/js/blog_single.js"></script>
     <script src="~/home/js/contact.js"></script>
-	<script src="~/home/js/course.js"></script>
+    <script src="~/home/js/course.js"></script>
     <script src="~/home/js/courses.js"></script>
-	<script src="~/home/js/custom.js"></script>
-	<script src="~/home/js/regular.js"></script>
-	<script src="~/home/js/instructors.js"></script>
+    <script src="~/home/js/custom.js"></script>
+    <script src="~/home/js/regular.js"></script>
+    <script src="~/home/js/instructors.js"></script>
     <script src="~/home/js/jquery-3.2.1.min.js"></script>
 
-	<script src="~/home/plugins/parallax-js-master/parallax.min.js"></script>
-	<script src="~/home/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-	<script src="~/home/plugins/easing/easing.js"></script> 
+    <script src="~/home/plugins/parallax-js-master/parallax.min.js"></script>
+    <script src="~/home/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src="~/home/plugins/easing/easing.js"></script>
 </body>
 </html>
+
+<style>
+    .ten-dang-nhap {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+        .ten-dang-nhap:hover .btn {
+            display: inline-block;
+        }
+
+    .btn {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+</style>
