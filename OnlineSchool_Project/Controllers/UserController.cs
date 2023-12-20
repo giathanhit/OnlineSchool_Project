@@ -20,21 +20,22 @@ namespace OnlineSchool_Project.Controllers
 			_logger = logger;
 			_context = context;
 		}
-
 		public IActionResult Index()
 		{
 			var tenDangNhap = HttpContext.Session.GetString("TenDangNhap");
+			var giangVienList = _context.GiangViens
+				.OrderByDescending(gv => gv.Id)
+				.Take(3)
+				.ToList();
 
 			if (tenDangNhap != null)
 			{
 				ViewBag.TenDangNhap = tenDangNhap;
-				return View();
 			}
-			else
-			{
-				return RedirectToAction("Dangnhap");
-			}
+
+			return View(giangVienList);
 		}
+
 		public IActionResult Khoahoc()
 		{
 			var tenDangNhap = HttpContext.Session.GetString("TenDangNhap");
@@ -48,15 +49,10 @@ namespace OnlineSchool_Project.Controllers
 				var khoaHocList = _context.KhoaHocs.ToList();
 
 				foreach (var khoaHoc in khoaHocList)
-				{
-					var chuongHoc = _context.ChuongHocs.FirstOrDefault();
-					var baiHoc = _context.BaiHocs.FirstOrDefault();
-
+				{ 
 					var viewModel = new KhoaHocViewModel()
 					{
-						KhoaHocs = khoaHoc,
-						ChuongHocs = chuongHoc,
-						BaiHocs = baiHoc
+						KhoaHocs = khoaHoc 
 					};
 
 					viewModelList.Add(viewModel);
@@ -76,21 +72,27 @@ namespace OnlineSchool_Project.Controllers
 			ViewBag.TenDangNhap = tenDangNhap;
 
 			var viewModelList = new List<KhoaHocViewModel>();
-			 
+
 			var khoaHoc = _context.KhoaHocs.Find(idKhoaHoc);
-			var chuongHoc = _context.ChuongHocs.FirstOrDefault();
-			var baiHoc = _context.BaiHocs.FirstOrDefault();
+			var chuongHocs = _context.ChuongHocs.Where(ch => ch.idKhoaHoc == idKhoaHoc).ToList();
 
 			var viewModel = new KhoaHocViewModel()
 			{
 				KhoaHocs = khoaHoc,
-				ChuongHocs = chuongHoc,
-				BaiHocs = baiHoc
+				ChuongHocs = chuongHocs,
+				BaiHocs = new List<BaiHoc>() // Khởi tạo danh sách bài học
 			};
+
+			foreach (var chuongHoc in chuongHocs)
+			{
+				var baiHocs = _context.BaiHocs.Where(bh => bh.idKhoaHoc == idKhoaHoc && bh.idChuongHoc == chuongHoc.Id).ToList();
+				viewModel.BaiHocs.AddRange(baiHocs);
+			}
 
 			viewModelList.Add(viewModel);
 			return View(viewModelList);
 		}
+
 
 		public IActionResult Dangnhap()
 		{
@@ -225,6 +227,16 @@ namespace OnlineSchool_Project.Controllers
 			return byte2String;
 		}
 
+		public IActionResult Blog()
+		{
+			return View();
+		}
+		
+		public IActionResult Lienhe()
+		{
+			return View();
+		}
+		
 		public IActionResult Privacy()
 		{
 			return View();

@@ -1273,8 +1273,20 @@
       "PackagePath": "staticwebassets\\images\\event_3.jpg"
     },
     {
+      "Id": "C:\\SOURCECODE\\git\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\giangvien\\ha-gia-bao.jpg",
+      "PackagePath": "staticwebassets\\images\\giangvien\\ha-gia-bao.jpg"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\git\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\giangvien\\jiaqing.jpeg",
+      "PackagePath": "staticwebassets\\images\\giangvien\\jiaqing.jpeg"
+    },
+    {
       "Id": "C:\\SOURCECODE\\git\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\giangvien\\jiaqing.png",
       "PackagePath": "staticwebassets\\images\\giangvien\\jiaqing.png"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\git\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\hocvien\\jiaqing.jpg",
+      "PackagePath": "staticwebassets\\images\\hocvien\\jiaqing.jpg"
     },
     {
       "Id": "C:\\SOURCECODE\\git\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\index_background.jpg",
@@ -1287,6 +1299,22 @@
     {
       "Id": "C:\\SOURCECODE\\git\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\intro.jpg",
       "PackagePath": "staticwebassets\\images\\intro.jpg"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\git\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\khoahoc\\khoa-thuc-chien-sql-du-an-quan-ly-sinh-vien.png",
+      "PackagePath": "staticwebassets\\images\\khoahoc\\khoa-thuc-chien-sql-du-an-quan-ly-sinh-vien.png"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\git\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\khoahoc\\lap-trinh-blazor-co-ban.png",
+      "PackagePath": "staticwebassets\\images\\khoahoc\\lap-trinh-blazor-co-ban.png"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\git\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\khoahoc\\lap-trinh-java.png",
+      "PackagePath": "staticwebassets\\images\\khoahoc\\lap-trinh-java.png"
+    },
+    {
+      "Id": "C:\\SOURCECODE\\git\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\khoahoc\\lap-trinh-keylogger-voi-c-application.jpg",
+      "PackagePath": "staticwebassets\\images\\khoahoc\\lap-trinh-keylogger-voi-c-application.jpg"
     },
     {
       "Id": "C:\\SOURCECODE\\git\\OnlineSchool_Project\\OnlineSchool_Project\\wwwroot\\images\\local_phone.svg",

@@ -733,6 +733,8 @@ C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\Onl
 C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\OnlineSchool_Project.runtimeconfig.json
 C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\OnlineSchool_Project.dll
 C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\OnlineSchool_Project.pdb
+C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\AspNetCoreHero.ToastNotification.Views.dll
+C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\AspNetCoreHero.ToastNotification.dll
 C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\Humanizer.dll
 C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -785,6 +787,8 @@ C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\NuG
 C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\NuGet.ProjectModel.dll
 C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\NuGet.Protocol.dll
 C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\NuGet.Versioning.dll
+C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\PagedList.Core.dll
+C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\PagedList.Core.Mvc.dll
 C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\System.CodeDom.dll
 C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\System.Composition.AttributedModel.dll
@@ -968,7 +972,3 @@ C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\obj\Debug\net7.0\ref
 C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\obj\Debug\net7.0\OnlineSchool_Project.pdb
 C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\obj\Debug\net7.0\OnlineSchool_Project.genruntimeconfig.cache
 C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\obj\Debug\net7.0\ref\OnlineSchool_Project.dll
-C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\AspNetCoreHero.ToastNotification.Views.dll
-C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\AspNetCoreHero.ToastNotification.dll
-C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\PagedList.Core.dll
-C:\SOURCECODE\git\OnlineSchool_Project\OnlineSchool_Project\bin\Debug\net7.0\PagedList.Core.Mvc.dll

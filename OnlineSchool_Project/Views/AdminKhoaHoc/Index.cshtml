@@ -1,9 +1,11 @@
-﻿@model IEnumerable<OnlineSchool_Project.Models.KhoaHoc>
+﻿@using PagedList.Core.Mvc;
+@model PagedList.Core.IPagedList<OnlineSchool_Project.Models.KhoaHoc>
 @{
-    ViewData["Title"] = "Index";
+    int CurrentPage = ViewBag.CurrentPage;
+    ViewData["Title"] = "Thông tin giảng viên";
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
-
+<partial name="_Notifycation" />
 <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Khóa học/</span> Danh sách</h4>
 
 <!-- Basic Bootstrap Table -->
@@ -11,38 +13,53 @@
     <h5 class="card-header">DANH SÁCH KHÓA HỌC</h5>
     <div class="table-responsive text-nowrap" style="min-height: 30rem;">
         <a class="dropdown-item" href="/AdminKhoaHoc/Create"><i class="bx bx-edit-alt me-1"></i> Thêm mới</a>
-
         <table class="table">
             <thead>
                 <tr>
-                    <th>ID</th> 
-                    <th>Tên</th> 
+                    <th>Id</th>
+                    <th>Tên khóa học</th>
                     <th>Mô tả</th>
-                    <th>Hình thức</th> 
+                    <th>Hình thức</th>
+                    <th>Hình ảnh</th> 
                 </tr>
             </thead>
-            <tbody>
-                @foreach (var khoaHoc in Model)
+            <tbody class="table-border-bottom-0">
+                @foreach (var item in Model)
                 {
                     <tr>
-                        <td>@khoaHoc.Id</td> 
-                        <td>@khoaHoc.TenKhoaHoc</td> 
-                        <td>@khoaHoc.MoTa</td>
-                        <td>@khoaHoc.HinhThuc</td> 
+                        <td>@item.Id</td>
+                        <td>@item.TenKhoaHoc</td>
+                        <td>@item.MoTa</td>
+                        <td>@item.HinhThuc</td> 
+                        <td>
+                            <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
+                                <li>
+                                    <img src="~/images/khoahoc/@item.UrlImage" style="max-width: 100px" alt="">
+                                </li>
+                            </ul>
+                        </td>
                         <td>
                             <div class="dropdown">
                                 <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                     <i class="bx bx-dots-vertical-rounded"></i>
                                 </button>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="/AdminKhoaHoc/Edit/@khoaHoc.Id"><i class="bx bx-edit-alt me-1"></i> Chỉnh sửa</a>
-                                    <a class="dropdown-item" href="/AdminKhoaHoc/Delete/@khoaHoc.Id"><i class="bx bx-trash me-1"></i> Xóa</a>
+                                    <a class="dropdown-item" href="/AdminKhoaHoc/Edit/@item.Id"><i class="bx bx-edit-alt me-1"></i> Chỉnh sửa</a>
+                                    <a class="dropdown-item" href="/AdminKhoaHoc/Delete/@item.Id"><i class="bx bx-trash me-1"></i> Xóa</a>
                                 </div>
                             </div>
                         </td>
                     </tr>
                 }
             </tbody>
-        </table> 
+        </table>
+    </div>
+</div>
+
+<div class="mt-10">
+    <div aria-label="Page navigation example">
+        <ul class="pagination">
+            <pager class="pager-container" list="@Model" asp-controller="AdminGiangVien" asp-action="Index" />
+        </ul>
     </div>
 </div>

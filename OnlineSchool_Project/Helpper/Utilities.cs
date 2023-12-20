@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 
 
 namespace OnlineSchool_Project.Helpper
@@ -137,7 +138,7 @@ namespace OnlineSchool_Project.Helpper
             }
             return url;
         }
-        public static async Task<string> UploadFile(Microsoft.AspNetCore.Http.IFormFile file, string sDirectory, string newname = null)
+        public static async Task<string> UploadFile(IFormFile file, string sDirectory, string newname = null)
         {
             try
             {

@@ -44,7 +44,7 @@
 				<!-- Course -->
 				<div class="col-lg-4 course_col">
 					<div class="course">
-						<div class="course_image"><img src="@item.KhoaHocs.UrlImage" href="@Url.Action("Chitietkhoahoc", "User", new { idKhoaHoc = item.KhoaHocs.Id })" alt=""></div>
+						<div class="course_image"><img src="~/images/khoahoc/@item.KhoaHocs.UrlImage" href="@Url.Action("Chitietkhoahoc", "User", new { idKhoaHoc = item.KhoaHocs.Id })" alt=""></div>
 						<div class="course_body">
 							<div class="course_title"><a href="@Url.Action("Chitietkhoahoc", "User", new { idKhoaHoc = item.KhoaHocs.Id })">@item.KhoaHocs.TenKhoaHoc</a></div>
 							<div class="course_text">

@@ -20,8 +20,7 @@ namespace OnlineSchool_Project.Controllers
 		{
 			_context = context;
 		}
-
-
+		 
 		public IActionResult Index(int? page)
 		{
 			var pageNumber = page == null || page <= 0 ? 1 : page.Value;
@@ -76,7 +75,7 @@ namespace OnlineSchool_Project.Controllers
 					giangVien.UrlImage = await Utilities.UploadFile(fThumb, @"giangvien", image.ToLower());
 				}
 				_context.Add(giangVien);
-				TempData["message"] = "Thêm mới giảng viên thành công !";
+				TempData["message"] = "Thêm mới thành công !";
 				await _context.SaveChangesAsync();
 				return RedirectToAction(nameof(Index));
 			}
@@ -124,7 +123,7 @@ namespace OnlineSchool_Project.Controllers
 						giangVien.UrlImage = await Utilities.UploadFile(fThumb, @"giangvien", image.ToLower());
 					}
 					_context.Update(giangVien);
-					TempData["message"] = "Cập nhật thông tin giảng viên thành công !";
+					TempData["message"] = "Cập nhật thông tin thành công !";
 					await _context.SaveChangesAsync();
 				}
 				catch (DbUpdateConcurrencyException)
@@ -180,7 +179,7 @@ namespace OnlineSchool_Project.Controllers
 			}
 
 			await _context.SaveChangesAsync();
-			TempData["message"] = "Xóa giảng viên thành công !";
+			TempData["message"] = "Xóa thành công !";
 			return RedirectToAction(nameof(Index));
 		}
 

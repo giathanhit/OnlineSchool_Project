@@ -1,95 +1,98 @@
 ﻿@model OnlineSchool_Project.Models.KhoaHoc
 
 @{
-	ViewData["Title"] = "Edit";
-	Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Khóa học/</span> Chỉnh sửa</h4>
+<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Khóa học/</span> Chỉnh sửa thông tin</h4>
 
 <!-- Basic Layout & Basic with Icons -->
 <div class="row">
-	<!-- Basic Layout -->
-	<div class="col-xxl">
-		<div class="card mb-4">
-			<div class="card-header d-flex align-items-center justify-content-between">
-				<h5 class="mb-0">Khóa học</h5>
-			</div>
-			<div class="card-body">
-				<form asp-action="Edit">
-					<div class="row mb-3">
-						<label class="col-sm-2 col-form-label" for="basic-default-name">Mã khóa học:</label>
-						<div class="col-sm-10">
-							<input type="text" class="form-control" id="basic-default-name" readonly placeholder="@Model.Id" value="@Model.Id" />
-						</div>
-					</div>
-					<div class="row mb-3">
-						<label class="col-sm-2 col-form-label">Tên khóa học:</label>
-						<div class="col-sm-10">
-							<div class="input-group input-group-merge">
-								<span id="basic-icon-default-fullname2" class="input-group-text">
-									<i class="bx bx-book"></i>
-								</span>
-								<input type="text"
-									   class="form-control"
-									   id="basic-default-book"
-									   placeholder="Nhập vào tên khóa học.." asp-for="@Model.TenKhoaHoc" />
-							</div>
-						</div>
-					</div>
-					<div class="row mb-3">
-						<label class="col-sm-2 col-form-label" for="basic-default-company">Mô tả:</label>
-						<div class="col-sm-10">
-							<div class="input-group input-group-merge">
-								<span id="basic-icon-default-fullname2" class="input-group-text">
-									<i class="bx bx-chat"></i>
-								</span>
-								<input type="text"
-									   class="form-control"
-									   id="basic-default-chat"
-									   placeholder="Nhập vào mô tả.." asp-for="@Model.MoTa" />
-							</div>
-						</div>
-					</div> 
-					<div class="row mb-3">
-						<label class="col-sm-2 col-form-label" for="basic-default-company">Hình thức:</label>
-						<div class="col-sm-10">
-							<div class="input-group input-group-merge">
-								<span id="basic-icon-default-fullname2" class="input-group-text">
-									<i class='bx bx-category'></i>
-								</span>
-								<select asp-for="@Model.HinhThuc" class="form-control">
-									<option value="Online">Online</option>
-									<option value="Trực tuyến">Trực tuyến</option>
-								</select>
-							</div>
-						</div>
-					</div>   
-					<div class="row mb-3">
-						<label class="col-sm-2 col-form-label" for="basic-default-date">Ngành học:</label>
-						<div class="col-sm-10">
-							<div class="input-group input-group-merge">
-								<span id="basic-icon-default-date" class="input-group-text">
-									<i class='bx bx-building'></i>
-								</span>
-								<select class="form-control" asp-for="@Model.idNganhHoc" required>
-									@foreach (var nganhHoc in ViewBag.NganhHocList)
-									{
-										<option value="@nganhHoc.Id">@nganhHoc.TenNganh</option>
-									}
-								</select>
-							</div>
-							@Html.ValidationMessageFor(model => model.idNganhHoc)
-						</div>
-					</div>
-					<div class="row justify-content-end">
-						<div class="col-sm-10">
-							<button type="submit" class="btn btn-primary">Lưu</button>
-							<a asp-action="Index">Trở về trang trước</a>
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
-</div> 
+    <!-- Basic Layout -->
+    <div class="col-xxl">
+        <div class="card mb-4">
+            <div class="card-header d-flex align-items-center justify-content-between">
+                <h5 class="mb-0"> Chỉnh sửa thông tin Khóa học: @Model.TenKhoaHoc</h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="Edit" asp-controller="AdminKhoaHoc" method="post" enctype="multipart/form-data">
+                    <input type="hidden" asp-for="UrlImage" />
+                    <input type="hidden" asp-for="Id" />
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label">Tên khóa học:</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span id="basic-icon-default-fullname2" class="input-group-text">
+                                    <i class="bx bx-book"></i>
+                                </span>
+                                <input type="text"
+                                       class="form-control"
+                                       id="basic-default-book"
+                                       placeholder="Nhập vào tên khóa học.." asp-for="@Model.TenKhoaHoc" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label" for="@Model.Id">Mô tả:</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span id="basic-icon-default-fullname2" class="input-group-text">
+                                    <i class="bx bx-building"></i>
+                                </span>
+                                <textarea class="form-control" id="@Model.Id" placeholder="@Model.MoTa" asp-for="@Model.MoTa"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label" for="basic-default-company">Hình thức:</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span id="basic-icon-default-fullname2" class="input-group-text">
+                                    <i class='bx bx-category'></i>
+                                </span>
+                                <select asp-for="@Model.HinhThuc" class="form-control">
+                                    <option value="Online">Online</option>
+                                    <option value="Trực tuyến">Trực tuyến</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label" for="basic-default-date">Ngành học:</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span id="basic-icon-default-date" class="input-group-text">
+                                    <i class='bx bx-building'></i>
+                                </span>
+                                <select class="form-control" asp-for="@Model.idNganhHoc" required>
+                                    @foreach (var nganhHoc in ViewBag.NganhHocList)
+                                    {
+                                        <option value="@nganhHoc.Id">@nganhHoc.TenNganh</option>
+                                    }
+                                </select>
+                            </div>
+                            @Html.ValidationMessageFor(model => model.idNganhHoc)
+                        </div>
+                    </div>   
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label" for="basic-default-date">Hình ảnh:</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <input name="fThumb" type="file" class="form-control-file" asp-for="UrlImage" />
+                                <img src="~/images/khoahoc/@Model.UrlImage" alt="" width="250">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-end">
+                        <div class="col-sm-10">
+                            <button type="submit" class="btn btn-success">Cập nhật</button>
+                            <a class="btn btn-primary" asp-action="Index">Trở về trang trước</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- / Content -->

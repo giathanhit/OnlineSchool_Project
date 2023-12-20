@@ -16,7 +16,7 @@
                 <h5 class="mb-0">Học viên</h5>
             </div>
             <div class="card-body">
-                <form asp-action="Create">
+                <form asp-controller="AdminHocVien" asp-action="Create" method="post" enctype="multipart/form-data">
                     <div class="row mb-3">
                         <label class="col-sm-2 col-form-label">Họ và tên</label>
                         <div class="col-sm-10">
@@ -30,7 +30,7 @@
                                        placeholder="Nhập vào họ và tên.." asp-for="@Model.HoTen" />
                             </div>
                         </div>
-                    </div>
+                    </div> 
                     <div class="row mb-3">
                         <label class="col-sm-2 col-form-label" for="basic-default-company">Địa chỉ</label>
                         <div class="col-sm-10">
@@ -126,13 +126,14 @@
                             <div class="input-group input-group-merge">
                                 <span id="basic-icon-default-date" class="input-group-text">
                                     <i class='bx bx-calendar'></i>
-                                </span><input type="date"
-                                              id="basic-default-date"
-                                              class="form-control date-mask"
-                                              placeholder="Chọn ngày sinh"
-                                              asp-for="@Model.NgaySinh"
-                                              aria-describedby="basic-default-date"
-                                              value="1995-01-01" />
+                                </span>
+                                <input type="date"
+                                       id="basic-default-date"
+                                       class="form-control date-mask"
+                                       placeholder="Chọn ngày sinh"
+                                       asp-for="@Model.NgaySinh"
+                                       aria-describedby="basic-default-date"
+                                       value="1990-01-01" />
                             </div>
                         </div>
                     </div>
@@ -140,10 +141,10 @@
                         <label class="col-sm-2 col-form-label" for="basic-default-date">Avartar:</label>
                         <div class="col-sm-10">
                             <div class="input-group input-group-merge">
-                                <input type="file" value="Upload" />
+                                <input name="fThumb" type="file" class="form-control-file" asp-for="UrlImage" />
                             </div>
                         </div>
-                    </div>
+                    </div> 
                     <div class="row justify-content-end">
                         <div class="col-sm-10">
                             <button type="submit" class="btn btn-primary">Lưu</button>

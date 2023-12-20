@@ -1,0 +1,105 @@
+﻿@model OnlineSchool_Project.Models.BaiHoc
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Bài học/</span> Thêm mới</h4>
+
+<!-- Basic Layout & Basic with Icons -->
+<div class="row">
+    <!-- Basic Layout -->
+    <div class="col-xxl">
+        <div class="card mb-4">
+            <div class="card-header d-flex align-items-center justify-content-between">
+                <h5 class="mb-0">Bài học</h5>
+            </div>
+            <div class="card-body">
+                <form asp-controller="AdminBaiHoc" asp-action="Create">
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label">Tên bài học:</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span id="basic-icon-default-fullname2" class="input-group-text">
+                                    <i class='bx bx-book-open'></i>
+                                </span>
+                                <input type="text"
+                                       class="form-control"
+                                       id="basic-default-building"
+                                       placeholder="Nhập vào tên bài học.." asp-for="@Model.TenBaiHoc" />
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label">Mô tả:</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span id="basic-icon-default-fullname2" class="input-group-text">
+                                    <i class="bx bx-chat"></i>
+                                </span>
+                                <textarea class="form-control" 
+                                          placeholder="Nhập vào mô tả.." asp-for="@Model.MoTa"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label">Url Video:</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span id="basic-icon-default-fullname2" class="input-group-text">
+                                    <i class='bx bxl-youtube'></i>
+                                </span>
+                                <input type="text"
+                                       class="form-control"
+                                       id="basic-default-building"
+                                       placeholder="Nhập vào Url Video.." asp-for="@Model.UrlVideo" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label" for="basic-default-date">Khóa học:</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span id="basic-icon-default-date" class="input-group-text">
+                                    <i class='bx bx-book-bookmark'></i>
+                                </span>
+                                <select class="form-control" asp-for="@Model.idKhoaHoc" required>
+                                    @foreach (var khoaHoc in ViewBag.KhoahocList)
+                                    {
+                                        <option value="@khoaHoc.Id">@khoaHoc.TenKhoaHoc</option>
+                                    }
+                                </select>
+                            </div>
+                            @Html.ValidationMessageFor(model => model.idKhoaHoc)
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label" for="basic-default-date">Chương học:</label>
+                        <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                                <span id="basic-icon-default-date" class="input-group-text">
+                                    <i class='bx bx-book-bookmark'></i>
+                                </span>
+                                <select class="form-control" asp-for="@Model.idChuongHoc" required>
+                                    @foreach (var chuongHoc in ViewBag.ChuongHocList)
+                                    {
+                                        <option value="@chuongHoc.Id">@chuongHoc.TenChuongHoc</option>
+                                    }
+                                </select>
+                            </div>
+                            @Html.ValidationMessageFor(model => model.idChuongHoc)
+                        </div>
+                    </div>
+                    <div class="row justify-content-end">
+                        <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary">Lưu</button>
+                            <a asp-action="Index">Trở về trang trước</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- / Content -->

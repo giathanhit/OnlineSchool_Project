@@ -1,9 +1,11 @@
-﻿@model IEnumerable<OnlineSchool_Project.Models.HocVien>
+﻿@using PagedList.Core.Mvc;
+@model PagedList.Core.IPagedList<OnlineSchool_Project.Models.HocVien>
 @{
-    ViewData["Title"] = "Quản lý Học viên";
+    int CurrentPage = ViewBag.CurrentPage;
+    ViewData["Title"] = "Thông tin học viên";
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
-
+<partial name="_Notifycation" />
 <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Học viên/</span> Danh sách</h4>
 
 <!-- Basic Bootstrap Table -->
@@ -22,6 +24,7 @@
                     <th>SĐT</th>
                     <th>Bằng cấp</th>
                     <th>Địa chỉ</th>
+                    <th>Hình ảnh</th>
                 </tr>
             </thead>
             <tbody class="table-border-bottom-0">
@@ -38,12 +41,8 @@
                         <td>@item.DiaChi</td>
                         <td>
                             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                <li data-bs-toggle="tooltip"
-                                    data-popup="tooltip-custom"
-                                    data-bs-placement="top"
-                                    class="avatar avatar-xs pull-up"
-                                    title="Lilian Fuller">
-                                    <img src="../assets/img/avatars/5.png" alt="Avatar" class="rounded-circle" />
+                                <li>
+                                    <img src="~/images/hocvien/@item.UrlImage" style="max-width: 100px" alt="">
                                 </li>
                             </ul>
                         </td>
@@ -52,7 +51,7 @@
                                 <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                     <i class="bx bx-dots-vertical-rounded"></i>
                                 </button>
-                                <div class="dropdown-menu"> 
+                                <div class="dropdown-menu">
                                     <a class="dropdown-item" href="/AdminHocVien/Edit/@item.Id"><i class="bx bx-edit-alt me-1"></i> Chỉnh sửa</a>
                                     <a class="dropdown-item" href="/AdminHocVien/Delete/@item.Id"><i class="bx bx-trash me-1"></i> Xóa</a>
                                 </div>
@@ -62,5 +61,13 @@
                 }
             </tbody>
         </table>
+    </div>
+</div>
+
+<div class="mt-10">
+    <div aria-label="Page navigation example">
+        <ul class="pagination">
+            <pager class="pager-container" list="@Model" asp-controller="AdminHocVien" asp-action="Index" />
+        </ul>
     </div>
 </div>
