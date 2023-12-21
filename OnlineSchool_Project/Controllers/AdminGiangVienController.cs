@@ -20,21 +20,32 @@ namespace OnlineSchool_Project.Controllers
 		{
 			_context = context;
 		}
-		 
+
 		public IActionResult Index(int? page)
 		{
-			var pageNumber = page == null || page <= 0 ? 1 : page.Value;
-			var pageSize = 10;
-			var lsGiangVien = _context.GiangViens
-									.AsNoTracking()
-									.OrderBy(x => x.Id);
-			PagedList<GiangVien> models = new PagedList<GiangVien>(lsGiangVien, pageNumber, pageSize);
+			var tenDangNhap = HttpContext.Session.GetString("TenDangNhap");
 
-			ViewBag.CurrentPage = pageNumber;
+			if (tenDangNhap != null && tenDangNhap == "admin")
+			{
+				ViewBag.TenDangNhap = tenDangNhap;
 
-			return View(models);
+				var pageNumber = page == null || page <= 0 ? 1 : page.Value;
+				var pageSize = 10;
+				var lsGiangVien = _context.GiangViens
+										.AsNoTracking()
+										.OrderBy(x => x.Id);
+				PagedList<GiangVien> models = new PagedList<GiangVien>(lsGiangVien, pageNumber, pageSize);
+
+				ViewBag.CurrentPage = pageNumber;
+
+				return View(models);
+			}
+			else
+			{
+				return RedirectToAction("Dangnhap","Admin");
+			}
 		}
-		 
+
 
 		public async Task<IActionResult> Details(int? id)
 		{
@@ -52,7 +63,7 @@ namespace OnlineSchool_Project.Controllers
 
 			return View(giangVien);
 		}
-		 
+
 
 		public IActionResult Create()
 		{
@@ -62,7 +73,7 @@ namespace OnlineSchool_Project.Controllers
 
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public async Task<IActionResult> Create([Bind("Id,HoTen,Email,MatKhau,CCCD,Sdt,BangCap,DiaChi,GioiTinh,UrlImage,NgaySinh,idNganhHoc")] GiangVien giangVien
+		public async Task<IActionResult> Create([Bind("Id,HoTen,Email,CCCD,Sdt,BangCap,DiaChi,GioiTinh,UrlImage,NgaySinh,idNganhHoc")] GiangVien giangVien
 			, Microsoft.AspNetCore.Http.IFormFile fThumb)
 		{
 
@@ -101,10 +112,10 @@ namespace OnlineSchool_Project.Controllers
 			return View(giangVien);
 		}
 
-		 
+
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public async Task<IActionResult> Edit(int id, [Bind("Id,HoTen,Email,MatKhau,CCCD,Sdt,BangCap,DiaChi,GioiTinh,UrlImage,NgaySinh,idNganhHoc")] GiangVien giangVien
+		public async Task<IActionResult> Edit(int id, [Bind("Id,HoTen,Email,CCCD,Sdt,BangCap,DiaChi,GioiTinh,UrlImage,NgaySinh,idNganhHoc")] GiangVien giangVien
 			, Microsoft.AspNetCore.Http.IFormFile fThumb)
 		{
 			if (id != giangVien.Id)

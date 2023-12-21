@@ -23,16 +23,27 @@ namespace OnlineSchool_Project.Controllers
 
 		public IActionResult Index(int? page)
 		{
-			var pageNumber = page == null || page <= 0 ? 1 : page.Value;
-			var pageSize = 10;
-			var lsKhoaHoc = _context.KhoaHocs
-									.AsNoTracking()
-									.OrderBy(x => x.Id);
-			PagedList<KhoaHoc> models = new PagedList<KhoaHoc>(lsKhoaHoc, pageNumber, pageSize);
+			var tenDangNhap = HttpContext.Session.GetString("TenDangNhap");
 
-			ViewBag.CurrentPage = pageNumber;
+			if (tenDangNhap != null && tenDangNhap == "admin")
+			{
+				ViewBag.TenDangNhap = tenDangNhap; 
 
-			return View(models);
+				var pageNumber = page == null || page <= 0 ? 1 : page.Value;
+				var pageSize = 10;
+				var lsKhoaHoc = _context.KhoaHocs
+										.AsNoTracking()
+										.OrderBy(x => x.Id);
+				PagedList<KhoaHoc> models = new PagedList<KhoaHoc>(lsKhoaHoc, pageNumber, pageSize);
+
+				ViewBag.CurrentPage = pageNumber;
+
+				return View(models);
+			}
+			else
+			{
+				return RedirectToAction("Dangnhap", "Admin");
+			}
 		}
 
 

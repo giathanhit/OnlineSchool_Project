@@ -24,16 +24,27 @@ namespace OnlineSchool_Project.Controllers
 
 		public IActionResult Index(int? page)
 		{
-			var pageNumber = page == null || page <= 0 ? 1 : page.Value;
-			var pageSize = 10;
-			var lsHocVien = _context.HocViens
-									.AsNoTracking()
-									.OrderBy(x => x.Id);
-			PagedList<HocVien> models = new PagedList<HocVien>(lsHocVien, pageNumber, pageSize);
+			var tenDangNhap = HttpContext.Session.GetString("TenDangNhap");
 
-			ViewBag.CurrentPage = pageNumber;
+			if (tenDangNhap != null && tenDangNhap == "admin")
+			{
+				ViewBag.TenDangNhap = tenDangNhap;
 
-			return View(models);
+				var pageNumber = page == null || page <= 0 ? 1 : page.Value;
+				var pageSize = 10;
+				var lsHocVien = _context.HocViens
+										.AsNoTracking()
+										.OrderBy(x => x.Id);
+				PagedList<HocVien> models = new PagedList<HocVien>(lsHocVien, pageNumber, pageSize);
+
+				ViewBag.CurrentPage = pageNumber;
+
+				return View(models);
+			}
+			else
+			{
+				return RedirectToAction("Dangnhap", "Admin");
+			}
 		}
 
 
@@ -63,7 +74,7 @@ namespace OnlineSchool_Project.Controllers
 
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public async Task<IActionResult> Create([Bind("Id,HoTen,Email,MatKhau,CCCD,Sdt,BangCap,DiaChi,GioiTinh,UrlImage,NgaySinh")] HocVien hocVien
+		public async Task<IActionResult> Create([Bind("Id,HoTen,Email,CCCD,Sdt,BangCap,DiaChi,GioiTinh,UrlImage,NgaySinh")] HocVien hocVien
 			, Microsoft.AspNetCore.Http.IFormFile fThumb)
 		{
 
@@ -105,7 +116,7 @@ namespace OnlineSchool_Project.Controllers
 
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public async Task<IActionResult> Edit(int id, [Bind("Id,HoTen,Email,MatKhau,Sdt,BangCap,DiaChi,GioiTinh,UrlImage,NgaySinh")] HocVien hocVien
+		public async Task<IActionResult> Edit(int id, [Bind("Id,HoTen,Email,Sdt,BangCap,DiaChi,GioiTinh,UrlImage,NgaySinh")] HocVien hocVien
 			, Microsoft.AspNetCore.Http.IFormFile fThumb)
 		{
 			if (id != hocVien.Id)
@@ -162,7 +173,7 @@ namespace OnlineSchool_Project.Controllers
 
 			return View(hocVien);
 		}
-		  
+
 		[HttpPost, ActionName("Delete")]
 		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> DeleteConfirmed(int id)

@@ -6,30 +6,31 @@ using System.Text;
 
 namespace OnlineSchool_Project.Controllers
 {
-    public class AdminTaiKhoanController : Controller
-    {
-        private readonly ApplicationDbContext _context;
+	public class AdminTaiKhoanController : Controller
+	{
+		private readonly ApplicationDbContext _context;
 
-        public AdminTaiKhoanController(ApplicationDbContext context)
-        {
-            _context = context;
-        }
-         
-        public IActionResult Index()
-        {
-            var taiKhoans = _context.TaiKhoans.ToList();
-            return View(taiKhoans);
-        }
-         
-        public IActionResult Details(string id)
-        {
-            var taiKhoans = _context.TaiKhoans.FirstOrDefault(g => g.TenDangNhap == id);
-            if (taiKhoans == null)
-            {
-                return NotFound();
-            }
-            return View(taiKhoans);
-        }
+		public AdminTaiKhoanController(ApplicationDbContext context)
+		{
+			_context = context;
+		}
+
+		public IActionResult Index()
+		{
+			var tenDangNhap = HttpContext.Session.GetString("TenDangNhap");
+
+			if (tenDangNhap != null && tenDangNhap == "admin")
+			{
+				ViewBag.TenDangNhap = tenDangNhap;
+
+				var taiKhoans = _context.TaiKhoans.ToList();
+				return View(taiKhoans);
+			}
+			else
+			{
+				return RedirectToAction("Dangnhap");
+			}
+		}
 
 		public static string GetMD5(string str)
 		{
@@ -47,77 +48,99 @@ namespace OnlineSchool_Project.Controllers
 		}
 
 		public IActionResult Create()
-        {
-            return View();
-        }
-         
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Create(TaiKhoan taiKhoans)
-        {
-            if (ModelState.IsValid)
-            {
-                taiKhoans.ID = Guid.NewGuid(); 
-				taiKhoans.MatKhau = GetMD5(taiKhoans.MatKhau);
-				_context.TaiKhoans.Add(taiKhoans);
-                _context.SaveChanges();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(taiKhoans);
-        } 
+		{
+			var tenDangNhap = HttpContext.Session.GetString("TenDangNhap");
+
+			if (tenDangNhap != null && tenDangNhap == "admin")
+			{
+				ViewBag.TenDangNhap = tenDangNhap;
+
+				return View();
+			}
+			else
+			{
+				return RedirectToAction("Dangnhap");
+			}
+		}
+
+		[HttpPost]
+		[ValidateAntiForgeryToken]
+		public IActionResult Create(TaiKhoan taiKhoans)
+		{
+			var tenDangNhap = HttpContext.Session.GetString("TenDangNhap");
+
+			if (tenDangNhap != null && tenDangNhap == "admin")
+			{
+				ViewBag.TenDangNhap = tenDangNhap;
+
+				if (ModelState.IsValid)
+				{
+					taiKhoans.ID = Guid.NewGuid();
+					taiKhoans.MatKhau = GetMD5(taiKhoans.MatKhau);
+					_context.TaiKhoans.Add(taiKhoans);
+					_context.SaveChanges();
+					return RedirectToAction(nameof(Index));
+				}
+				return View(taiKhoans);
+			}
+			else
+			{
+				return RedirectToAction("Dangnhap", "Admin");
+			}
+		}
 
 		public IActionResult Edit(string id)
-        {
-            var taiKhoans = _context.TaiKhoans.FirstOrDefault(g => g.TenDangNhap == id);
-            if (taiKhoans == null)
-            {
-                return NotFound();
-            }
-            return View(taiKhoans);
-        }
-         
-		[HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Edit(string id, TaiKhoan taiKhoans)
-        {
-            if (id != taiKhoans.TenDangNhap)
-            {
-                return NotFound();
-            }
+		{
+			var taiKhoans = _context.TaiKhoans.FirstOrDefault(g => g.TenDangNhap == id);
+			if (taiKhoans == null)
+			{
+				return NotFound();
+			}
+			return View(taiKhoans);
+		}
 
-            if (ModelState.IsValid)
+		[HttpPost]
+		[ValidateAntiForgeryToken]
+		public IActionResult Edit(string id, TaiKhoan taiKhoans)
+		{
+			if (id != taiKhoans.TenDangNhap)
+			{
+				return NotFound();
+			}
+
+			if (ModelState.IsValid)
 			{
 				taiKhoans.MatKhau = GetMD5(taiKhoans.MatKhau);
 				_context.Update(taiKhoans);
-                _context.SaveChanges();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(taiKhoans);
-        }
-         
-		public IActionResult Delete(string id)
-        {
-            var taiKhoans = _context.TaiKhoans.FirstOrDefault(g => g.TenDangNhap == id);
-            if (taiKhoans == null)
-            {
-                return NotFound();
-            }
-            return View(taiKhoans);
-        }
-         
-		[HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public IActionResult DeleteConfirmed(string id)
-        {
-            var taiKhoans = _context.TaiKhoans.FirstOrDefault(g => g.TenDangNhap == id);
-            if (taiKhoans == null)
-            {
-                return NotFound();
-            }
+				_context.SaveChanges();
+				return RedirectToAction(nameof(Index));
+			}
+			return View(taiKhoans);
+		}
 
-            _context.TaiKhoans.Remove(taiKhoans);
-            _context.SaveChanges();
-            return RedirectToAction(nameof(Index));
-        }
-    }
+		public IActionResult Delete(string id)
+		{
+			var taiKhoans = _context.TaiKhoans.FirstOrDefault(g => g.TenDangNhap == id);
+			if (taiKhoans == null)
+			{
+				return NotFound();
+			}
+			return View(taiKhoans);
+		}
+
+		[HttpPost, ActionName("Delete")]
+		[ValidateAntiForgeryToken]
+		public IActionResult DeleteConfirmed(string id)
+		{
+			var taiKhoans = _context.TaiKhoans.FirstOrDefault(g => g.TenDangNhap == id);
+			if (taiKhoans == null)
+			{
+				return NotFound();
+			}
+
+			_context.TaiKhoans.Remove(taiKhoans);
+			_context.SaveChanges();
+			return RedirectToAction(nameof(Index));
+		}
+	}
 }

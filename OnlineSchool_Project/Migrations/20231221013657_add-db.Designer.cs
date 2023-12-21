@@ -11,7 +11,7 @@ using OnlineSchool_Project.Data;
 namespace OnlineSchool_Project.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231219044136_add-db")]
+    [Migration("20231221013657_add-db")]
     partial class adddb
     {
         /// <inheritdoc />
@@ -342,10 +342,6 @@ namespace OnlineSchool_Project.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<string>("MatKhau")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
                     b.Property<DateTime>("NgaySinh")
                         .HasColumnType("datetime(6)");
 
@@ -384,10 +380,6 @@ namespace OnlineSchool_Project.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<string>("HoTen")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("MatKhau")
                         .IsRequired()
                         .HasColumnType("longtext");
 

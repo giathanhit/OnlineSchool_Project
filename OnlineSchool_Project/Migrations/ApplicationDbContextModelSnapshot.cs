@@ -339,10 +339,6 @@ namespace OnlineSchool_Project.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<string>("MatKhau")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
                     b.Property<DateTime>("NgaySinh")
                         .HasColumnType("datetime(6)");
 
@@ -381,10 +377,6 @@ namespace OnlineSchool_Project.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<string>("HoTen")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("MatKhau")
                         .IsRequired()
                         .HasColumnType("longtext");
 
